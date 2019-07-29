@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/task/index/index",
+    "pages/release/index/index",
+    "pages/promotes/index/index",
+    "pages/me/index/index",
+    "pages/me/help-center/help-center",
+    "pages/release/release/release",
+    "pages/task/task-records/task-records",
+    "pages/me/recharge/recharge",
+    "pages/me/vip-center/vip-center"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云梦",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "首页",
+        "iconPath": "static/image/07r@2x.png",
+        "selectedIconPath": "static/image/07-@2x.png"
+      },
+      {
+        "pagePath": "pages/task/index/index",
+        "text": "任务",
+        "iconPath": "static/image/09@2x.png",
+        "selectedIconPath": "static/image/09-@2x.png"
+      },
+      {
+        "pagePath": "pages/release/index/index",
+        "text": "发布",
+        "iconPath": "static/image/10-@2x.png",
+        "selectedIconPath": "static/image/10@2x.png"
+      },
+      {
+        "pagePath": "pages/promotes/index/index",
+        "text": "推广",
+        "iconPath": "static/image/06@2x.png",
+        "selectedIconPath": "static/image/06-@2x.png"
+      },
+      {
+        "pagePath": "pages/me/index/index",
+        "text": "我的",
+        "iconPath": "static/image/08-@2x.png",
+        "selectedIconPath": "static/image/08@2x.png"
+      }
+    ],
+    "color": "#999999",
+    "selectedColor": "#1283e3",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black"
+  },
+  "usingComponents": {
+    "weui-tabs": "/components/weui-navbar"
+  }
+}

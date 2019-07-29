@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+}
+
+.theTab {
+	display: block;
+	height: 82upx;
+	width: 100%;
+}
+
+.part_ {
+	width: 100%;
+	z-index: 9;
+	position: relative;
+	padding-bottom: 150upx;
+}
+
+.part_float {
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 20upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+	box-shadow: inset -2px -2px 8px #e5e5e5;
+	z-index: 999;
+	padding: 12upx 0;
+	position: absolute;
+	bottom: 25upx;
+}
+
+.part_float view {
+	width: 20%;
+}
+
+.part_float view image {
+	width: 70upx;
+	height: 70upx;
+	display: block;
+	margin: 0 auto;
+}
+
+.part_float view text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 50upx;
+}
+
+.topImg {
+	width: 100%;
+}
+
+.tex {
+	font-size: 26upx;
+}
+
+.redFont {
+	color: red;
+}
+
+.bigFont {
+	font-weight: bold;
+}
+
+._part {
+	width: 100%;
+	padding: 24upx;
+	box-sizing: border-box;
+}
+
+.line {
+	width: 100%;
+	height: 75upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.small_btn {
+	padding: 0 12upx;
+	line-height: 50upx;
+	border-radius: 30upx;
+	border: 1upx solid #E5E5E5;
+	box-shadow: inset -2px -2px 8px #e5e5e5;
+	font-size: 26upx;
+	background-color: #FFFFFF;
+	margin: 0;
+}
+
+.bottom {
+	width: 100%;
+	height: 100upx;
+	padding: 100upx 0;
+}
+
+.bottom_btn {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #4CD964;
+	font-size: 40upx;
+	line-height: 70upx;
+	text-align: center;
+	border-radius: 50upx;
+}
+
+/* 弹窗样式 */
+.pop {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.popContent {
+	width: 500upx;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 10upx;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.popContent image {
+	display: block;
+	width: 100upx;
+	height: 100upx;
+	margin: 12upx auto;
+}
+
+.popText {
+	display: block;
+	font-size: 24upx;
+	color: #434343;
+	width: 100%;
+	text-align: center;
+	line-height: 200%;
+}
+
+.popButtons {
+	width: 100%;
+	border-bottom-left-radius: 10upx;
+	border-bottom-right-radius: 10upx;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.popCancel,
+.popSure {
+	box-sizing: border-box;
+	font-size: 28upx;
+	line-height: 75upx;
+	text-align: center;
+	border: 1upx solid #F5F5F5;
+	width: 50%;
+}
+
+.popCancel {
+	color: #999999;
+	border-bottom-left-radius: 10upx;
+}
+
+.popSure {
+	color: #434343;
+	border-bottom-right-radius: 10upx;
+}

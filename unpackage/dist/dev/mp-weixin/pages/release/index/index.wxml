@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><text data-event-opts="{{[['tap',[['toRelease',['$event']]]]]}}" bindtap="__e">發佈</text></view></view>

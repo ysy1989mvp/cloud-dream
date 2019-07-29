@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><text data-event-opts="{{[['tap',[['toRecords',['$event']]]]]}}" bindtap="__e">任務</text></view></view>
