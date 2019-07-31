@@ -97,19 +97,16 @@
 				console.log(this.imgs)
 				switch (index) {
 					case "0":
-					console.log(0)
 						for (var i = 0; i < 5; i++) {
 							this.imgs.push("../../../static/cdnImg/douying/" + i + ".png")
 						}
 						break;
 					case "1":
-					console.log(1)
 						for (var i = 0; i < 5; i++) {
 							this.imgs.push("../../../static/cdnImg/friends/" + i + ".png")
 						}
 						break
 					default:
-					console.log(2)
 						for (var i = 0; i < 5; i++) {
 							this.imgs.push("../../../static/cdnImg/guanzhu/" + i + ".png")
 						}
