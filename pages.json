@@ -9,7 +9,7 @@
 		{
 			"path": "pages/task/index/index",
 			"style": {
-				"navigationBarTitleText": "抖客"
+				"navigationBarTitleText": "任务记录"
 			}
 		},
 		{
