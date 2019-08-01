@@ -1,0 +1,27 @@
+{
+  "navigationBarBackgroundColor": "#00c170",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "地图",
+        "fontSize": "16",
+        "float": "right",
+        "color": "#fff"
+      },
+      {
+        "text": "唐山",
+        "fontSize": "16",
+        "float": "left",
+        "color": "#fff"
+      }
+    ],
+    "searchInput": {
+      "align": "center",
+      "placeholder": "请输入查找房源信息",
+      "borderRadius": "50upx",
+      "backgroundColor": "#fff"
+    }
+  },
+  "usingComponents": {}
+}

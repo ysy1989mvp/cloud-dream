@@ -1,0 +1,1 @@
+<view class="part1"><text class="a">密码重置成功，请登录</text><text data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="b" bindtap="__e">去登录</text></view>

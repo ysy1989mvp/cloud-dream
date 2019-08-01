@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 选项卡——weui */
+.weui-navbar {
+	background-color: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+.weui-navbar__slider {
+	width: 20%;
+	text-align: center;
+	background-color: #fd5a60;
+}
+.weui-bar__item_on {
+	color: #fd5a60 !important;
+}
+.weui-flex__item {
+	padding: 5px 14px;
+}
+.weui-navbar__item {
+	padding: 8px 0;
+	position: relative;
+}
+.weui-tab__panel {
+	padding-top: 40px;
+}
+.weui-navbar__title {
+	position: relative;
+	/* overflow: visible; */
+}
+.weui-navbar_counts {
+	font-size: 24rpx;
+	position: absolute;
+	left: 100%;
+	bottom: 50%;
+	color: #fd5a60 !important;
+}
+

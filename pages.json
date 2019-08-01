@@ -1,16 +1,19 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path" : "pages/me/login/login",
+			"style" : {"navigationBarTitleText": "登录"}
+		},
+		{
 			"path": "pages/home/index/index",
 			"style": {
 				"navigationBarTitleText": "抖客"
-			}
+				}
 		},
 		{
 			"path": "pages/task/index/index",
 			"style": {
-				"navigationBarTitleText": "任务记录",
-				"enablePullDownRefresh": true//开启下拉刷新
+				"navigationBarTitleText": "抖客"
 			}
 		},
 		{
@@ -46,6 +49,13 @@
         ,{
             "path" : "pages/task/task-records/task-records",
             "style" : {}
+        },{
+            "path" : "pages/task/task-detail/task-detail",
+            "style" : {
+				"navigationBarTitleText": "任务详情",
+				"navigationBarBackgroundColor": "#1BCC8D",
+				"navigationBarTextStyle":"#FFFFFF"
+				}
         }
         ,{
             "path" : "pages/me/recharge/recharge",
@@ -55,12 +65,32 @@
             "path" : "pages/me/vip-center/vip-center",
             "style" : {}
         }
+		,{
+            "path" : "pages/me/regist-result/regist-result",
+            "style" : {"navigationBarTitleText": "注册结果"}
+        }
+        ,{
+            "path" : "pages/me/regist/regist",
+            "style" : {"navigationBarTitleText": "用户注册"}
+        }
+        ,{
+            "path" : "pages/me/modify-password/modify-password",
+            "style" : {"navigationBarTitleText": "修改密码"}
+        }
+        ,{
+            "path" : "pages/me/reset-pwd-result/reset-pwd-result",
+            "style" : {"navigationBarTitleText": "重置密码"}
+        }
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		// "navigationBarTextStyle": "black",
 		"navigationBarTitleText": "云梦",
-		"navigationBarBackgroundColor": "#fff",
-		"backgroundColor": "#F5F5F5"
+		// "navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F5F5F5",
+		"navigationBarBackgroundColor": "#1BCC8D",
+		"navigationBarTextStyle":"#FFFFFF",
+		// 下拉刷新
+		"enablePullDownRefresh": true
 	},
 	"tabBar": {
 		"list": [{

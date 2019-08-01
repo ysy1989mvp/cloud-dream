@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/me/login/login",
     "pages/home/index/index",
     "pages/task/index/index",
     "pages/release/index/index",
@@ -8,15 +9,21 @@
     "pages/me/help-center/help-center",
     "pages/release/release/release",
     "pages/task/task-records/task-records",
+    "pages/task/task-detail/task-detail",
     "pages/me/recharge/recharge",
-    "pages/me/vip-center/vip-center"
+    "pages/me/vip-center/vip-center",
+    "pages/me/regist-result/regist-result",
+    "pages/me/regist/regist",
+    "pages/me/modify-password/modify-password",
+    "pages/me/reset-pwd-result/reset-pwd-result"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "云梦",
-    "navigationBarBackgroundColor": "#fff",
-    "backgroundColor": "#F5F5F5"
+    "backgroundColor": "#F5F5F5",
+    "navigationBarBackgroundColor": "#1BCC8D",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "list": [

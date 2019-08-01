@@ -1,0 +1,29 @@
+
+.part1{
+	width: 100%;
+	height: 322rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-pack:end;
+	-webkit-justify-content:flex-end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+	margin-left: 170rpx;
+	font-size:32rpx;
+	font-weight: 600;
+}
+.b{
+	width: 100%;
+	margin-left: 220rpx;
+	color:#14c790 ;
+	margin-top: 30rpx;
+}
+
+

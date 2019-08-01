@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><view class="_part1"><view class="word1"><text>恭喜您成功注册兼职接单平台账户，请前往登录页面进行登录，开启赚钱之路。</text></view></view><view class="_part2"><view data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="login" bindtap="__e"><text class="d1">去登录</text></view></view></view></view>
