@@ -9,7 +9,8 @@
 		{
 			"path": "pages/task/index/index",
 			"style": {
-				"navigationBarTitleText": "任务记录"
+				"navigationBarTitleText": "任务记录",
+				"enablePullDownRefresh": true//开启下拉刷新
 			}
 		},
 		{
