@@ -1,6 +1,6 @@
 <template>
 	<view class="container">
-		<view class="content" @click="toVipCenter">
+		<view class="content">
 			<view class="line_">
 				<text class="tex">100</text>
 				<text class="tex">100</text>
@@ -13,7 +13,7 @@
 				<label class="tex_title">其他金额：</label>
 				<text class="tex">000</text>
 			</view>
-			<view class="bottom">
+			<view class="bottom" @click="showThePop">
 				<button class="bottom_btn">确认充值</button>
 			</view>
 		</view>
@@ -30,16 +30,16 @@
 				
 				<text class="tex bigFont title">选择支付方式</text>
 				<view class="payPath">
-					<view>
-						<image src="../../../static/image/02@2x.png"></image>
+					<view @click="showThePop">
+						<image src="../../../static/lyl/02@3x_pay.png" mode="aspectFit"></image>
 						<text class="tex">微信支付</text>
 					</view>
-					<view>
-						<image src="../../../static/image/02@2x.png"></image>
+					<view @click="showThePop">
+						<image src="../../../static/lyl/03@3x_pay.png" mode="aspectFit"></image>
 						<text class="tex">支付宝支付</text>
 					</view>
-					<view>
-						<image src="../../../static/image/02@2x.png"></image>
+					<view @click="showThePop">
+						<image src="../../../static/lyl/01@3x_pay.png" mode="aspectFit"></image>
 						<text class="tex">扫码支付</text>
 					</view>
 				</view>
@@ -54,15 +54,13 @@
 	export default {
 		data() {
 			return {
-				showPop:true,
+				showPop:false,
 			}
 		},
 		methods: {
-			toVipCenter(){
-				uni.navigateTo({
-					url:"../vip-center/vip-center"
-				})
-			}
+			showThePop(){
+				this.showPop = !this.showPop;
+			},
 		}
 	}
 </script>

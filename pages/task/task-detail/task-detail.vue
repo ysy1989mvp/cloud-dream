@@ -152,6 +152,7 @@
 	}
 	.part_3{
 		width: 100%;
+		height: 500upx;
 		margin-top: 15upx;
 		background-color: #FFFFFF;
 	}

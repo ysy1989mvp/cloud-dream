@@ -22,7 +22,7 @@
 	width: 100%;
 	z-index: 9;
 	position: relative;
-	padding-bottom: 150upx;
+	margin-bottom: 50upx;
 }
 
 .part_float {

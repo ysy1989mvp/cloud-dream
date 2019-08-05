@@ -2,11 +2,11 @@
 	<view class="container">
 		<view class="content">
 			<view class="part_">
-				<image class="topImg" src="../../../static/image/_11.png" mode="aspectFill"></image>
+				<image class="topImg" src="../../../static/image/_11.png" mode="aspectFit"></image>
 				<view class="part_float">
 					<view>
 						<view class="left_img_tex">
-							<image src="../../../static/image/_08@2x.png" mode="aspectFill"></image>
+							<image src="../../../static/image/_08@2x.png" mode="aspectFit"></image>
 							<text class="tex">余额</text>
 						</view>
 						<text class="tex bigFont">244</text>

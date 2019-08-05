@@ -13,7 +13,7 @@
 	width: 100%;
 	z-index: 9;
 	position: relative;
-	padding-bottom: 150rpx;
+	margin-bottom: 50rpx;
 }
 .part_float {
 	width: 90%;

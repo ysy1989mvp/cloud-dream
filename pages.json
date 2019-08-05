@@ -43,9 +43,21 @@
         ,{
             "path" : "pages/release/release/release",
             "style" : {
-				"navigationBarTitleText": "发布"
+				"navigationBarTitleText": "评论转发"
 			}
         }
+		,{
+            "path" : "pages/release/release02/release02",
+            "style" : {
+				"navigationBarTitleText": "抖音点赞"
+			}
+        }
+		,{
+		    "path" : "pages/release/release03/release03",
+		    "style" : {
+				"navigationBarTitleText": "朋友圈推广"
+			}
+		}
         ,{
             "path" : "pages/task/task-records/task-records",
             "style" : {}
@@ -81,6 +93,149 @@
             "path" : "pages/me/reset-pwd-result/reset-pwd-result",
             "style" : {"navigationBarTitleText": "重置密码"}
         }
+		,{
+            "path" : "pages/home/help/index",
+            "style" : {
+            	"navigationBarTitleText": "帮助中心"
+            }
+        }
+        ,{
+            "path" : "pages/promotes/QRCode/index/index",
+            "style" : {
+				"navigationBarTitleText": "推广二维码"
+			}
+        }
+        ,{
+            "path" : "pages/home/becomevip/index/index",
+            "style" : {
+            	"navigationBarTitleText": "VIP开通"
+            }
+        }
+        ,{
+            "path" : "pages/promotes/awarddetail/index",
+            "style" : {
+            	"navigationBarTitleText": "奖励明细"
+            }
+        }
+        ,{
+            "path" : "pages/promotes/prentice/index",
+            "style" : {
+            	"navigationBarTitleText": "我的徒弟"
+            }
+        },{
+            "path" : "pages/me/recharge/recharge",
+            "style" : {
+				"navigationBarTitleText": "充值"
+			}
+        }
+        ,{
+            "path" : "pages/me/vip-center/vip-center",
+            "style" : {
+				"navigationBarTitleText": "会员中心"
+			}
+        }
+        ,{
+            "path" : "pages/me/my-release/my-release",
+            "style" : {
+				"navigationBarTitleText": "我的发布"
+			}
+        }
+        ,{
+            "path" : "pages/me/task-records/task-records",
+            "style" : {
+				"navigationBarTitleText": "任务记录"
+			}
+        }
+        ,{
+            "path" : "pages/me/examine/examine",
+            "style" : {
+				"navigationBarTitleText": "审核"
+			}
+        }
+        ,{
+            "path" : "pages/me/task-detail/task-detail",
+            "style" : {
+				"navigationBarTitleText": "任务详情"
+			}
+        }
+        ,{
+            "path" : "pages/me/VIP-open/VIP-open",
+            "style" : {
+				"navigationBarTitleText": "收入明细"
+			}
+        }
+        ,{
+            "path" : "pages/me/withdrawal/withdrawal",
+            "style" : {
+				"navigationBarTitleText": "提现"
+			}
+        }
+        ,{
+            "path" : "pages/me/change-info/change-info",
+            "style" : {
+				"navigationBarTitleText": "资料修改"
+			}
+        }
+        ,{
+            "path" : "pages/me/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/me/channel-merchants/channel-merchants",
+            "style" : {
+				"navigationBarTitleText": "渠道商"
+			}
+        }
+        ,{
+            "path" : "pages/me/open-channel/open-channel",
+            "style" : {
+				"navigationBarTitleText": "开通渠道商"
+			}
+        }
+        ,{
+            "path" : "pages/me/account-manage/account-manage",
+            "style" : {
+				"navigationBarTitleText": "账户管理"
+			}
+        }
+        ,{
+            "path" : "pages/me/add-account/add-account",
+            "style" : {
+				"navigationBarTitleText": "添加账户"
+			}
+        }
+        ,{
+            "path" : "pages/me/open-channel-02/open-channel-02",
+            "style" : {
+				"navigationBarTitleText": "开通渠道商"
+			}
+        }
+        ,{
+            "path" : "pages/me/how-save/how-save",
+            "style" : {
+				"navigationBarTitleText": "怎样赚钱"
+			}
+        }
+        ,{
+            "path" : "pages/me/how-release/how-release",
+            "style" : {
+				"navigationBarTitleText": "怎样发布"
+			}
+        }
+        ,{
+            "path" : "pages/me/channel/channel",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/me/my-agent/my-agent",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/me/channel-save/channel-save",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		// "navigationBarTextStyle": "black",
@@ -88,7 +243,7 @@
 		// "navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F5F5F5",
 		"navigationBarBackgroundColor": "#1BCC8D",
-		"navigationBarTextStyle":"#FFFFFF",
+		"navigationBarTextStyle":"white",
 		// 下拉刷新
 		"enablePullDownRefresh": true
 	},

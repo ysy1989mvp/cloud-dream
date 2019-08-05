@@ -1,15 +1,15 @@
 <template>
 	<view class="container">
 		<view class="content">
-			<scroll-view class="top-menu-view" scroll-x="true" @scroll="scroll" scroll-left="0">
-                    <view id="demo1" class="scroll-view-item_H uni-bg-red">A</view>
-                    <view id="demo2" class="scroll-view-item_H uni-bg-green">B</view>
-                    <view id="demo3" class="scroll-view-item_H uni-bg-blue">C</view>
-					<view id="demo1" class="scroll-view-item_H uni-bg-red">A1</view>
-					<view id="demo2" class="scroll-view-item_H uni-bg-green">B2</view>
-					<view id="demo3" class="scroll-view-item_H uni-bg-blue">C3</view>
-            </scroll-view>
-			
+			<view class="release_content">
+				<text class="text1">类别选择</text>
+				<text class="text2" @click="release">抖音点赞+评论+转发</text>
+				<text class="text2" @click="release03">朋友圈推广</text>
+				<text class="text2" @click="release02">抖音点赞+评论</text>
+				<view class="login_btn" @click="logining">
+					<text>登&nbsp;录</text>
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -25,11 +25,68 @@
 			}
 		},
 		methods: {
-        
+			release(){
+				uni.navigateTo({
+					url:"../release/release"
+				})
+			},
+			release02(){
+				uni.navigateTo({
+					url:"../release02/release02"
+				})
+			},
+			release03(){
+				uni.navigateTo({
+					url:"../release03/release03"
+				})
+			}
 		}
 	}
 </script>
 
 <style>
+	* {
+		/* border:1px solid red; */
+	}
 
+	.content {
+		width: 100%;
+		height: 1800upx;
+		background-color: #FFFFFF;
+		/* background-color: #666666; */
+		opacity: 0.5;
+	}
+
+	.release_content {
+		width: 60%;
+		height: 400upx;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		background-color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.release_content>text{
+		margin-bottom: 10upx;
+	}
+	.login_btn{
+		margin-top: 20upx;
+		width: 195upx;
+		height: 54upx;
+		background-color:#14c790;
+		border-radius: 30upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.text1{
+		font-weight: bold;
+	}
+	.text2{
+		color: red;
+		font-size:30upx;
+	}
 </style>

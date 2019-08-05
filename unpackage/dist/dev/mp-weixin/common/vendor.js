@@ -529,7 +529,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -6732,7 +6732,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -6753,14 +6753,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -6836,7 +6836,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -7378,6 +7378,40 @@ createApp(app).$mount();
 
 /***/ }),
 
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fhome%2Fbecomevip%2Findex%2Findex\"}":
+/*!********************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Fbecomevip%2Findex%2Findex"} ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/becomevip/index/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\home\\becomevip\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fhome%2Fhelp%2Findex\"}":
+/*!*******************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Fhelp%2Findex"} ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/help/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\home\\help\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fhome%2Findex%2Findex\"}":
 /*!********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Findex%2Findex"} ***!
@@ -7395,6 +7429,142 @@ createPage(_index.default);
 
 /***/ }),
 
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2FVIP-open%2FVIP-open\"}":
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2FVIP-open%2FVIP-open"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _VIPOpen = _interopRequireDefault(__webpack_require__(/*! ./pages/me/VIP-open/VIP-open.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\VIP-open\\VIP-open.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_VIPOpen.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Faccount-manage%2Faccount-manage\"}":
+/*!************************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Faccount-manage%2Faccount-manage"} ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _accountManage = _interopRequireDefault(__webpack_require__(/*! ./pages/me/account-manage/account-manage.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\account-manage\\account-manage.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_accountManage.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fadd-account%2Fadd-account\"}":
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fadd-account%2Fadd-account"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _addAccount = _interopRequireDefault(__webpack_require__(/*! ./pages/me/add-account/add-account.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\add-account\\add-account.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_addAccount.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fchange-info%2Fchange-info\"}":
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchange-info%2Fchange-info"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _changeInfo = _interopRequireDefault(__webpack_require__(/*! ./pages/me/change-info/change-info.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\change-info\\change-info.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_changeInfo.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fchannel%2Fchannel\"}":
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel%2Fchannel"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _channel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel/channel.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\channel\\channel.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_channel.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fchannel-merchants%2Fchannel-merchants\"}":
+/*!******************************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-merchants%2Fchannel-merchants"} ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _channelMerchants = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-merchants/channel-merchants.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\channel-merchants\\channel-merchants.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_channelMerchants.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fchannel-save%2Fchannel-save\"}":
+/*!********************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-save%2Fchannel-save"} ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _channelSave = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-save/channel-save.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\channel-save\\channel-save.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_channelSave.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fexamine%2Fexamine\"}":
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fexamine%2Fexamine"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _examine = _interopRequireDefault(__webpack_require__(/*! ./pages/me/examine/examine.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\examine\\examine.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_examine.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fhelp-center%2Fhelp-center\"}":
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhelp-center%2Fhelp-center"} ***!
@@ -7408,6 +7578,40 @@ createPage(_index.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _helpCenter = _interopRequireDefault(__webpack_require__(/*! ./pages/me/help-center/help-center.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\help-center\\help-center.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_helpCenter.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fhow-release%2Fhow-release\"}":
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-release%2Fhow-release"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _howRelease = _interopRequireDefault(__webpack_require__(/*! ./pages/me/how-release/how-release.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\how-release\\how-release.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_howRelease.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fhow-save%2Fhow-save\"}":
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-save%2Fhow-save"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _howSave = _interopRequireDefault(__webpack_require__(/*! ./pages/me/how-save/how-save.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\how-save\\how-save.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_howSave.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
@@ -7459,6 +7663,74 @@ createPage(_login.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _modifyPassword = _interopRequireDefault(__webpack_require__(/*! ./pages/me/modify-password/modify-password.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\modify-password\\modify-password.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_modifyPassword.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fmy-agent%2Fmy-agent\"}":
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-agent%2Fmy-agent"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _myAgent = _interopRequireDefault(__webpack_require__(/*! ./pages/me/my-agent/my-agent.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\my-agent\\my-agent.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_myAgent.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fmy-release%2Fmy-release\"}":
+/*!****************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-release%2Fmy-release"} ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _myRelease = _interopRequireDefault(__webpack_require__(/*! ./pages/me/my-release/my-release.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\my-release\\my-release.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_myRelease.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fopen-channel%2Fopen-channel\"}":
+/*!********************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fopen-channel%2Fopen-channel"} ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _openChannel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/open-channel/open-channel.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\open-channel\\open-channel.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_openChannel.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fopen-channel-02%2Fopen-channel-02\"}":
+/*!**************************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fopen-channel-02%2Fopen-channel-02"} ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _openChannel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/open-channel-02/open-channel-02.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\open-channel-02\\open-channel-02.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_openChannel.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
@@ -7531,6 +7803,57 @@ createPage(_resetPwdResult.default);
 
 /***/ }),
 
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fsetting%2Fsetting\"}":
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fsetting%2Fsetting"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _setting = _interopRequireDefault(__webpack_require__(/*! ./pages/me/setting/setting.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\setting\\setting.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_setting.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Ftask-detail%2Ftask-detail\"}":
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-detail%2Ftask-detail"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _taskDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/me/task-detail/task-detail.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\task-detail\\task-detail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_taskDetail.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Ftask-records%2Ftask-records\"}":
+/*!********************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-records%2Ftask-records"} ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _taskRecords = _interopRequireDefault(__webpack_require__(/*! ./pages/me/task-records/task-records.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\task-records\\task-records.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_taskRecords.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fvip-center%2Fvip-center\"}":
 /*!****************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fvip-center%2Fvip-center"} ***!
@@ -7548,6 +7871,57 @@ createPage(_vipCenter.default);
 
 /***/ }),
 
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fme%2Fwithdrawal%2Fwithdrawal\"}":
+/*!****************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fwithdrawal%2Fwithdrawal"} ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _withdrawal = _interopRequireDefault(__webpack_require__(/*! ./pages/me/withdrawal/withdrawal.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\me\\withdrawal\\withdrawal.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_withdrawal.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fpromotes%2FQRCode%2Findex%2Findex\"}":
+/*!*********************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2FQRCode%2Findex%2Findex"} ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/QRCode/index/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\promotes\\QRCode\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fpromotes%2Fawarddetail%2Findex\"}":
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fawarddetail%2Findex"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/awarddetail/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\promotes\\awarddetail\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fpromotes%2Findex%2Findex\"}":
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Findex%2Findex"} ***!
@@ -7560,6 +7934,23 @@ createPage(_vipCenter.default);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/index/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\promotes\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\projectcode\\hbuilderX\\cloud-dream\\main.js?{\"page\":\"pages%2Fpromotes%2Fprentice%2Findex\"}":
+/*!***************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fprentice%2Findex"} ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/prentice/index.vue */ "E:\\projectcode\\hbuilderX\\cloud-dream\\pages\\promotes\\prentice\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 

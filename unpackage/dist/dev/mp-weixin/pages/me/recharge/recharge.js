@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -64,16 +64,13 @@ var _default =
 {
   data: function data() {
     return {
-      showPop: true };
+      showPop: false };
 
   },
   methods: {
-    toVipCenter: function toVipCenter() {
-      uni.navigateTo({
-        url: "../vip-center/vip-center" });
-
+    showThePop: function showThePop() {
+      this.showPop = !this.showPop;
     } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
 /***/ }),
 

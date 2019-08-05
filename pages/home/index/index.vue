@@ -50,11 +50,11 @@
 					<text class="tex">如何赚钱</text>
 				</view>
 				<view class="skilled_part">
-					<image src="../../../static/image/03@2x.png" mode="aspectFill"></image>
+					<image src="../../../static/image/03@2x.png" @click="becomevip" mode="aspectFill"></image>
 					<text class="tex">成为VIP</text>
 				</view>
 				<view class="skilled_part">
-					<image src="../../../static/image/05@2x.png" mode="aspectFill"></image>
+					<image src="../../../static/image/05@2x.png"  @click="help" mode="aspectFill"></image>
 					<text class="tex">帮助中心</text>
 				</view>
 			</view>
@@ -132,6 +132,20 @@
 			},
 			durationChange(e) {
 				this.duration = e.target.value
+			},
+			help() {
+				uni.navigateTo({
+					url: '../help/index',
+					animationType: 'slide-in-right',
+					animationDuration: 300
+				});
+			},
+			becomevip(){
+				uni.navigateTo({
+					url: '../becomevip/index/index',
+					animationType: 'slide-in-right',
+					animationDuration: 300
+				});
 			}
 		}
 	}
