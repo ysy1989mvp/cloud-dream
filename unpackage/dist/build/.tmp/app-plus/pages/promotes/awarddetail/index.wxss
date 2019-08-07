@@ -1,0 +1,30 @@
+
+.head{
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+}
+.headcolm{
+	width: 25%;
+	line-height: 100rpx;
+	text-align: center;
+	float: left;
+}
+.tablecolm{
+	width: 100%;
+	height: 120rpx;
+	background-color: #FFFFFF;
+	margin-top: 10rpx;
+}
+.cell{
+	line-height: 120rpx;
+	text-align: center;
+	width: 25%;
+	float: left;
+	font-size: 14px;
+	color: #666666;
+}
+.source{
+	color: #FB7551;
+}
+

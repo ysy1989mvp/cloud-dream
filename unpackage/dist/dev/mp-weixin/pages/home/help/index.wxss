@@ -1,0 +1,12 @@
+
+.content {
+	background-color: #FFFFFF;
+	height: 100vh;
+}
+.item {
+	height: 200px;
+}
+.uni-list-cell {
+	height: 50px;
+}
+

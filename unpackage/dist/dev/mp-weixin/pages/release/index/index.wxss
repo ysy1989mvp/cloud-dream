@@ -1,0 +1,63 @@
+
+.content {
+	width: 100%;
+	height: 1800rpx;
+	background-color: #FFFFFF;
+	/* background-color: #666666; */
+	opacity: 0.5;
+}
+.release_content {
+	width: 60%;
+	height: 400rpx;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.release_content>text{
+	margin-bottom: 10rpx;
+}
+.login_btn{
+	margin-top: 20rpx;
+	width: 195rpx;
+	height: 54rpx;
+	background-color:#14c790;
+	border-radius: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.text1{
+	font-weight: bold;
+}
+.text2{
+	color: red;
+	font-size:30rpx;
+}
+

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { background-color: #FFFFFF; height: 100vh; }\n.",[1],"item { height: 200px; }\n.",[1],"uni-list-cell { height: 50px; }\n",],undefined,{path:"./pages/home/help/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/home/help/index.wxml') } }));

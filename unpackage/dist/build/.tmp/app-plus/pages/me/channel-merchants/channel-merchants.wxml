@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><text data-event-opts="{{[['tap',[['toChannel',['$event']]]]]}}" bindtap="__e">图文介绍</text><view data-event-opts="{{[['tap',[['toOpenChannel',['$event']]]]]}}" class="bottom" bindtap="__e"><button class="bottom_btn">下一步</button></view></view></view>
