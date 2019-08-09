@@ -17,18 +17,18 @@
 					<input class="iptNum" type="text" placeholder="请输入电话" value="" />
 				</view>
 				<view class="line">
-					<text class="text_line bigFont">支付宝号：:</text>
+					<text class="text_line bigFont">支付宝号:</text>
 					<input class="iptNum" type="text" placeholder="请输入支付宝号" value="" />
 				</view>
 			</view>
 			
 			<view class="thePart" v-show="!theChecked">
 				<view class="line">
-					<text class="text_line bigFont">账号：:</text>
+					<text class="text_line bigFont">账号:</text>
 					<input class="iptNum" type="text" placeholder="请输入账号" value="" />
 				</view>
 				<view class="line">
-					<text class="text_line bigFont">开户行：:</text>
+					<text class="text_line bigFont">开户行:</text>
 					<input class="iptNum" type="text" placeholder="请输入开户行" value="" />
 				</view>
 			</view>
@@ -189,6 +189,15 @@
 	
 	.iptNum{
 		font-size: 28upx;
+	}
+	.bottom_btn{
+		background-color:#1BCC8D ;
+		color: #FFFFFF;
+		height: 88upx;
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		align-items: center;
 	}
 	
 </style>

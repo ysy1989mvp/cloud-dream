@@ -63,6 +63,7 @@
 		justify-content: space-between;
 		align-items: center;
 		margin-bottom: 12upx;
+		border-bottom: 10upx solid #E5E5E5;
 	}
 	
 	.line text{
@@ -104,5 +105,4 @@
 	.bottom{
 		padding: 50upx 0;
 	}
-	
 </style>

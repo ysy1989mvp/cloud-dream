@@ -2,7 +2,7 @@
 	<view class="container">
 		<view class="content">
 			<view class="part_">
-				<image class="topImg" src="../../../static/image/_11.png" mode="aspectFill"></image>
+				<image class="topImg" src="../../../static/image/yangsongyan/release/07.png" mode="aspectFill"></image>
 				<view class="part_float">
 					<view>
 						<image src="../../../static/image/01@2x.png"></image>
@@ -14,18 +14,18 @@
 					</view>
 					<view>
 						<text class="tex bigFont">团队总人数</text>
-						<text class="tex redFont">VIP会员</text>
-						<text class="tex">等级</text>
+						<text class="tex redFont">210人</text>
+						<text class="tex redFont">升级</text>
 					</view>
 					<view  @click="prentice">
 						<text class="tex bigFont">徒弟数</text>
-						<text class="tex redFont">VIP会员</text>
-						<text class="tex">等级</text>
+						<text class="tex redFont">12人</text>
+						<text class="tex redFont">查看</text>
 					</view>
 					<view @click="awarddetail">
 						<text class="tex bigFont">累计收益</text>
-						<text class="tex redFont">VIP会员</text>
-						<text class="tex">等级</text>
+						<text class="tex redFont">2400</text>
+						<text class="tex">明细</text>
 					</view>
 				</view>
 			</view>
@@ -114,11 +114,23 @@
 		
 	}
 	._part{
-		border-bottom:1upx solid #F5F5F5 ;
-		padding-bottom: 60upx;
+		border-bottom:5upx solid #F5F5F5 ;
+		padding-bottom: 40upx;
 	}
 	.container{
 		background-color:#FFFFFF ;
+	}
+	.topImg{
+		width: 100%;
+		height: 300upx;
+	}
+	.part_float{
+		margin-bottom: -150upx;
+		width: 97%;
+		margin-left: 1%;
+	}
+	.part_{
+		margin-bottom: 155upx;
 	}
 
 </style>

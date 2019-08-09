@@ -27,13 +27,17 @@
 		{
 			"path": "pages/promotes/index/index",
 			"style": {
-				"navigationBarTitleText": "收徒（推广）"
+				"navigationBarTitleText": "收徒（推广）",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle":"black"
 			}
 		},
 		{
 			"path": "pages/me/index/index",
 			"style": {
-				"navigationBarTitleText": "抖客"
+				"navigationBarTitleText": "会员中心",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle":"black"
 			}
 		}
 	    ,{
@@ -51,9 +55,7 @@
 		,{
             "path" : "pages/release/release02/release02",
             "style" : {
-				"navigationBarTitleText": "抖音点赞",
-				"navigationBarBackgroundColor": "#FFFFFF",
-				"navigationBarTextStyle":"black"
+				"navigationBarTitleText": "抖音点赞"
 			}
         }
 		,{
@@ -157,7 +159,7 @@
         ,{
             "path" : "pages/me/VIP-open/VIP-open",
             "style" : {
-				"navigationBarTitleText": "收入明细"
+				"navigationBarTitleText": "VIP开通"
 			}
         }
         ,{
@@ -193,7 +195,9 @@
         ,{
             "path" : "pages/me/account-manage/account-manage",
             "style" : {
-				"navigationBarTitleText": "账户管理"
+				"navigationBarTitleText": "账户管理",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle":"black"
 			}
         }
         ,{
@@ -211,13 +215,13 @@
         ,{
             "path" : "pages/me/how-save/how-save",
             "style" : {
-				"navigationBarTitleText": "怎样赚钱"
+				"navigationBarTitleText": "如何赚钱"
 			}
         }
         ,{
             "path" : "pages/me/how-release/how-release",
             "style" : {
-				"navigationBarTitleText": "怎样发布"
+				"navigationBarTitleText": "如何发布"
 			}
         }
         ,{
@@ -231,6 +235,12 @@
         ,{
             "path" : "pages/me/channel-save/channel-save",
             "style" : {}
+        }
+        ,{
+            "path" : "pages/me/shenhetongguo/shenhetongguo",
+            "style" : {
+				"navigationBarTitleText": "审核"
+			}
         }
     ],
 	"globalStyle": {

@@ -1,10 +1,10 @@
 <template>
 	<view class="container">
-		<view class="content" @click="toAddAccount">
+		<view class="content" >
 			<view class="board redBorad">
 				<view class="theLine">
 					<text class="tex">支付账户</text>
-					<image src="../../../static/lyl/01@3x.png" mode=""></image>
+					<image src="../../../static/image/20-@2x.png" mode=""></image>
 				</view>
 				<view class="theLine">
 					<view>
@@ -16,7 +16,7 @@
 			<view class="board blueBoard">
 				<view class="theLine">
 					<text class="tex">支付账户</text>
-					<image src="../../../static/lyl/01@3x.png" mode=""></image>
+					<image src="../../../static/image/20-@2x.png"></image>
 				</view>
 				<view class="theLine">
 					<view>
@@ -31,7 +31,10 @@
 			</view>
 			<view class="tips">
 				<text class="tex redFont">温馨提示：</text>
-				<text class="tex">支付宝和银行卡只能各规定一个</text>
+				<text class="tex">支付宝和银行卡只能各绑定一个</text>
+			</view>
+			<view class="bottom" @click="toAddAccount">
+				<button class="bottom_btn">添加</button>
 			</view>
 		</view>
 	</view>
@@ -90,11 +93,21 @@
 }
 
 .redBorad{
-	background-color: red;
+	background-color: #f04e59
+;
 }
 
 .blueBoard{
-	background-color: blue;
+	background-color: #1c73b6;
 }
+.bottom_btn{
+		background-color:#1BCC8D ;
+		color: #FFFFFF;
+		height: 88upx;
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		align-items: center;
+	}
 
 </style>
