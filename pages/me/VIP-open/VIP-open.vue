@@ -17,8 +17,8 @@
 		</view>
 		
 		<!-- 弹窗 -->
-		<view class="pop">
-			<view class="popContent">
+		<!-- <view class="pop">
+			<view class="popContent"> -->
 				<!-- <image src="https://public.zgscdx.cn/hyj_admin/img_msg_success.png"></image>
 				<text class="popText">你已成功回复留言！</text>
 				<view class="popButtons">
@@ -26,7 +26,7 @@
 					<text class="popSure" @click="saveRecord">确定</text>
 				</view> -->
 				
-				<text class="tex redFont bigFont">vip会员</text>
+				<!-- <text class="tex redFont bigFont">vip会员</text>
 				<text class="tex bigFont">充值999送vip会员</text>
 				<text class="tex">999元可用于下单</text>
 				<image src="../../../static/image/01_vip.png" mode="aspectFit"></image>
@@ -34,7 +34,7 @@
 					<button class="bottom_btn">立即下单</button>
 				</view>
 			</view>
-		</view>
+		</view> -->
 		
 	</view>
 </template>

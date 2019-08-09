@@ -64,9 +64,9 @@
 					<view class="part_34">抖音号+昵称、并上传任务完成截图。具体操作看新手指引</view>
 				</view>
 			</view>
-				<view class="part2">
+				<view class="part2"  @click="shenhe">
 					<view class="login">
-						<text class="dd1">抢&nbsp;单</text>
+						<text class="dd1">确定审核</text>
 					</view>
 				</view>
 		</view>
@@ -81,7 +81,11 @@
 			}
 		},
 		methods: {
-			
+			shenhe:function() {
+				uni.navigateTo({
+					url:"../shenhetongguo/shenhetongguo"
+				})
+			}
 		}
 	}
 </script>
@@ -92,7 +96,7 @@
 	}
 	.content{
 		font-size:27upx;
-		line-height: 54upx;
+		line-height: 74upx;
 		color: #5D5D5D;
 		background-color: #E5E5E5;
 	}
@@ -138,7 +142,7 @@
 	.tab22{
 		display: table-cell;
 		width:70%;
-		line-height: 50upx;
+		line-height: 70upx;
 	}
 	.img_img{
 		width:96upx;
@@ -194,5 +198,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		font-size:40upx ;
+		color: #FFFFFF;
+	
 	}
 </style>
