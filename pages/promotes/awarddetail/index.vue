@@ -78,6 +78,7 @@
 		height: 120upx;
 		background-color: #FFFFFF;
 		margin-top: 10upx;
+		border-bottom: 1upx solid #F5F5F5;
 	}
 	.cell{
 		line-height: 120upx;

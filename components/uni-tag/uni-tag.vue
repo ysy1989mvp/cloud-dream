@@ -53,7 +53,7 @@
 		padding: $tag-pd;
 		height: 60upx;
 		line-height: calc(60upx - 2px);
-		font-size: $uni-font-size-base;
+		font-size: 30upx;
 		display: inline-block;
 		color: $uni-text-color;
 		border-radius: $uni-border-radius-base;

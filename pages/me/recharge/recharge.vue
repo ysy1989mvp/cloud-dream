@@ -1,23 +1,31 @@
 <template>
 	<view class="container">
 		<view class="content">
-			<view class="line_">
-				<text class="tex">100</text>
-				<text class="tex">100</text>
-				<text class="tex">100</text>
-				<text class="tex">100</text>
-				<text class="tex">100</text>
-				<text class="tex">100</text>
+			<view class="part">
+				<text class="part1">充值金额</text>
+				<view class="a">
+					<view class="part2">￥</view>
+					<input class="part3"></input>
+				</view>
 			</view>
 			<view class="line_">
+				<text class="tex">100</text>
+				<text class="tex">300</text>
+				<text class="tex">500</text>
+				<text class="tex">1000</text>
+				<text class="tex">3000</text>
+				<text class="tex">5000</text>
+			</view>
+
+			<view class="line_">
 				<label class="tex_title">其他金额：</label>
-				<text class="tex">000</text>
+				<input class="lxy" placeholder="自定义金额"></input>
 			</view>
 			<view class="bottom" @click="showThePop">
 				<button class="bottom_btn">确认充值</button>
 			</view>
 		</view>
-		
+
 		<!-- 弹窗 -->
 		<view class="pop" v-show="showPop">
 			<view class="popContent">
@@ -27,7 +35,7 @@
 					<text class="popCancel" @click="hidePops">取消</text>
 					<text class="popSure" @click="saveRecord">确定</text>
 				</view> -->
-				
+
 				<text class="tex bigFont title">选择支付方式</text>
 				<view class="payPath">
 					<view @click="showThePop">
@@ -43,10 +51,10 @@
 						<text class="tex">扫码支付</text>
 					</view>
 				</view>
-				
+
 			</view>
 		</view>
-		
+
 	</view>
 </template>
 
@@ -54,11 +62,11 @@
 	export default {
 		data() {
 			return {
-				showPop:false,
+				showPop: false,
 			}
 		},
 		methods: {
-			showThePop(){
+			showThePop() {
 				this.showPop = !this.showPop;
 			},
 		}
@@ -67,23 +75,26 @@
 
 <style>
 	@import url("../../../css/main-style.css");
-	.content{
+
+	.content {
 		background-color: #FFFFFF;
-		height: 100vh;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
 	}
-	
-	.line_{
+
+	.line_ {
 		width: 100%;
-		padding: 24upx;
+		padding: 50upx;
 		box-sizing: border-box;
 		display: flex;
 		align-items: center;
-		 flex-wrap: wrap;
-		 margin: 24upx 0;
-		 margin-top: 0;
+		flex-wrap: wrap;
+		margin: -50upx 0;
+		margin-top: 200upx;
 	}
-	
-	.line_ .tex{
+
+	.line_ .tex {
 		width: 15%;
 		background-color: #E5E5E5;
 		padding: 6upx 12upx;
@@ -91,12 +102,12 @@
 		margin: 12upx;
 		text-align: center;
 	}
-	
-	.tex_title{
+
+	.tex_title {
 		font-size: 26upx;
 	}
-	
-	.title{
+
+	.title {
 		display: block;
 		width: 100%;
 		text-align: center;
@@ -104,30 +115,30 @@
 		line-height: 50upx;
 		margin-bottom: 24upx;
 	}
-	
-	.popContent{
+
+	.popContent {
 		padding: 24upx;
 	}
-	
-	.payPath{
+
+	.payPath {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
-	
-	.payPath view{
+
+	.payPath view {
 		width: 33.33%;
 	}
-	
-	.payPath image{
+
+	.payPath image {
 		display: block;
 		height: 100upx;
 		height: 75upx;
 		margin: 0 auto;
 	}
-	
-	.payPath text{
+
+	.payPath text {
 		display: block;
 		width: 100%;
 		text-align: center;
@@ -135,4 +146,57 @@
 		margin-top: 24upx;
 	}
 
+	.part {
+		width: 100%;
+		height: 30upx;
+		padding-top: 80upx;
+		margin-left: 60upx;
+	}
+
+	.part2 {
+		margin-left: 55upx;
+	}
+
+	.part1 {
+		width: 100%;
+		font-size: 30upx;
+		font-weight: bold;
+	}
+
+	.part3 {
+		width: 80%;
+		height: 40upx;
+		background-color: #FFFFFF;
+		border: #FFFFFF;
+		font-size: 26upx;
+		margin-right: 150upx;
+		border-bottom: 1upx solid #a5a5a5;
+		margin-left: 15upx;
+		border-radius: 0upx ;
+
+	}
+
+	.a {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		height: 16upx;
+		margin-top: 50upx;
+		border-bottom: 15upx solid #E5E5E5;
+		border-radius: 0upx;
+		padding-bottom: 50upx;
+		margin-left: -60upx;
+	}
+
+	.bottom_btn {
+		background-color: #1BCC8D;
+		color: #FFFFFF;
+	}
+
+	.lxy {
+		height: 40upx;
+		width: 320upx;
+	}
 </style>

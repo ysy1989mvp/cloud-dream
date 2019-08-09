@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><block wx:for="{{3}}" wx:for-item="item" wx:for-index="__i0__"><view class="thePart"><text class="tex bigFont theTitle">第一步：点击按钮</text><view class="theContent"></view></view></block></view></view>

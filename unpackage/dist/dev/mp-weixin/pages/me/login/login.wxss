@@ -1,14 +1,11 @@
 
+.container{
+	background-color: #FFFFFF;
+}
 .label{
 		font-size:30rpx;
 		line-height: 88rpx;
 		margin-right: 20rpx;
-}
-input{
-	background-color: #FFFFFF;
-	border-radius: 10rpx;
-	line-height: 88rpx;
-	font-size:24rpx;
 }
 .uni-page-head{
 	background-color: #1BCC8D;
@@ -53,6 +50,7 @@ input{
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	margin-top: 100rpx;
 }
 .part3{
 	width: 100%;
@@ -72,6 +70,7 @@ input{
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	margin-top: 20rpx;
 }
 .part_11{
 	width: 110rpx;
@@ -144,6 +143,16 @@ input{
 	    -ms-flex-direction: row-reverse;
 	        flex-direction: row-reverse;
 	font-size: 24rpx;
+	margin-right: 30rpx;
+}
+.part_23>text{
+	background-color: #14c790;
+	border-radius: 10rpx;
+	margin-right: 20rpx;
+	color:white;
+	font-size: 25rpx;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
 }
 .part_212 input{
 	width: 435rpx;

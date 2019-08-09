@@ -104,5 +104,21 @@
 		background-color: #FFFFFF;
 		position: relative;
 	}
+	.bottom{
+		color: #1BCC8D;
+	}
+	.bottom_btn{
+		color: #FFFFFF;
+		font-size: 34upx;
+		background-color: #1BCC8D
+		
+	}
+	._part{
+		border-bottom:1upx solid #F5F5F5 ;
+		padding-bottom: 60upx;
+	}
+	.container{
+		background-color:#FFFFFF ;
+	}
 
 </style>

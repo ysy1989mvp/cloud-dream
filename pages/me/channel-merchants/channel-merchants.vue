@@ -73,11 +73,11 @@
 	@import url("../../../css/main-style.css");
 
 	text{
-		font-size: 50upx;
+		font-size: 40upx;
 		width: 100%;
 		display: block;
 		text-align: center;
-		line-height: 300upx;
+		line-height: 800upx;
 	}
 
 	.content {
@@ -195,6 +195,19 @@
 	
 	.iptNum{
 		font-size: 28upx;
+	}
+	.bottom_btn{
+		background-color:#1BCC8D ;
+		color:#FFFFFF;
+		height: 88upx;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		
+		
+	}
+	.bottom{
+		padding-top:100upx
 	}
 	
 </style>

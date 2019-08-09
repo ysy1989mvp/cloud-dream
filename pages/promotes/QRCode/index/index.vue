@@ -30,7 +30,7 @@
 				uid:'1113',
 				tips:[
 					'1、每个自己的徒弟完成的任务，您可获得30%额外奖励。徒弟可再收徒弟，您任可获得间接徒弟收益10%的额外奖励。',
-					'2、抖客保留对规则的修改权和解释权'
+					'2、抖客保留对规则的修改权和解释权。'
 				]
 			}
 		},
@@ -56,16 +56,18 @@
 		font-size: 14px;
 	}
 	.qrcode{
-		height: calc(100vh * 0.6);
+		height: calc(100vh * 0.5);
 	}
 	.img{
-		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.img image{
 		width: 50%;
 	}
 	.tip{
-		height: calc(100vh * 0.25);
+		height: calc(100vh * 0.35);
 	}
 	.line{
 		height: 5upx;
@@ -78,9 +80,14 @@
 	}
 	.tipcontent{
 		font-size: 14px;;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 30upx;
 	}
 	.tipcontent span{
 		display: block;
-		
+		width: 80%;
+		color: #484848;
 	}
 </style>

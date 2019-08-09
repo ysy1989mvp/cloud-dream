@@ -7,7 +7,9 @@
 		{
 			"path": "pages/home/index/index",
 			"style": {
-				"navigationBarTitleText": "抖客"
+				"navigationBarTitleText": "抖客",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle":"black"
 				}
 		},
 		{
@@ -19,13 +21,13 @@
 		{
 			"path": "pages/release/index/index",
 			"style": {
-				"navigationBarTitleText": "抖客"
+				"navigationBarTitleText": "类别选择"
 			}
 		},
 		{
 			"path": "pages/promotes/index/index",
 			"style": {
-				"navigationBarTitleText": "抖客"
+				"navigationBarTitleText": "收徒（推广）"
 			}
 		},
 		{
@@ -68,14 +70,6 @@
 				"navigationBarBackgroundColor": "#1BCC8D",
 				"navigationBarTextStyle":"#FFFFFF"
 				}
-        }
-        ,{
-            "path" : "pages/me/recharge/recharge",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/me/vip-center/vip-center",
-            "style" : {}
         }
 		,{
             "path" : "pages/me/regist-result/regist-result",

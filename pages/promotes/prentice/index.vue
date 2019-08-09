@@ -107,17 +107,18 @@
 	.cell{
 		background-color: #FFFFFF;
 		height: 180upx;
+		border-bottom:10upx solid #F5F5F5 ;
 	}
 	.photo{
-		width: 140upx;
-		height: 140upx;
+		width: 102upx;
+		height: 102upx;
 		border-radius: 50px;
-		margin-top: 20upx;
-		margin-left: 20upx;
+		margin-top: 35upx;
+		margin-left: 50upx;
 		float: left;
 	}
 	.info1{
-		width: calc(100vw - 200upx);
+		width: calc(100vw - 250upx);
 		float: left;
 		margin-left: 30upx;
 		margin-top: 20upx;
@@ -125,7 +126,7 @@
 		line-height: 80upx;
 	}
 	.info2{
-		width: calc(100vw - 200upx);
+		width: calc(100vw - 250upx);
 		float: left;
 		margin-left: 30upx;
 		font-size: 12px;

@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
-		<view style="text-align: center;">
-			<uni-tag v-for="tag of tags" :key="tag" :text="tag" type="default" :circle="true"></uni-tag>
+		<view class="part" style="text-align: center;">
+			<uni-tag class="tag" v-for="tag of tags" :key="tag" :text="tag" type="default" :circle="true"></uni-tag>
 		</view>
 		<view style="margin-top: 5%;">
 			<uni-list-item class="item" v-for="item of list" :key="item" :title="item" show-arrow="false"></uni-list-item>
@@ -51,5 +51,14 @@
 	}
 	.uni-list-cell {
 		height: 50px;
+	}
+	.tag{
+		font-size: 32upx;
+		padding:2upx 20upx;
+		margin: 20upx 10upx;
+		background-color: #d5d5d5;
+		color:#000000;
+		border-radius: 20upx;
+		margin-bottom: 0upx;
 	}
 </style>

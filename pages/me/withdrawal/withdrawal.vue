@@ -39,16 +39,20 @@
 				<text class="tex redFont">温馨提示</text>
 				<text class="tex" v-for="item in 3">1、最低提现100元，手续费2%；</text>
 			</view>
+			<view class="bottom" @click="showThePop">
+				<button class="bottom_btn">立即下单</button>
+			</view>
+
 		</view>
-		<view class="bottom">
-			<button class="bottom_btn">立即下单</button>
-		</view>
-		
-		<view class="pop">
-			<view class="popContent">
-				<image src="../../../static/image/01_vip.png" mode="aspectFit"></image>
-				<text class="tex bigFont">提现成功</text>
-				<text class="tex">24小时到账</text>
+		<view class="tanchuan" v-show="showPop" @click="showThePop">
+			<view class="pop1">
+				<view class="popContent">
+					<view class="imglxy1">
+						<image class="imglxy" src="../../../static/lyl/01@3x_channel.png" mode="aspectFit"></image>
+					</view>
+					<text class="tex bigFont">提现成功</text>
+					<text class="tex">24小时到账</text>
+				</view>
 			</view>
 		</view>
 	</view>
@@ -58,19 +62,23 @@
 	export default {
 		data() {
 			return {
-				theChecked:true,
-				count:100,
+				theChecked: true,
+				count: 100,
+				showPop: false
 			}
 		},
 		methods: {
-			toggleRadios(){
+			toggleRadios() {
 				this.theChecked = !this.theChecked;
 			},
-			add(){
+			add() {
 				this.count += 1;
 			},
-			reduce(){
+			reduce() {
 				this.count -= 1;
+			},
+			showThePop() {
+				this.showPop = !this.showPop;
 			},
 		}
 	}
@@ -84,6 +92,7 @@
 		height: 100vh;
 		padding: 24upx;
 		box-sizing: border-box;
+		position: relative;
 	}
 
 	.line {
@@ -104,15 +113,15 @@
 		border-radius: 30upx;
 		margin: 0 12upx;
 	}
-	
-	.line{
+
+	.line {
 		width: 100%;
 		justify-content: flex-start;
 		padding-left: 0;
-		padding-right:0;
+		padding-right: 0;
 	}
-	
-	.line_inner{
+
+	.line_inner {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -130,8 +139,8 @@
 		display: flex;
 		justify-content: center;
 	}
-	
-	.grayCircle{
+
+	.grayCircle {
 		display: block;
 		color: #FFFFFF;
 		width: 50upx;
@@ -143,47 +152,65 @@
 		line-height: 50upx;
 		padding: 0;
 	}
-	
-	.counts{
+
+	.counts {
 		text-align: center;
 	}
-	
-	.tips{
+
+	.tips {
 		width: 100%;
 	}
-	
-	.redFont{
+
+	.redFont {
 		font-size: 35upx;
 	}
-	
-	.tips text{
+
+	.tips text {
 		margin-top: 12upx;
 		width: 100%;
 		display: block;
 		line-height: 50upx;
 	}
-	
-	.pop{
+
+	.tanchuan {
+		width: 100%;
+		height: 100vh;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		z-index: 99;
+		top: 0upx;
+		left: 0upx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.pop1 {
 		width: 70%;
-		height: auto;
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
+		height: 30vh;
 		padding: 48upx 24upx;
 		box-sizing: border-box;
-		background:#E5E5E5;
+		background: #E5E5E5;
 		border-radius: 20upx;
+		z-index: 100;
+		opacity: 1;
+		margin-top: -20vh;
+
 	}
-	
-	.popContent{
+
+	.popContent {
 		position: relative;
 		bottom: 0;
 		margin: 0;
 		background-color: transparent;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
-	
-	.popContent text{
+
+	.popContent text {
 		display: block;
 		width: 100%;
 		text-align: center;
@@ -191,5 +218,21 @@
 		margin: 0;
 		padding: 0;
 	}
-	
+
+	.bottom_btn {
+		background-color: #1BCC8D;
+		color: #FFFFFF;
+	}
+	.imglxy1{
+		width: 120upx;
+		height: 120upx;
+		display: flex;
+		/* flex-direction: column; */
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30upx;
+	}
+	.imglxy1>image{
+		margin: 0upx auto;
+	}
 </style>

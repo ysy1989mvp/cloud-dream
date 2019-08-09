@@ -28,7 +28,7 @@
 		float: left;
 		background-color: #E5E5E5;
 		width: 70%;
-		height: 80%;
+		height: 65%;
 		margin: 15%;
 		border-radius: 20upx;
 		text-align: center;

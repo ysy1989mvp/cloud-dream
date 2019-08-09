@@ -2,13 +2,12 @@
 	<view class="container">
 		<view class="content">
 			<view class="release_content">
-				<text class="text1">类别选择</text>
-				<text class="text2" @click="release">抖音点赞+评论+转发</text>
-				<text class="text2" @click="release03">朋友圈推广</text>
-				<text class="text2" @click="release02">抖音点赞+评论</text>
-				<view class="login_btn" @click="logining">
+				<text class="text2 t1" @click="release">抖音点赞+评论+转发</text>
+				<text class="text2 t2" @click="release03">朋友圈推广</text>
+				<text class="text2 t3" @click="release02">抖音点赞+评论</text>
+				<!-- <view class="login_btn" @click="logining">
 					<text>登&nbsp;录</text>
-				</view>
+				</view> -->
 			</view>
 		</view>
 	</view>
@@ -52,22 +51,23 @@
 	.content {
 		width: 100%;
 		height: 1800upx;
-		background-color: #FFFFFF;
+		background-color: #757575;
 		/* background-color: #666666; */
 		opacity: 0.5;
 	}
 
 	.release_content {
-		width: 60%;
-		height: 400upx;
+		width: 80%;
+		height: 600upx;
 		position: absolute;
 		top: 20%;
-		left: 20%;
+		left: 10%;
 		background-color: #FFFFFF;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+		border-radius: 30upx;
 	}
 	.release_content>text{
 		margin-bottom: 10upx;
@@ -87,6 +87,14 @@
 	}
 	.text2{
 		color: red;
-		font-size:30upx;
+		font-size:40upx;
+		background-color: #1BCC8D;
+		/* padding:4upx 50upx; */
+		border-radius: 30upx;
+		margin: 40upx 5upx;
+		color: #FFFFFF;
+		width: 80%;
+		text-align: center;
+		height: 70upx;
 	}
 </style>

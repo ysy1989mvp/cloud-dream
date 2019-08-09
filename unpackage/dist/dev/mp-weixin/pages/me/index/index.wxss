@@ -188,11 +188,32 @@
 .userInfo{
 	width: 50%;
 	position: absolute;
-	top: 100rpx;
+	top: 10%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
 	        transform: translateX(-50%);
+	z-index: 100;
+	/* margin-top: 15upx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.topview{
+	/* border:1px solid red; */
+	width: 100%;
+	padding: 0rpx;
+	margin: 0rpx;
 }
 .userInfo image,.userInfo .tex{
 	display: block;
@@ -201,10 +222,20 @@
 	line-height: 75rpx;
 }
 .userInfo image{
+	width: 100%;
+	height: 100%;
+}
+.userInfo>view{
 	width: 100rpx;
 	height: 100rpx;
-	border-radius: 50%;
+	/* border:1px solid red; */
+	background-size: 100%;
+	border-radius: 50rpx;
 }
+
+/* .touxiang>image{
+	border-radius: 50upx;
+} */
 .userInfo .tex{
 	width: 100%;
 }
@@ -232,6 +263,7 @@
 	padding: 0 12rpx;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
+	z-index: 100;
 }
 .sign image{
 	width: 50rpx;
@@ -260,8 +292,8 @@
 	        align-items: center;
 }
 .part_float view image,.line image{
-	width: 50rpx;
-	height: 50rpx;
+	width: 80rpx;
+	height: 80rpx;
 }
 .line{
 	height: 100rpx;
@@ -289,6 +321,13 @@
 }
 .whiteFont{
 	color: #FFFFFF;
+}
+.topview{
+	width: 100%;
+	height: 500rpx;
+}
+.topImg{
+	height: 100%;
 }
 .redCircle{
 	width:50rpx;

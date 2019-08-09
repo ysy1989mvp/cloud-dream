@@ -1,0 +1,189 @@
+
+image{
+	width: 100%;
+	height: 207rpx;
+}
+.top{
+	width: 100%;
+}
+.content{
+	position: relative;
+}
+.float1{
+	/* float:left; */
+	width: 84%;
+	height: 270rpx;
+	position: absolute;
+	left: 8%;
+	top:130rpx;
+	z-index: 100;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	/* box-shadow: 2 2 5 #333333; */
+	-webkit-box-shadow: inset -2px -2px 8px #e5e5e5;
+	        box-shadow: inset -2px -2px 8px #e5e5e5;
+}
+.title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.title>image{
+	width: 72rpx;
+	height: 72rpx;
+}
+.title>text{
+	font-size: 35rpx;
+	line-height: 75rpx;
+	font-weight: 500;
+}
+.uni-textarea{
+	margin-left: 2%;
+	width: 94%;
+	height: 170rpx;
+	background-color: #EEEEEE;
+	border-radius: 0 0 20rpx 20rpx;
+	font-size: 28rpx;
+	line-height: 40rpx;
+	padding-top: 10rpx;
+	padding-left: 10rpx;
+}
+.release_tozhi{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.release_tozhi>view{
+	width: 52rpx;
+	height: 20rpx;
+	font-size: 18rpx;
+	line-height: 20rpx;
+	margin-left: -70rpx;
+	margin-top: 142rpx;
+	z-index: 100;
+	color: #FF0000;
+}
+.bottom{
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 10rpx;
+}
+.bottom_content{
+	width: 100%;
+	padding-top: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.part_img{
+	width: 66rpx;
+	height: 66rpx;
+}
+.login_btn{
+	width: 350rpx;
+	height: 88rpx;
+	background-color:#14c790;
+	border-radius: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #FFFFFF;
+	margin-top: 50rpx;
+}
+.part1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 90%;
+	font-size: 30rpx;
+	line-height: 66rpx;
+	margin-bottom: 15rpx;
+}
+.part1>image{
+	margin-right: 10rpx;
+}
+.part1>text{
+	margin-right: 20rpx;
+}
+.part2{
+	font-size:24rpx;
+	color: #ff5400;
+	margin-top: 20rpx;
+}
+.part4{
+	font-size: 18rpx;
+	color: #a2a2a2;
+	width: 70%;
+	margin-top: 30rpx;
+	padding-bottom: 100rpx;
+}
+._p{
+	-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
+	-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
+	word-break: break-all; /* // 使<p>中的文字换行 */
+	overflow: hidden; /* // 超出的文字部分隐藏 */
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
+	display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+}
+.jiajian{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 180rpx;
+}
+.quanquan{
+	color: #FFFFFF;
+	width: 40rpx;
+	height: 40rpx;
+	background-color: #BFBFBF;
+	font-size: 40rpx;
+	line-height: 35rpx;
+	text-align: center;
+	border-radius: 20rpx;
+}
+.pictue>image{
+	width: 114rpx;
+	height: 114rpx;
+	margin-right: 10rpx;
+}
+

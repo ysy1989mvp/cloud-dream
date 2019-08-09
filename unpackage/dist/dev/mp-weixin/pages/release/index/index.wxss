@@ -2,7 +2,7 @@
 .content {
 	width: 100%;
 	height: 1800rpx;
-	background-color: #FFFFFF;
+	background-color: #757575;
 	/* background-color: #666666; */
 	opacity: 0.5;
 }
@@ -30,6 +30,7 @@
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+	border-radius: 10rpx;
 }
 .release_content>text{
 	margin-bottom: 10rpx;
@@ -59,5 +60,10 @@
 .text2{
 	color: red;
 	font-size:30rpx;
+	background-color: #151515;
+	padding:4rpx 50rpx;
+	border-radius: 30rpx;
+	margin: 20rpx 5rpx;
+	color: #FFFFFF;
 }
 

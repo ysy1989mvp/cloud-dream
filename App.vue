@@ -17,6 +17,14 @@
 	@import url("css/uni.css");
 	/*每个页面公共css */
 	page{
-		background: #f5f5f5;
+		/* background: #f5f5f5; */
+		background:#FFFFFF;
+	}
+	input{
+		background-color: #f5f5f5;
+		border: 1px solid #e5e5e5;
+		border-radius: 10upx;
+		line-height: 88upx;
+		font-size:24upx;
 	}
 </style>

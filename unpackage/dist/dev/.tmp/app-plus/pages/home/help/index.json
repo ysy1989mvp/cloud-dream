@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "帮助中心",
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

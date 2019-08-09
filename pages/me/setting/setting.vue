@@ -6,51 +6,51 @@
 				<view class="line">
 					<view>
 						<!-- <image src="../../../static/lyl/02@3x.png" mode=""></image> -->
-						<text class="tex">头像修改：</text>
+						<text class="tex">头像修改</text>
 					</view>
 					<view>
 						<!-- <image src="../../../static/lyl/04@3x.png" mode=""></image> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toChangeInfo">
 					<view>
 						<!-- <image src="../../../static/lyl/04@3x.png" mode=""></image> -->
-						<text class="tex">资料修改：</text>
+						<text class="tex">资料修改</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line">
 					<view>
 						<!-- <image src="../../../static/lyl/05@3x.png" mode=""></image> -->
-						<text class="tex">检查更新：</text>
+						<text class="tex">检查更新</text>
 					</view>
 					<view>
 						<text class="tex redFont redCircle">NEW</text>
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line">
 					<view>
 						<!-- <image src="../../../static/lyl/07@3x.png" mode=""></image> -->
-						<text class="tex">通知设置：</text>
+						<text class="tex">通知设置</text>
 					</view>
 					<view>
-						<switch checked=""></switch>
-						<text class="tex">&gt;</text>
+						<switch checked="" class="tongzhianniu"></switch>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line">
 					<view>
 						<!-- <image src="../../../static/lyl/08@3x.png" mode=""></image> -->
-						<text class="tex">关于我们：</text>
+						<text class="tex">关于我们</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				
@@ -109,8 +109,9 @@
 <style>
 	@import url("../../../css/main-style.css");
 	.content{
-		width: 100%;
+		width: 96%;
 		position: relative;
+		margin: 0upx auto;
 	}
 	
 	._part{
@@ -188,6 +189,7 @@
 		padding: 0 24upx;
 		box-sizing: border-box;
 		margin-top: 24upx;
+		border-bottom: 1upx solid #E5E5E5;
 	}
 	
 	.line view{
@@ -213,13 +215,18 @@
 	}
 	
 	.redCircle{
-		height: 50upx;
+		height: 38upx;
+		width: 55upx;
 		border-radius: 30upx;
 		color: white;
 		background-color: red;
-		line-height: 45upx;
+		line-height: 40upx;
 		text-align: center;
 		padding: 0 12upx;
+		font-size: 18upx;
+		margin-right: 30upx;
 	}
-
+	.tongzhianniu{
+		transform: scale(0.8,0.7);
+	}
 </style>

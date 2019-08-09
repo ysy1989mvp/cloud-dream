@@ -9,7 +9,7 @@
 			<view class="part2">
 				<view class="part_21">
 					<view class="label">
-						<text>电话:</text>
+						<text>电&nbsp;&nbsp;话:</text>
 					</view>
 					<view class="part_212">
 						<input type="number" 
@@ -20,7 +20,7 @@
 				</view>
 				<view class="part_22">
 					<view class="label">
-						<text>密码:</text>
+						<text>密&nbsp;&nbsp;码:</text>
 					</view>
 					<view class="part_212">
 						<input type="password" 
@@ -29,8 +29,8 @@
 					</view>
 				</view>
 				<view class="part_23">
-					<text class="txt_zzts" @click="resetPwd">忘记密码？</text>
-					<text @click="noHaveUserName">还没有账号？</text>
+					<text @click="resetPwd">修改密码</text>
+					<text class="txt_zzts" @click="noHaveUserName">注&nbsp;&nbsp;册</text>
 				</view>
 			</view>
 			<view class="part3">
@@ -73,17 +73,15 @@
 </script>
 
 <style>
+	.container{
+		background-color: #FFFFFF;
+	}
 	.label{
 			font-size:30upx;
 			line-height: 88upx;
 			margin-right: 20upx;
 	}
-	input{
-		background-color: #FFFFFF;
-		border-radius: 10upx;
-		line-height: 88upx;
-		font-size:24upx;
-	}
+	
 	.uni-page-head{
 		background-color: #1BCC8D;
 	}
@@ -107,6 +105,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-top: 100upx;
 		
 		
 	}
@@ -118,6 +117,7 @@
 		justify-content: center;
 		align-content: center;
 		align-items: center;
+		margin-top: 20upx;
 	}
 	.part_11{
 		width: 110upx;
@@ -149,8 +149,17 @@
 		display: flex;
 		flex-direction: row-reverse;
 		font-size: 24upx;
+		margin-right: 30upx;
 	}
-	
+	.part_23>text{
+		background-color: #14c790;
+		border-radius: 10upx;
+		margin-right: 20upx;
+		color:white;
+		font-size: 25upx;
+		padding-left: 10upx;
+		padding-right: 10upx;
+	}
 	.part_212 input{
 		width: 435upx;
 		height: 60upx;/* 

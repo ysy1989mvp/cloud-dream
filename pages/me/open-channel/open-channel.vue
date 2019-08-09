@@ -3,7 +3,7 @@
 		<view class="content">
 			<view class="regular">
 				<text class="tex bigFont">
-					规则
+					规则：
 				</text>
 				<text class="tex">
 					1、用户在注册成功后登陆自己的页面，信息要确保完整，在平台核实无误后开通自己的渠道。
@@ -14,7 +14,9 @@
 				<text class="tex bigFont scan">
 					付款二维码
 				</text>
-				<image src="../../../static/image/01-channel.png" mode="aspectFit"></image>
+				<view class="img1">
+					<image src="../../../static/image/01-channel.png" mode="aspectFit"></image>
+				</view class="screenshot1">
 				<text class="tex screenshot">付款后截图</text>
 			</view>
 			
@@ -65,7 +67,7 @@
 	}
 	
 	.scan{
-		font-size: 40upx;
+		font-size: 30upx;
 	}
 	
 	.screenshot,.scan{
@@ -85,6 +87,28 @@
 		display: block;
 		margin: 24upx auto;
 	}
-
-	
+	.bottom_btn{
+		background-color:#1BCC8D ;
+		color: #FFFFFF;
+		height: 88upx;
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		align-items: center;
+	}
+	.regular{
+		margin-top: 50upx;
+	}
+	.img1{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		align-items: center;
+		margin-top:30upx ;
+	}
+	.screenshot1{
+		color: #A5A5A5;
+	}
 </style>

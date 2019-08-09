@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/weui-navbar":1};
+/******/ 		var cssChunks = {"components/weui-navbar":1,"components/uni-list-item/uni-list-item":1,"components/uni-tag/uni-tag":1,"components/uni-badge/uni-badge":1,"components/uni-icon/uni-icon":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/weui-navbar":"components/weui-navbar"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/weui-navbar":"components/weui-navbar","components/uni-list-item/uni-list-item":"components/uni-list-item/uni-list-item","components/uni-tag/uni-tag":"components/uni-tag/uni-tag","components/uni-badge/uni-badge":"components/uni-badge/uni-badge","components/uni-icon/uni-icon":"components/uni-icon/uni-icon"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

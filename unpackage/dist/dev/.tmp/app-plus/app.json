@@ -8,21 +8,46 @@
     "pages/me/index/index",
     "pages/me/help-center/help-center",
     "pages/release/release/release",
+    "pages/release/release02/release02",
+    "pages/release/release03/release03",
     "pages/task/task-records/task-records",
     "pages/task/task-detail/task-detail",
-    "pages/me/recharge/recharge",
-    "pages/me/vip-center/vip-center",
     "pages/me/regist-result/regist-result",
     "pages/me/regist/regist",
     "pages/me/modify-password/modify-password",
-    "pages/me/reset-pwd-result/reset-pwd-result"
+    "pages/me/reset-pwd-result/reset-pwd-result",
+    "pages/home/help/index",
+    "pages/promotes/QRCode/index/index",
+    "pages/home/becomevip/index/index",
+    "pages/promotes/awarddetail/index",
+    "pages/promotes/prentice/index",
+    "pages/me/recharge/recharge",
+    "pages/me/vip-center/vip-center",
+    "pages/me/my-release/my-release",
+    "pages/me/task-records/task-records",
+    "pages/me/examine/examine",
+    "pages/me/task-detail/task-detail",
+    "pages/me/VIP-open/VIP-open",
+    "pages/me/withdrawal/withdrawal",
+    "pages/me/change-info/change-info",
+    "pages/me/setting/setting",
+    "pages/me/channel-merchants/channel-merchants",
+    "pages/me/open-channel/open-channel",
+    "pages/me/account-manage/account-manage",
+    "pages/me/add-account/add-account",
+    "pages/me/open-channel-02/open-channel-02",
+    "pages/me/how-save/how-save",
+    "pages/me/how-release/how-release",
+    "pages/me/channel/channel",
+    "pages/me/my-agent/my-agent",
+    "pages/me/channel-save/channel-save"
   ],
-  "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "云梦",
-    "navigationBarBackgroundColor": "#fff",
-    "backgroundColor": "#F5F5F5"
+    "backgroundColor": "#F5F5F5",
+    "navigationBarBackgroundColor": "#1BCC8D",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "list": [
@@ -68,7 +93,7 @@
     "autoclose": false
   },
   "appname": "cloud-dream",
-  "compilerVersion": "2.1.1",
+  "compilerVersion": "2.1.3",
   "usingComponents": {
     "weui-tabs": "/components/weui-navbar"
   }

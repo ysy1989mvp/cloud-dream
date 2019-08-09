@@ -64,6 +64,11 @@
 					<view class="part_34">抖音号+昵称、并上传任务完成截图。具体操作看新手指引</view>
 				</view>
 			</view>
+				<view class="part2">
+					<view class="login">
+						<text class="dd1">抢&nbsp;单</text>
+					</view>
+				</view>
 		</view>
 	</view>
 </template>
@@ -174,5 +179,20 @@
 		margin-left: 40upx;
 		font-size: 20upx;
 		color: red;
+	}
+	.part2{
+		background-color: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.login{
+		width: 450upx;
+		height: 88upx;
+		background-color:#14c790;
+		border-radius: 30upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

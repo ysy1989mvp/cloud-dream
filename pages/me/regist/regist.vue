@@ -3,17 +3,17 @@
 		<view class="content">
 			<view class="part1">
 				<view class="a smpt">
-					<text>昵称：</text>
+					<text>昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</text>
 					<input class="a1  kkt" id="nickName" type="text" 
 					placeholder="请输入昵称" >
 				</view>
 				<view class="b  smpt">
-					<text>手机号：</text>
+					<text>手机号码：</text>
 					<input class="b1  kkt" type="number" 
 					placeholder="请输入手机号">
 				</view>
 				<view class="c  smpt">
-					<text>验证码：</text>
+					<text>短信验证：</text>
 					<input class="c1" type="text" 
 					placeholder="请输入验证码">
 					<view class="anniu">
@@ -26,7 +26,7 @@
 					placeholder="请输入身份证号码">
 				</view>
 				<view class="e  smpt">
-					<text>密码：</text>
+					<text>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</text>
 					<input class="e1  kkt" type="password" 
 					placeholder="请输入密码" >
 				</view>
@@ -69,19 +69,18 @@
 	.content{
 		font-size:32upx;
 		background-color:#FFFFFF ;
+		padding-top:50upx;
 	}
 	input{
 		width: 400upx;
-		border: 1.5px solid #14C790;
 		height: 58upx;
-		border-radius: 10upx;
 		/* background-color: ; */
 		/* display: flex;
 		justify-content:flex-end;
 		align-items:stretch; */
 	}
 	.part1{
-		width: 100%;
+		width: 95%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
@@ -94,7 +93,7 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 15upx;
+		margin-bottom: 35upx;
 	}
 	.c1{
 		/* color:#ffffff; */
@@ -102,7 +101,7 @@
 		font-weight: 146upx;
 		line-height: 44upx;
 		width: 240upx;
-		margin-left:34upx;
+		margin-left:-14upx;
 	}
 	.part2{
 		width: 100%;
@@ -113,7 +112,7 @@
 		padding-bottom: 100upx;
 	}
 	.smpt>text{
-		font-weight: bold;
+		/* font-weight: bold; */
 	}
 	.anniu{
 		width: 130upx;

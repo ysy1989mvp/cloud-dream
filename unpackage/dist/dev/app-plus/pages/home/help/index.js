@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { background-color: #FFFFFF; height: 100vh; }\n.",[1],"item { height: 200px; }\n.",[1],"uni-list-cell { height: 50px; }\n.",[1],"tag{ font-size: ",[0,32],"; padding:",[0,2]," ",[0,20],"; margin: ",[0,20]," ",[0,10],"; background-color: #d5d5d5; color:#000000; border-radius: ",[0,20],"; margin-bottom: ",[0,0],"; }\n",],undefined,{path:"./pages/home/help/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/home/help/index.wxml') } }));

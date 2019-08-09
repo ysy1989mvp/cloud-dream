@@ -9,14 +9,14 @@
 					<view class="touxiang" :style="{'background-image' : 'url(' + headImg + ')'}">
 						<!-- <image src="../../../static/lyl/12.png" mode="aspectFit"></image> -->
 					</view>
-					<text class="tex whiteFont">999999999【VIP】会员</text>
-					<text class="tex whiteFont">编号：9999</text>
+					<text class="tex whiteFont1">999999999【VIP】会员</text>
+					<text class="whiteFont2 tex">编号：9999</text>
 				</view>
-				<view class="sign">
+				<view class="sign"  @click="toSetting">
 					<image src="../../../static/lyl/11@3x.png" mode="aspectFit"></image>
-					<text class="tex bigFont whiteFont">签到</text>
+					<text class="tex bigFont whiteFont3">设置</text>
 				</view>
-				
+				<!-- 〉 -->
 				<view class="part_float">
 					<view>
 						<view class="left_img_tex">
@@ -25,9 +25,9 @@
 						</view>
 						<text class="tex bigFont">244</text>
 					</view>
-					<view>
-						<text class="tex bigFont" @click="toRecharge">充值</text>
-						<text class="tex bigFont redFont" @click="toWithdrawal">提现</text>
+					<view class="two_anniu">
+						<text class="tex" @click="toRecharge">充值</text>
+						<text class="tex redFont" @click="toWithdrawal">提现</text>
 					</view>
 				</view>
 			</view>
@@ -36,103 +36,112 @@
 				<view class="line" @click="toMyRelease">
 					<view>
 						<image src="../../../static/lyl/02@3x.png" mode="aspectFit"></image>
-						<text class="tex">我的发布：</text>
+						<text class="tex">我的发布</text>
 					</view>
 					<view>
-						<text class="tex redFont">去开通</text>
-						<text class="tex">&gt;</text>
+						<!-- <text class="tex redFont">去开通</text> -->
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toChannel">
 					<view>
 						<image src="../../../static/lyl/04@3x.png" mode="aspectFit"></image>
-						<text class="tex">渠道商入口：</text>
+						<text class="tex">渠道商入口</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toTaskRecords">
 					<view>
 						<image src="../../../static/lyl/05@3x.png" mode="aspectFit"></image>
-						<text class="tex">任务记录：</text>
+						<text class="tex">任务记录</text>
 					</view>
 					<view>
-						<text class="tex redFont redCircle">-1</text>
-						<text class="tex">&gt;</text>
+						<text class="tex redFont redCircle">1</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line">
 					<view>
 						<image src="../../../static/lyl/07@3x.png" mode="aspectFit"></image>
-						<text class="tex">收入明细：</text>
+						<text class="tex">收入明细</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont redCircle">-1</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toAccountManage">
 					<view>
 						<image src="../../../static/lyl/08@3x.png" mode="aspectFit"></image>
-						<text class="tex">账户管理：</text>
+						<text class="tex">账户管理</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="becomevip">
 					<view>
 						<image src="../../../static/lyl/03@3x.png" mode="aspectFit"></image>
-						<text class="tex">开通VIP：</text>
+						<text class="tex">开通VIP</text>
 					</view>
 					<view>
-						<text class="tex redFont">去开通</text>
-						<text class="tex">&gt;</text>
+						<!-- <text class="tex redFont">去开通</text> -->
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toHowSave">
 					<view>
 						<image src="../../../static/lyl/09@3x.png" mode="aspectFit"></image>
-						<text class="tex">如何赚钱：</text>
+						<text class="tex">如何赚钱</text>
 					</view>
 					<view>
-						<text class="tex redFont">去了解</text>
-						<text class="tex">&gt;</text>
+						<!-- <text class="tex redFont">去了解</text> -->
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				<view class="line" @click="toHowRelease">
 					<view>
 						<image src="../../../static/lyl/06@3x.png" mode="aspectFit"></image>
-						<text class="tex">如何发布：</text>
+						<text class="tex">如何发布</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				
-				<view class="line" @click="toSetting">
+				<!-- <view class="line" @click="toSetting">
 					<view>
 						<image src="../../../static/lyl/06@3x.png" mode="aspectFit"></image>
 						<text class="tex">设置</text>
 					</view>
 					<view>
-						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
 					</view>
-				</view>
+				</view> -->
 				
 				<view class="line" @click="toHelpCenter">
 					<view>
 						<image src="../../../static/lyl/10@3x.png" mode="aspectFit"></image>
-						<text class="tex">帮助中心#合作：</text>
+						<text class="tex">帮助中心</text>
 					</view>
 					<view>
 						<!-- <text class="tex redFont">去开通</text> -->
-						<text class="tex">&gt;</text>
+						<text class="tex jiantou">〉</text>
+					</view>
+				</view>
+				<view class="line">
+					<view>
+						<image src="../../../static/lyl/10@3x.png" mode="aspectFit"></image>
+						<text class="tex">合作</text>
+					</view>
+					<view>
+						<!-- <text class="tex redFont">去开通</text> -->
+						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
 				
@@ -246,7 +255,7 @@
 		display: block;
 		text-align: center;
 		margin: 0 auto;
-		line-height: 75upx;
+		line-height: 45upx;
 	}
 	
 	.userInfo image{
@@ -285,9 +294,9 @@
 	}
 	
 	.sign image{
-		width: 50upx;
-		height: 50upx;
-		margin-right: 12upx;
+		width: 80upx;
+		height: 80upx;
+		margin-right: 5upx;
 	}
 	
 	.part_float{
@@ -323,15 +332,23 @@
 	}
 	
 	.tex{
-		font-size: 35upx;
+		font-size: 30upx;
 	}
 	
 	.redFont{
 		margin-right: 12upx;
 		font-size: 28upx;
+		color: #000000;
 	}
 	
-	.whiteFont{
+	.whiteFont1{
+		color: #FFFFFF;
+		margin-top: 50upx;
+	}
+	.whiteFont2{
+		color: #FFFFFF;
+	}
+	.whiteFont3{
 		color: #FFFFFF;
 	}
 	.topview{
@@ -342,13 +359,29 @@
 		height: 100%;
 	}
 	.redCircle{
-		width:50upx;
-		height: 50upx;
+		width:35upx;
+		height: 35upx;
 		border-radius: 50%;
 		color: white;
 		background-color: red;
-		line-height: 50upx;
+		line-height: 38upx;
 		text-align: center;
 	}
-
+	.touxiang{
+		margin-bottom: 30upx;
+	}
+	.two_anniu{
+		display: flex;
+	}
+	.two_anniu>text{
+		background-color: #1BCC8D;
+		border-radius: 20upx;
+		margin-right: 10upx;
+		
+	}
+	
+	.jiantou{
+		color: #c5c5c5;
+		margin-right: 15upx;
+	}
 </style>

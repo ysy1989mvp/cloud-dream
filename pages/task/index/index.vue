@@ -9,9 +9,9 @@
 		</scroll-view>
 		<view class="container">
 			<!-- 抖音 -->
-			<view v-show="tabIndex==0" class="part part_lower" v-for="a in 15">
+			<view v-show="tabIndex==0" class="part part_lower" v-for="a in 10">
 				<view class="left">
-					<image :src="imgs[a]"></image>
+					<image src="../../../static/cdnImg/task/douying/1.png"></image>
 				</view>
 				<view class="right">
 					<text class="tex bigFont">【2501】任务标题0</text>
@@ -29,7 +29,7 @@
 			<!-- 朋友圈 -->
 			<view v-show="tabIndex==1" class="part part_lower" v-for="a in 4">
 				<view class="left">
-					<image :src="imgs[a]"></image>
+					<image src="../../../static/cdnImg/task/douying/1.png"></image>
 				</view>
 				<view class="right">
 					<text class="tex bigFont">【2501】任务标题1</text>
@@ -46,7 +46,7 @@
 			<!-- 关注 -->
 			<view v-show="tabIndex==2" class="part part_lower" v-for="a in 4">
 				<view class="left">
-					<image :src="imgs[a]"></image>
+					<image src="../../../static/cdnImg/task/douying/1.png"></image>
 				</view>
 				<view class="right">
 					<text class="tex bigFont">【2501】任务标题2</text>
@@ -97,7 +97,7 @@
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 1000);
-			this.loadingText = "加载更多"
+			this.loadingText = "下拉刷新"
 		},
 		// xia划方法
 		onReachBottom: function() {
@@ -106,26 +106,26 @@
 			this.loadingText = "没有更多了"
 		},
 		methods: {
-			getImgList(index) {
-				this.imgs = [];
-				switch (index) {
-					case "0":
-						for (var i = 0; i < 5; i++) {
-							this.imgs.push("../../../static/cdnImg/task/douying/" + i + ".png")
-						}
-						break;
-					case "1":
-						for (var i = 0; i < 5; i++) {
-							this.imgs.push("../../../static/cdnImg/task/friends/" + i + ".png")
-						}
-						break
-					default:
-						for (var i = 0; i < 5; i++) {
-							this.imgs.push("../../../static/cdnImg/task/guanzhu/" + i + ".png")
-						}
-						break;
-				}
-			},
+			// getImgList(index) {
+			// 	this.imgs = [];
+			// 	switch (index) {
+			// 		case "0":
+			// 			// for (var i = 0; i < 5; i++) {
+			// 				this.imgs.push("../../../static/cdnImg/task/douying/1.png")
+			// 			// }
+			// 			break;
+			// 		case "1":
+			// 			for (var i = 0; i < 5; i++) {
+			// 				this.imgs.push("../../../static/cdnImg/task/friends/" + i + ".png")
+			// 			}
+			// 			break
+			// 		default:
+			// 			for (var i = 0; i < 5; i++) {
+			// 				this.imgs.push("../../../static/cdnImg/task/guanzhu/" + i + ".png")
+			// 			}
+			// 			break;
+			// 	}
+			// },
 			// 切换触发
 			ontabtap(e) {
 				let index = e.target.dataset.current || e.currentTarget.dataset.current;
@@ -160,10 +160,15 @@
 
 	.douyin {
 		color: red;
+		margin-left:12upx;
+	}
+	.small{
+		margin-left:12upx;
 	}
 
 	.right {
 		line-height: 40upx;
+		height: 140upx;
 	}
 
 	.btn {
@@ -184,8 +189,8 @@
 	}
 
 	.left image {
-		width: 152upx;
-		height: 152upx;
+		width: 120upx;
+		height: 120upx;
 		margin-right: 24upx;
 	}
 
@@ -221,11 +226,13 @@
 	.scroll-h {
 		width: 750upx;
 		height: 80upx;
+		display: flex;
 		flex-direction: row;
 		white-space: nowrap;
 		background-color: #FFFFFF;
 		position: fixed;
 		z-index: 10;
+		justify-content: space-between;
 	}
 
 	.container {
@@ -238,8 +245,8 @@
 		display: inline-block;
 		flex-wrap: nowrap;
 		border-bottom: 2upx red solid;
-		padding-left: 34upx;
-		padding-right: 34upx;
+		padding-left: 70upx;
+		padding-right: 70upx;
 	}
 
 	.uni-tab-item-title {

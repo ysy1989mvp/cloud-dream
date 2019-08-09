@@ -2,18 +2,13 @@
 	<view class="container">
 		<view class="content">
 			
-			<view class="part0">
-				<image src="../../../static/lyl/02_examine.png" mode="aspectFit"></image>
-				<text class="tex bigFont thePass">审核通过</text>
-			</view>
-			
 			<view class="part1">
 				<view class="line">
 					<text class="tex bigFont theTitle">
 						用户名称：
 					</text>
 					<text class="tex theTex">
-						这是一个用户名称
+						朋友圈推广转发每个2元6小时后截图
 					</text>
 				</view>
 				<view class="line">
@@ -45,7 +40,7 @@
 						任务金额：
 					</text>
 					<text class="tex theTex redFont">
-						9.99元
+						2.50元
 					</text>
 				</view>
 				<view class="line">
@@ -173,12 +168,16 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
+		height: auto;
 	}
 	
 	.imgContainer image{
 		width: 70upx;
 		height: 70upx;
 		margin: 0 12upx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	
 	.theLine{
@@ -192,6 +191,14 @@
 	.blueFont{
 		color: #007AFF;
 	}
-	
+	.bottom_btn{
+		background-color:#1BCC8D ;
+		color: #FFFFFF;
+		height: 88upx;
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		align-items: center;
+	}
 
 </style>
