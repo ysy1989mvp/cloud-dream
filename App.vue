@@ -27,4 +27,14 @@
 		line-height: 88upx;
 		font-size:24upx;
 	}
+	.button_ysy{
+		background-color: #1BCC8D;
+		border-radius: 20upx;
+		text-align: center;
+		padding: 0upx ;
+		margin: 15upx auto;
+		height: 88upx;
+		line-height: 88upx;
+		color: #FFFFFF;
+	}
 </style>

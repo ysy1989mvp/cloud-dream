@@ -1,91 +1,81 @@
 <template>
 	<view class="container">
 		<view class="content">
-			<view class="top">
-				<image src="../../../static/image/yangsongyan/release/07.png"></image>
-			</view>
-			<view class="float1">
-				<view class="title">
-					<image src="../../../static/image/yangsongyan/release/03@3x.png"></image>
-					<text>任务内容</text>
+			<view class="part1">
+				<view class="text">
+					<textarea maxlength="500" placeholder="发布您的内容……"></textarea>
 				</view>
-				<view class="release_tozhi">
-					<textarea class="uni-textarea" placeholder="点击输入文字……">
-						
-					</textarea>
-					<view>0/500</view>
+				<view class="upload_imgs">
+					<uploadimgs></uploadimgs>
 				</view>
 			</view>
-			<view class="bottom">
-				<view class="bottom_content">
-					<view class="part1">
-						<image class="part_img" src="../../../static/image/yangsongyan/release/01@3x.png"></image>
-						<text>类别:</text>
-						<text>抖音点赞+关注+评论</text>
-					</view>
-					<view class="part1">
-						<image class="part_img" src="../../../static/image/yangsongyan/release/02@3x.png"></image>
-						<text>任务单价:</text>
-						<text>3.02元</text>
-					</view>
-					<view class="part1">
-						<image class="part_img" src="../../../static/image/yangsongyan/release/06@3x.png"></image>
-						<text>时间节点:</text>
-						<view class="jiajian">
-							<view class="quanquan">-</view>
-							<text>1天</text>
-							<view class="quanquan">+</view>
-						</view>
-					</view>
-					<view class="part1">
-						<image class="part_img" src="../../../static/image/yangsongyan/release/04@3x.png"></image>
-						<text>任务数量:</text>
-						<view class="jiajian">
-							<view class="quanquan">-</view>
-							<text>100</text>
-							<view class="quanquan">+</view>
-						</view>
-					</view>
-					<view class="part1">
-						<image class="part_img" src="../../../static/image/yangsongyan/release/05@3x.png"></image>
-						<text>任务网址:</text>
-						<input type="text" placeholder=" "/>
-					</view>
-					<view class="part2">
-						#总金额1200.00元 服务费0.00元，退单按原款
-					</view>
-					<view class="part3">
-						<view class="login_btn">
-							<text>发&nbsp;&nbsp;&nbsp;&nbsp;布</text>
-						</view>
-					</view>
-					<view class="part4">
-						<p @click="zhanshi">
-							温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择分类，正确的分类会提供用户做任务的效率哦，而展开
-							温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择分类，正确的分类会提供用户做任务的效率哦，而展开
-							温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择分类，正确的分类会提供用户做任务的效率哦，而展开
-							温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择分类，正确的分类会提供用户做任务的效率哦，而展开
-						</p>
+			<view class="part2">
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/02@3x.png"></image>
+					<view class="leibie">类别:</view>
+					<view>抖音点赞+评论</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
+					<view class="leibie">标题:</view>
+					<view>帮忙转发推广</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
+					<view class="leibie">任务单价:</view>
+					<view>1.20元</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/04@3x.png"></image>
+					<view class="leibie">任务数量:</view>
+					<view class="shuliangannniu">
+						<view class="xiaoanniu">-</view>
+						<view class="number">100</view>
+						<view class="xiaoanniu">+</view>
 					</view>
 				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/07@3x.png"></image>
+					<view class="leibie">时间节点:</view>
+					<view class="shuliangannniu">
+						<view class="xiaoanniu">-</view>
+						<view class="number">一天</view>
+						<view class="xiaoanniu">+</view>
+					</view>
+				</view>
+				<view class="content1">
+					<view class="leibie suojin">网址:</view>
+					<view class="wangzhi">http://taskdo.baijinglv.top/a</view>
+				</view>
 			</view>
-			
+			<view class="part3">
+				<view class="totle">#总金额1200.00元   服务费0.00元，退单按原款</view>
+				<view class="button_ysy">
+					发布
+				</view>
+				<view class="tishi">
+					温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择
+					分类，正确的分类会提供用户做任务的效率哦
+					
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
 
 <script>
-	
+	import uploadimgs from "@/components/upload-image/upload-imgs.vue"
 	export default {
+		components: {
+			uploadimgs
+		},
 		data() {
 			return {
-				
+
 			}
 		},
 		methods: {
-			zhanshi(e){
-				// console.log(e);
-			}
+
 		}
 	}
 </script>
@@ -94,149 +84,105 @@
 	*{
 		/* border: 1px solid red; */
 	}
-	image{
-		width: 100%;
-		height: 207upx;
+	.container{
+		border-top:10upx solid #E5E5E5 ;
 	}
-	.top{
-		width: 100%;
-	}
-	.content{
-		position: relative;
-	}
-	.float1{
-		/* float:left; */
-		width: 84%;
-		height: 270upx;
-		position: absolute;
-		left: 8%;
-		top:130upx;
-		z-index: 100;
-		background-color: #FFFFFF;
-		border-radius: 20upx;
-		/* box-shadow: 2 2 5 #333333; */
-		box-shadow: inset -2px -2px 8px #e5e5e5;
-	}
-	
-	.title{
-		display: flex;
-		
-	}
-	.title>image{
-		width: 72upx;
-		height: 72upx;
-	}
-	.title>text{
-		font-size: 35upx;
-		line-height: 75upx;
-		font-weight: 500;
-	}
-	.uni-textarea{
-		margin-left: 2%;
-		width: 94%;
-		height: 170upx;
-		background-color: #EEEEEE;
-		border-radius: 0 0 20upx 20upx;
-		font-size: 28upx;
-		line-height: 40upx;
-		padding-top: 10upx;
-		padding-left: 10upx;
-	}
-	.release_tozhi{
-		display: flex;
-	}
-	.release_tozhi>view{
-		width: 52upx;
-		height: 20upx;
-		font-size: 18upx;
-		line-height: 20upx;
-		margin-left: -70upx;
-		margin-top: 142upx;
-		z-index: 100;
-		color: #FF0000;
-	}
-	.bottom{
-		width: 100%;
-		background-color: #FFFFFF;
-		margin-top: 10upx;
-		
-	}
-	.bottom_content{
-		width: 100%;
-		padding-top: 200upx;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-	.part_img{
-		width: 66upx;
-		height: 66upx;
-	}
-	.login_btn{
-		width: 350upx;
-		height: 88upx;
-		background-color:#14c790;
-		border-radius: 40upx;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: #FFFFFF;
-		margin-top: 150upx;
-	}
-	.part1{
-		display: flex;
-		align-items: center;
+	.text{
 		width: 90%;
-		font-size: 30upx;
-		line-height: 66upx;
-		margin-bottom: 15upx;
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items:center;
+		margin: 15upx auto;
 	}
-	.part1>image{
-		margin-right: 10upx;
+	.text>textarea{
+		border:1px solid #E5E5E5;
+		width: 100%;
 	}
-	.part1>text{
-		margin-right: 20upx;
-	}
-	input{
-		border: 1upx solid #666666;
-		border-radius: 8upx;
-		line-height: 66upx;
+	.upload_imgs{
+		width: 90%;
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items:center;
+		margin: 0upx auto;
 	}
 	.part2{
-		font-size:24upx;
-		color: #ff5400;
-		margin-top: 20upx;
+		width: 90%;
+		margin: 0upx auto;
+		display: flex;
+		/* height: 140upx; */
+		justify-content:center;
+		align-items:flex-start;
+		flex-direction: column;
+		font-size: 32upx;
+		line-height: 80upx;
 	}
-	.part4{
-		font-size: 18upx;
-		color: #a2a2a2;
-		width: 70%;
-		margin-top: 30upx;
-		padding-bottom: 100upx;
+	.content1{
+		display: flex;
 	}
-	p{
+	.image_view{
+		width: 80upx;
+		height: 80upx;
+	}
+	.leibie{
+		margin-right: 10upx;
+	}
+	.shuliangannniu{
+		display: flex;
+		/* height: 140upx; */
+		justify-content:space-between;
+		align-items:center;
+		flex-direction: row;
+	}
+	.xiaoanniu{
+		width: 40upx;
+		height: 40upx;
+		border-radius: 20upx;
+		background-color: #C5C5C5;
+		line-height: 40upx;
+		font-size: 40upx;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	.part3{
+		width: 90%;
+		margin: 0upx auto;
+	}
+	.number{
+		margin: 0upx 20upx;
+	}
+	.totle{
+		text-align: center;
+	}
+	.totle{
+		color: #FF5400;
+		font-size: 28upx;
+		margin-top: 80upx;
+	}
+	.tishi{
+		color: #A5A5A5;
+		font-size: 25upx;
+		width: 80%;
+		text-align: center;
+		margin: 0upx auto;
 		-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
 		-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
 		word-break: break-all; /* // 使<p>中的文字换行 */
 		overflow: hidden; /* // 超出的文字部分隐藏 */
 		text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
 		display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+		margin-top: 20upx;
 	}
-	.jiajian{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 180upx;
+	.button_ysy{
+		width: 70% ;
+		margin-top: 50upx;
+		margin-bottom: 50upx;
 	}
-	.quanquan{
-		color: #FFFFFF;
-		width: 40upx;
-		height: 40upx;
-		background-color: #BFBFBF;
-		font-size: 40upx;
-		line-height: 35upx;
-		text-align: center;
-		border-radius: 20upx;
+	.suojin{
+		margin-left: 20upx;
+	}
+	.wangzhi{
+		color: #4ea7df;
 	}
 </style>

@@ -1,46 +1,43 @@
 <template>
 	<view class="container">
-		<view class="content1">
-			<view>
-				<text class="title">单号:</text>
-				<text class="content">1000214520002</text>
-			</view>
-			<view>
-				<text class="title">类别:</text>
-				<text class="content">朋友圈推广</text>
-			</view>
-			<view>
-				<text class="title">任务数量:</text>
-				<text class="content">100</text>
-			</view>
-			<view>
-				<text class="title">任务网址:</text>
-				<text class="content mya">http://taskdo.beijinglv.top/a</text>
-			</view>
-			<view>
-				<text class="title">任务图片:</text>
-				<view>
-					<image class="imger" src="../../../static/image/yangsongyan/release03/03.png"></image>
-					<image class="imger" src="../../../static/image/yangsongyan/release03/04.png"></image>
-					<image class="imger" src="../../../static/image/yangsongyan/release03/05.png"></image>
-					<image class="imger" src="../../../static/image/yangsongyan/release03/06.png"></image>
+		<view class="content">
+			<view class="part1">
+				<view class="text">
+					<textarea maxlength="500" placeholder="发布您的内容……"></textarea>
+				</view>
+				<view class="upload_imgs">
+					<uploadimgs></uploadimgs>
 				</view>
 			</view>
-			<view>
-				<text class="title">订单总金额:</text>
-				<text class="content">1023.00元</text>
-			</view>
-			<!-- <view>
-				<text class="title">付款方式:</text>
-				<view>
-					<image class="imger1" src="../../../static/image/yangsongyan/release03/01@3x.png"></image>
-					<image class="imger1" src="../../../static/image/yangsongyan/release03/02@3x.png"></image>
-					<image class="imger1"></image>
+			<view class="part2">
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/02@3x.png"></image>
+					<view class="leibie">类别:</view>
+					<view>朋友圈推广</view>
 				</view>
-			</view> -->
-			<view>
-				<view class="login" @click="regist">
-					<text class="dd1">发&nbsp;&nbsp;布</text>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
+					<view class="leibie">单号:</view>
+					<view>1000214520002</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
+					<view class="leibie">任务数量:</view>
+					<view>1200</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
+					<view class="leibie">订单总金额:</view>
+					<view>1200.00</view>
+				</view>
+				<view class="content1">
+					<view class="leibie suojin">网址:</view>
+					<view class="wangzhi">http://taskdo.baijinglv.top/a</view>
+				</view>
+			</view>
+			<view class="part3">
+				<view class="button_ysy">
+					发布
 				</view>
 			</view>
 		</view>
@@ -48,71 +45,125 @@
 </template>
 
 <script>
+	import uploadimgs from "@/components/upload-image/upload-imgs.vue"
 	export default {
+		components: {
+			uploadimgs
+		},
 		data() {
 			return {
-				
+
 			}
 		},
 		methods: {
-			
+
 		}
 	}
 </script>
 
 <style>
 	*{
-		/* border:1upx solid red; */
+		/* border: 1px solid red; */
 	}
 	.container{
-		background-color: #FFFFFF;
-		width: 100%;
+		border-top:10upx solid #E5E5E5 ;
 	}
-	.content1{
+	.text{
 		width: 90%;
 		display: flex;
-		justify-content: space-between;
-		flex-direction: column;
-		align-items: center;
-		margin: 0upx auto;
-		font-size: 33upx;
-		
-	}
-.login{
-		width: 450upx;
-		height: 88upx;
-		background-color:#14c790;
-		border-radius: 30upx;
-		display: flex;
+		/* height: 140upx; */
 		justify-content: center;
-		align-items: center;
-		margin: 0upx auto;
-		margin-top: 200upx;
-		margin-bottom: 500upx;
+		align-items:center;
+		margin: 15upx auto;
 	}
-	.content1>view{
-		display: flex;
-		justify-content: flex-start;
-		flex-direction: row;
+	.text>textarea{
+		border:1px solid #E5E5E5;
 		width: 100%;
-		margin: 15upx 0upx;
 	}
-	.title{
-		font-weight: bold;
-		margin-right: 15upx;
+	.upload_imgs{
+		width: 90%;
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items:center;
+		margin: 0upx auto;
 	}
-	.mya{
-		color:#007AFF;
+	.part2{
+		width: 90%;
+		margin: 0upx auto;
+		display: flex;
+		/* height: 140upx; */
+		justify-content:center;
+		align-items:flex-start;
+		flex-direction: column;
+		font-size: 32upx;
+		line-height: 80upx;
 	}
-	.imger{
-		width: 90upx;
-		height: 90upx;
-		border-radius: 10upx;
+	.content1{
+		display: flex;
+	}
+	.image_view{
+		width: 80upx;
+		height: 80upx;
+	}
+	.leibie{
 		margin-right: 10upx;
 	}
-	.imger1{
-		width: 90upx;
-		height: 90upx;
-		margin-right: 50upx;
+	.shuliangannniu{
+		display: flex;
+		/* height: 140upx; */
+		justify-content:space-between;
+		align-items:center;
+		flex-direction: row;
+	}
+	.xiaoanniu{
+		width: 40upx;
+		height: 40upx;
+		border-radius: 20upx;
+		background-color: #C5C5C5;
+		line-height: 40upx;
+		font-size: 40upx;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	.part3{
+		width: 90%;
+		margin: 0upx auto;
+	}
+	.number{
+		margin: 0upx 20upx;
+	}
+	.totle{
+		text-align: center;
+	}
+	.totle{
+		color: #FF5400;
+		font-size: 28upx;
+		margin-top: 80upx;
+	}
+	.tishi{
+		color: #A5A5A5;
+		font-size: 25upx;
+		width: 80%;
+		text-align: center;
+		margin: 0upx auto;
+		-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
+		-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
+		word-break: break-all; /* // 使<p>中的文字换行 */
+		overflow: hidden; /* // 超出的文字部分隐藏 */
+		text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
+		display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+		margin-top: 20upx;
+	}
+	.button_ysy{
+		width: 70% ;
+		margin-top: 50upx;
+		margin-bottom: 50upx;
+	}
+	.suojin{
+		margin-left: 20upx;
+	}
+	.wangzhi{
+		color: #4ea7df;
 	}
 </style>

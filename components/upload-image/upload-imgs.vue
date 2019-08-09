@@ -30,7 +30,7 @@
 			</view>
 	 
 		</view>
-		<view class='info'>上传证书/证件，不超过{{imageLength}}张。(非必填)</view>
+		<view class='info'>上传图片，不超过{{imageLength}}张。(非必填)</view>
 	</view>
 	<!-- 图片上传 -->
 </template>

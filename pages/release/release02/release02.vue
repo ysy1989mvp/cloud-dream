@@ -3,14 +3,58 @@
 		<view class="content">
 			<view class="part1">
 				<view class="text">
-					<textarea maxlength="500"></textarea>
+					<textarea maxlength="500" placeholder="发布您的内容……"></textarea>
 				</view>
-				<view>
+				<view class="upload_imgs">
 					<uploadimgs></uploadimgs>
 				</view>
 			</view>
-			<view class="part2"></view>
-			<view class="part3"></view>
+			<view class="part2">
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/02@3x.png"></image>
+					<view class="leibie">类别:</view>
+					<view>抖音点赞+评论</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
+					<view class="leibie">标题:</view>
+					<view>帮忙转发推广</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
+					<view class="leibie">任务单价:</view>
+					<view>1.20元</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/04@3x.png"></image>
+					<view class="leibie">任务数量:</view>
+					<view class="shuliangannniu">
+						<view class="xiaoanniu">-</view>
+						<view class="number">100</view>
+						<view class="xiaoanniu">+</view>
+					</view>
+				</view>
+				<view class="content1">
+					<image class="image_view" src="../../../static/image/yangsongyan/release02/07@3x.png"></image>
+					<view class="leibie">时间节点:</view>
+					<view class="shuliangannniu">
+						<view class="xiaoanniu">-</view>
+						<view class="number">一天</view>
+						<view class="xiaoanniu">+</view>
+					</view>
+				</view>
+			</view>
+			<view class="part3">
+				<view class="totle">#总金额1200.00元，退单按原款</view>
+				<view class="button_ysy">
+					发布
+				</view>
+				<view class="tishi">
+					温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择
+					分类，正确的分类会提供用户做任务的效率哦
+					
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -33,4 +77,102 @@
 </script>
 
 <style>
+	*{
+		/* border: 1px solid red; */
+	}
+	.container{
+		border-top:10upx solid #E5E5E5 ;
+	}
+	.text{
+		width: 90%;
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items:center;
+		margin: 15upx auto;
+	}
+	.text>textarea{
+		border:1px solid #E5E5E5;
+		width: 100%;
+	}
+	.upload_imgs{
+		width: 90%;
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items:center;
+		margin: 0upx auto;
+	}
+	.part2{
+		width: 90%;
+		margin: 0upx auto;
+		display: flex;
+		/* height: 140upx; */
+		justify-content:center;
+		align-items:flex-start;
+		flex-direction: column;
+		font-size: 32upx;
+		line-height: 80upx;
+	}
+	.content1{
+		display: flex;
+	}
+	.image_view{
+		width: 80upx;
+		height: 80upx;
+	}
+	.leibie{
+		margin-right: 10upx;
+	}
+	.shuliangannniu{
+		display: flex;
+		/* height: 140upx; */
+		justify-content:space-between;
+		align-items:center;
+		flex-direction: row;
+	}
+	.xiaoanniu{
+		width: 40upx;
+		height: 40upx;
+		border-radius: 20upx;
+		background-color: #C5C5C5;
+		line-height: 40upx;
+		font-size: 40upx;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	.part3{
+		width: 90%;
+		margin: 0upx auto;
+	}
+	.number{
+		margin: 0upx 20upx;
+	}
+	.totle{
+		text-align: center;
+	}
+	.totle{
+		color: #FF5400;
+		font-size: 28upx;
+		margin-top: 80upx;
+	}
+	.tishi{
+		color: #A5A5A5;
+		font-size: 25upx;
+		width: 80%;
+		text-align: center;
+		margin: 0upx auto;
+		-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
+		-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
+		word-break: break-all; /* // 使<p>中的文字换行 */
+		overflow: hidden; /* // 超出的文字部分隐藏 */
+		text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
+		display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+		margin-top: 20upx;
+	}
+	.button_ysy{
+		width: 70% ;
+		margin-top: 50upx;
+		margin-bottom: 50upx;
+	}
 </style>

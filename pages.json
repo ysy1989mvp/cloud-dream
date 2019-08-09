@@ -51,7 +51,9 @@
 		,{
             "path" : "pages/release/release02/release02",
             "style" : {
-				"navigationBarTitleText": "抖音点赞"
+				"navigationBarTitleText": "抖音点赞",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle":"black"
 			}
         }
 		,{
