@@ -193,8 +193,8 @@
 			color: #007AFF;
 		}
 		.popContent{
-			width: 100%;
-			padding-bottom: 600upx;
+			width: 20%;
+			margin-bottom: 480upx;
 			display: flex;
 			flex-direction: column;
 			align-items: center;

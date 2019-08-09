@@ -1,4 +1,6 @@
 {
-  "navigationBarTitleText": "抖客",
+  "navigationBarTitleText": "收徒（推广）",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
   "usingComponents": {}
 }

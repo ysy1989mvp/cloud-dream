@@ -183,11 +183,11 @@
 .content{
 	width: 100%;
 	position: relative;
-	margin-top: 90rpx;
+	margin-top: 60rpx;
 }
 .weui-navbar{
 	position: fixed;
-	top: 80rpx;
+	top: 20rpx;
 	left: 0;
 	display: -webkit-box;
 	display: -webkit-flex;

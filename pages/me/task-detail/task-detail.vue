@@ -96,7 +96,7 @@
 	}
 	.content{
 		font-size:27upx;
-		line-height: 74upx;
+		line-height: 54upx;
 		color: #5D5D5D;
 		background-color: #E5E5E5;
 	}

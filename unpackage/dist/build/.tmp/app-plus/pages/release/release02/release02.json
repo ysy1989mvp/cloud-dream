@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "抖音点赞",
-  "usingComponents": {}
+  "usingComponents": {
+    "uploadimgs": "/components/upload-image/upload-imgs"
+  }
 }

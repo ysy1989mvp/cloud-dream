@@ -109,9 +109,12 @@
 	}
 	.bottom_btn{
 		color: #FFFFFF;
-		font-size: 34upx;
-		background-color: #1BCC8D
-		
+		font-size: 40upx;
+		background-color: #1BCC8D;
+		height: 88upx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	._part{
 		border-bottom:5upx solid #F5F5F5 ;

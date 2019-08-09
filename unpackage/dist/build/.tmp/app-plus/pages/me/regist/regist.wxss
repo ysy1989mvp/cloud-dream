@@ -2,19 +2,18 @@
 .content{
 	font-size:32rpx;
 	background-color:#FFFFFF ;
+	padding-top:50rpx;
 }
 input{
 	width: 400rpx;
-	border: 1.5px solid #14C790;
 	height: 58rpx;
-	border-radius: 10rpx;
 	/* background-color: ; */
 	/* display: flex;
 	justify-content:flex-end;
 	align-items:stretch; */
 }
 .part1{
-	width: 100%;
+	width: 95%;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -53,7 +52,7 @@ input{
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	margin-bottom: 15rpx;
+	margin-bottom: 35rpx;
 }
 .c1{
 	/* color:#ffffff; */
@@ -61,7 +60,7 @@ input{
 	font-weight: 146rpx;
 	line-height: 44rpx;
 	width: 240rpx;
-	margin-left:34rpx;
+	margin-left:-14rpx;
 }
 .part2{
 	width: 100%;
@@ -72,7 +71,7 @@ input{
 	padding-bottom: 100rpx;
 }
 .smpt>text{
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 .anniu{
 	width: 130rpx;

@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "抖客",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
   "usingComponents": {}
 }

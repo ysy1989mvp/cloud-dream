@@ -67,15 +67,14 @@
 	.content{
 		width: 100%;
 		position: relative;
-		margin-top: 90upx;
+		margin-top: 60upx;
 	}
 	
 	.weui-navbar{
 		position: fixed;
-		top: 80upx;
+		top: 20upx;
 		left: 0;
 		display: flex;
-		
 	}
 	
 	.line{

@@ -40,7 +40,7 @@
 	bottom: 25rpx;
 }
 .part_float view {
-	width: 20%;
+	width: 30%;
 }
 .part_float view image {
 	width: 70rpx;
@@ -181,11 +181,11 @@
 	border-bottom-right-radius: 10rpx;
 }
 text{
-	font-size: 50rpx;
+	font-size: 40rpx;
 	width: 100%;
 	display: block;
 	text-align: center;
-	line-height: 300rpx;
+	line-height: 800rpx;
 }
 .content {
 	background-color: #FFFFFF;
@@ -319,6 +319,26 @@ text{
 }
 .iptNum{
 	font-size: 28rpx;
+}
+.bottom_btn{
+	background-color:#1BCC8D ;
+	color:#FFFFFF;
+	height: 88rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.bottom{
+	padding-top:100rpx
 }
 
 

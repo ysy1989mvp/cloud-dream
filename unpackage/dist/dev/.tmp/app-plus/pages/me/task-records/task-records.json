@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "任务记录",
-  "usingComponents": {}
+  "usingComponents": {
+    "weui-tabs": "/components/weui-navbar"
+  }
 }

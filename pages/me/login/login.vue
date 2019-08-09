@@ -48,13 +48,13 @@
 		},
 		methods: {
 			logining() {
-				if (this.mobile.trim() == '' || !(/^1[3456789]\d{9}$/.test(this.mobile))) {
-					util.showWindow("电话号码格式错误");
-					return;
-				} else if (this.password.trim() == '') {
-					util.showWindow("密码输入错误");
-					return;
-				}
+				// if (this.mobile.trim() == '' || !(/^1[3456789]\d{9}$/.test(this.mobile))) {
+				// 	util.showWindow("电话号码格式错误");
+				// 	return;
+				// } else if (this.password.trim() == '') {
+				// 	util.showWindow("密码输入错误");
+				// 	return;
+				// }
 				let params = {
 					"mobile": this.mobile,
 					"password": this.password
@@ -76,6 +76,9 @@
 						util.showWindow("登录请求错误");
 					}
 				});
+				uni.switchTab({
+					url: "../../home/index/index"
+				})
 			},
 			noHaveUserName() {
 				uni.navigateTo({

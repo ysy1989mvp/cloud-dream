@@ -32,14 +32,14 @@
 	        flex-direction: column;
 	border-radius: 30rpx;
 }
-.release_content>text{
+.release_content>text {
 	margin-bottom: 10rpx;
 }
-.login_btn{
+.login_btn {
 	margin-top: 20rpx;
 	width: 195rpx;
 	height: 54rpx;
-	background-color:#14c790;
+	background-color: #14c790;
 	border-radius: 30rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -54,12 +54,12 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.text1{
+.text1 {
 	font-weight: bold;
 }
-.text2{
+.text2 {
 	color: red;
-	font-size:40rpx;
+	font-size: 40rpx;
 	background-color: #1BCC8D;
 	/* padding:4upx 50upx; */
 	border-radius: 30rpx;

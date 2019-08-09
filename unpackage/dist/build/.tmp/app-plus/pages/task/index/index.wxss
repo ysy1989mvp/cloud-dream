@@ -17,9 +17,14 @@ page {
 }
 .douyin {
 	color: red;
+	margin-left:12rpx;
+}
+.small{
+	margin-left:12rpx;
 }
 .right {
 	line-height: 40rpx;
+	height: 140rpx;
 }
 .btn {
 	height: 40rpx;
@@ -37,8 +42,8 @@ page {
 	margin-bottom: 12rpx;
 }
 .left image {
-	width: 152rpx;
-	height: 152rpx;
+	width: 120rpx;
+	height: 120rpx;
 	margin-right: 24rpx;
 }
 .tex {
@@ -86,6 +91,10 @@ page {
 .scroll-h {
 	width: 750rpx;
 	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
@@ -95,6 +104,10 @@ page {
 	background-color: #FFFFFF;
 	position: fixed;
 	z-index: 10;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .container {
 	margin-top: 50px;
@@ -108,8 +121,8 @@ page {
 	    -ms-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
 	border-bottom: 2rpx red solid;
-	padding-left: 34rpx;
-	padding-right: 34rpx;
+	padding-left: 70rpx;
+	padding-right: 70rpx;
 }
 .uni-tab-item-title {
 	color: rgb(110, 107, 107);

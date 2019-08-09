@@ -1,7 +1,7 @@
 
 .content{
 	font-size:27rpx;
-	line-height: 74rpx;
+	line-height: 54rpx;
 	color: #5D5D5D;
 	background-color: #E5E5E5;
 }
