@@ -242,7 +242,6 @@
 	-webkit-align-items: flex-start;
 	    -ms-flex-align: start;
 	        align-items: flex-start;
-	height: auto;
 }
 .imgContainer image{
 	width: 70rpx;

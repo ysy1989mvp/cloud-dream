@@ -194,11 +194,23 @@
 	background-color: #1BCC8D
 }
 ._part{
-	border-bottom:1rpx solid #F5F5F5;
-	padding-bottom: 60rpx;
+	border-bottom:5rpx solid #F5F5F5;
+	padding-bottom: 40rpx;
 }
 .container{
 	background-color:#FFFFFF ;
+}
+.topImg{
+	width: 100%;
+	height: 300rpx;
+}
+.part_float{
+	margin-bottom: -150rpx;
+	width: 97%;
+	margin-left: 1%;
+}
+.part_{
+	margin-bottom: 155rpx;
 }
 
 

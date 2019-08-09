@@ -1289,5 +1289,14 @@ page{line-height:1.6;font-family:-apple-system-font,Helvetica Neue,sans-serif}ic
 	border-radius: 10rpx;
 	line-height: 88rpx;
 	font-size:24rpx;
+}.button_ysy{
+	background-color: #1BCC8D;
+	border-radius: 20rpx;
+	text-align: center;
+	padding: 0rpx;
+	margin: 15rpx auto;
+	height: 88rpx;
+	line-height: 88rpx;
+	color: #FFFFFF;
 }
 

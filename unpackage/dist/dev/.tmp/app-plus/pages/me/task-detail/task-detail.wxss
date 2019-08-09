@@ -1,7 +1,7 @@
 
 .content{
 	font-size:27rpx;
-	line-height: 54rpx;
+	line-height: 74rpx;
 	color: #5D5D5D;
 	background-color: #E5E5E5;
 }
@@ -56,7 +56,7 @@
 .tab22{
 	display: table-cell;
 	width:70%;
-	line-height: 50rpx;
+	line-height: 70rpx;
 }
 .img_img{
 	width:96rpx;
@@ -137,5 +137,7 @@
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	font-size:40rpx;
+	color: #FFFFFF;
 }
 

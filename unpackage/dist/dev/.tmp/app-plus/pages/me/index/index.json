@@ -1,4 +1,6 @@
 {
-  "navigationBarTitleText": "抖客",
+  "navigationBarTitleText": "会员中心",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
   "usingComponents": {}
 }
