@@ -46,7 +46,7 @@
 					<text class="tex">朋友圈分享</text>
 				</view>
 				<view class="skilled_part">
-					<image src="../../../static/image/04@2x.png" mode="aspectFill"></image>
+					<image src="../../../static/image/04@2x.png" @click="howsave" mode="aspectFill"></image>
 					<text class="tex">如何赚钱</text>
 				</view>
 				<view class="skilled_part">
@@ -183,13 +183,19 @@
 					url: "../../me/task-detail/task-detail"
 				})
 			},
+			howsave:function(){
+				uni.navigateTo({
+					url: "../../me/how-save/how-save"
+				})
+			},
 			showMarquee: function () {
                 this.animate = true;
                 setTimeout(()=>{
                     this.marqueeList.push(this.marqueeList[0]);
                 this.marqueeList.shift();
                 this.animate = false;
-            },500)}
+            },500)},
+			
 		}
 	}
 </script>

@@ -1,7 +1,7 @@
 
 .content{
 	font-size:27rpx;
-	line-height: 54rpx;
+	line-height: 74rpx;
 	color: #5D5D5D;
 	background-color: #E5E5E5;
 }
@@ -56,7 +56,7 @@
 .tab22{
 	display: table-cell;
 	width:70%;
-	line-height: 50rpx;
+	line-height: 70rpx;
 }
 .img_img{
 	width:96rpx;
@@ -104,5 +104,40 @@
 	margin-left: 40rpx;
 	font-size: 20rpx;
 	color: red;
+}
+.part2{
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.login{
+	width: 450rpx;
+	height: 88rpx;
+	background-color:#14c790;
+	border-radius: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size:40rpx;
+	color: #FFFFFF;
 }
 

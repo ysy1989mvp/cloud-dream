@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "朋友圈推广",
-  "usingComponents": {}
+  "usingComponents": {
+    "uploadimgs": "/components/upload-image/upload-imgs"
+  }
 }

@@ -53,12 +53,20 @@
 		height: 50px;
 	}
 	.tag{
-		font-size: 32upx;
-		padding:2upx 20upx;
-		margin: 20upx 10upx;
-		background-color: #d5d5d5;
+		font-size: 28upx;
+		padding:2upx 0upx;
+		margin: 5upx 0upx;
+		/* background-color: #d5d5d5; */
 		color:#000000;
 		border-radius: 20upx;
 		margin-bottom: 0upx;
+	}
+	.part{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.part>view{
+		width: 100upx;
 	}
 </style>

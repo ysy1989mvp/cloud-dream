@@ -40,7 +40,7 @@
 	bottom: 25rpx;
 }
 .part_float view {
-	width: 20%;
+	width: 30%;
 }
 .part_float view image {
 	width: 70rpx;
@@ -184,6 +184,33 @@
 	width: 100%;
 	background-color: #FFFFFF;
 	position: relative;
+}
+.bottom{
+	color: #1BCC8D;
+}
+.bottom_btn{
+	color: #FFFFFF;
+	font-size: 34rpx;
+	background-color: #1BCC8D
+}
+._part{
+	border-bottom:5rpx solid #F5F5F5;
+	padding-bottom: 40rpx;
+}
+.container{
+	background-color:#FFFFFF ;
+}
+.topImg{
+	width: 100%;
+	height: 300rpx;
+}
+.part_float{
+	margin-bottom: -150rpx;
+	width: 97%;
+	margin-left: 1%;
+}
+.part_{
+	margin-bottom: 155rpx;
 }
 
 

@@ -12,8 +12,6 @@
     "pages/release/release03/release03",
     "pages/task/task-records/task-records",
     "pages/task/task-detail/task-detail",
-    "pages/me/recharge/recharge",
-    "pages/me/vip-center/vip-center",
     "pages/me/regist-result/regist-result",
     "pages/me/regist/regist",
     "pages/me/modify-password/modify-password",
@@ -42,7 +40,8 @@
     "pages/me/how-release/how-release",
     "pages/me/channel/channel",
     "pages/me/my-agent/my-agent",
-    "pages/me/channel-save/channel-save"
+    "pages/me/channel-save/channel-save",
+    "pages/me/shenhetongguo/shenhetongguo"
   ],
   "window": {
     "navigationBarTitleText": "云梦",

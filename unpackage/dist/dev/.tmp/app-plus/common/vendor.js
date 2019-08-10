@@ -8,7 +8,11 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ 4);\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _App = _interopRequireDefault(__webpack_require__(/*! ./App */ 5));\n\nvar _util = _interopRequireDefault(__webpack_require__(/*! ./common/util.js */ 8));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var weuiTabs = function weuiTabs() {return __webpack_require__.e(/*! import() | components/weui-navbar */ \"components/weui-navbar\").then(__webpack_require__.bind(null, /*! ./components/weui-navbar.vue */ 349));};\n\n\n_vue.default.component('weui-tabs', weuiTabs);\n_vue.default.prototype.util = _util.default; //挂载到Vue实例上面\n\n_vue.default.config.productionTip = false;\n\n_App.default.mpType = 'app';\n\nvar app = new _vue.default(_objectSpread({},\n_App.default));\n\ncreateApp(app).$mount();\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createApp\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbIlZ1ZSIsImNvbXBvbmVudCIsIndldWlUYWJzIiwicHJvdG90eXBlIiwidXRpbCIsImNvbmZpZyIsInByb2R1Y3Rpb25UaXAiLCJBcHAiLCJtcFR5cGUiLCJhcHAiLCIkbW91bnQiXSwibWFwcGluZ3MiOiJpREFBQTtBQUNBO0FBQ0E7O0FBRUEsbUY7OztBQUdBQSxhQUFJQyxTQUFKLENBQWMsV0FBZCxFQUEyQkMsUUFBM0I7QUFDQUYsYUFBSUcsU0FBSixDQUFjQyxJQUFkLEdBQXFCQSxhQUFyQixDLENBQTBCOztBQUUxQkosYUFBSUssTUFBSixDQUFXQyxhQUFYLEdBQTJCLEtBQTNCOztBQUVBQyxhQUFJQyxNQUFKLEdBQWEsS0FBYjs7QUFFQSxJQUFNQyxHQUFHLEdBQUcsSUFBSVQsWUFBSjtBQUNMTyxZQURLLEVBQVo7O0FBR0EsVUFBQUUsR0FBRyxFQUFDQyxNQUFKLEciLCJmaWxlIjoiMC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcclxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnXHJcbmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnXHJcbmltcG9ydCB3ZXVpVGFicyBmcm9tICcuL2NvbXBvbmVudHMvd2V1aS1uYXZiYXIudnVlJ1xyXG5pbXBvcnQgdXRpbCBmcm9tICcuL2NvbW1vbi91dGlsLmpzJ1xyXG5cclxuXHJcblZ1ZS5jb21wb25lbnQoJ3dldWktdGFicycsIHdldWlUYWJzKVxyXG5WdWUucHJvdG90eXBlLnV0aWwgPSB1dGlsIC8v5oyC6L295YiwVnVl5a6e5L6L5LiK6Z2iXHJcblxyXG5WdWUuY29uZmlnLnByb2R1Y3Rpb25UaXAgPSBmYWxzZVxyXG5cclxuQXBwLm1wVHlwZSA9ICdhcHAnXHJcblxyXG5jb25zdCBhcHAgPSBuZXcgVnVlKHtcclxuICAgIC4uLkFwcFxyXG59KVxyXG5hcHAuJG1vdW50KCkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ 4);\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _App = _interopRequireDefault(__webpack_require__(/*! ./App */ 5));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var weuiTabs = function weuiTabs() {return __webpack_require__.e(/*! import() | components/weui-navbar */ \"components/weui-navbar\").then(__webpack_require__.bind(null, /*! ./components/weui-navbar.vue */ 349));};\n\n\n_vue.default.component('weui-tabs', weuiTabs);\n\n_vue.default.config.productionTip = false;\n\n_App.default.mpType = 'app';\n\nvar app = new _vue.default(_objectSpread({},\n_App.default));\n\ncreateApp(app).$mount();\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createApp\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbIlZ1ZSIsImNvbXBvbmVudCIsIndldWlUYWJzIiwiY29uZmlnIiwicHJvZHVjdGlvblRpcCIsIkFwcCIsIm1wVHlwZSIsImFwcCIsIiRtb3VudCJdLCJtYXBwaW5ncyI6ImlEQUFBO0FBQ0E7QUFDQSx1RTs7O0FBR0FBLGFBQUlDLFNBQUosQ0FBYyxXQUFkLEVBQTJCQyxRQUEzQjs7QUFFQUYsYUFBSUcsTUFBSixDQUFXQyxhQUFYLEdBQTJCLEtBQTNCOztBQUVBQyxhQUFJQyxNQUFKLEdBQWEsS0FBYjs7QUFFQSxJQUFNQyxHQUFHLEdBQUcsSUFBSVAsWUFBSjtBQUNMSyxZQURLLEVBQVo7O0FBR0EsVUFBQUUsR0FBRyxFQUFDQyxNQUFKLEciLCJmaWxlIjoiMC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcclxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnXHJcbmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnXHJcbmltcG9ydCB3ZXVpVGFicyBmcm9tICcuL2NvbXBvbmVudHMvd2V1aS1uYXZiYXIudnVlJ1xyXG5cclxuVnVlLmNvbXBvbmVudCgnd2V1aS10YWJzJywgd2V1aVRhYnMpXHJcblxyXG5WdWUuY29uZmlnLnByb2R1Y3Rpb25UaXAgPSBmYWxzZVxyXG5cclxuQXBwLm1wVHlwZSA9ICdhcHAnXHJcblxyXG5jb25zdCBhcHAgPSBuZXcgVnVlKHtcclxuICAgIC4uLkFwcFxyXG59KVxyXG5hcHAuJG1vdW50KCkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 
 /***/ }),
 
@@ -36,10 +40,29 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 109:
 /*!**********************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fregist-result%2Fregist-result"} ***!
   \**********************************************************************************************************/
+=======
+/***/ 101:
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Ftask%2Ftask-detail%2Ftask-detail"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _taskDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/task/task-detail/task-detail.vue */ 102));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_taskDetail.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxtSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIxMDEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy90YXNrL3Rhc2stZGV0YWlsL3Rhc2stZGV0YWlsLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///101\n");
+
+/***/ }),
+
+/***/ 109:
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fregist-result%2Fregist-result"} ***!
+  \************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -60,6 +83,7 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 12:
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -69,13 +93,30 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return normalizeComponent; });\n/* globals __VUE_SSR_CONTEXT__ */\n\n// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).\n// This module is a runtime utility for cleaner component module output and will\n// be included in the final webpack user bundle.\n\nfunction normalizeComponent (\n  scriptExports,\n  render,\n  staticRenderFns,\n  functionalTemplate,\n  injectStyles,\n  scopeId,\n  moduleIdentifier, /* server only */\n  shadowMode /* vue-cli only */\n) {\n  // Vue.extend constructor export interop\n  var options = typeof scriptExports === 'function'\n    ? scriptExports.options\n    : scriptExports\n\n  // render functions\n  if (render) {\n    options.render = render\n    options.staticRenderFns = staticRenderFns\n    options._compiled = true\n  }\n\n  // functional template\n  if (functionalTemplate) {\n    options.functional = true\n  }\n\n  // scopedId\n  if (scopeId) {\n    options._scopeId = 'data-v-' + scopeId\n  }\n\n  var hook\n  if (moduleIdentifier) { // server build\n    hook = function (context) {\n      // 2.3 injection\n      context =\n        context || // cached call\n        (this.$vnode && this.$vnode.ssrContext) || // stateful\n        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional\n      // 2.2 with runInNewContext: true\n      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {\n        context = __VUE_SSR_CONTEXT__\n      }\n      // inject component styles\n      if (injectStyles) {\n        injectStyles.call(this, context)\n      }\n      // register component module identifier for async chunk inferrence\n      if (context && context._registeredComponents) {\n        context._registeredComponents.add(moduleIdentifier)\n      }\n    }\n    // used by ssr in case component is cached and beforeCreate\n    // never gets called\n    options._ssrRegister = hook\n  } else if (injectStyles) {\n    hook = shadowMode\n      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }\n      : injectStyles\n  }\n\n  if (hook) {\n    if (options.functional) {\n      // for template-only hot-reload because in that case the render fn doesn't\n      // go through the normalizer\n      options._injectStyles = hook\n      // register for functioal component in vue file\n      var originalRender = options.render\n      options.render = function renderWithStyleInjection (h, context) {\n        hook.call(context)\n        return originalRender(h, context)\n      }\n    } else {\n      // inject component registration as beforeCreate hook\n      var existing = options.beforeCreate\n      options.beforeCreate = existing\n        ? [].concat(existing, hook)\n        : [hook]\n    }\n  }\n\n  return {\n    exports: scriptExports,\n    options: options\n  }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRWU7QUFDZjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQSx5QkFBeUI7QUFDekI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7QUFDQSxxQkFBcUI7QUFDckI7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMTIuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBnbG9iYWxzIF9fVlVFX1NTUl9DT05URVhUX18gKi9cblxuLy8gSU1QT1JUQU5UOiBEbyBOT1QgdXNlIEVTMjAxNSBmZWF0dXJlcyBpbiB0aGlzIGZpbGUgKGV4Y2VwdCBmb3IgbW9kdWxlcykuXG4vLyBUaGlzIG1vZHVsZSBpcyBhIHJ1bnRpbWUgdXRpbGl0eSBmb3IgY2xlYW5lciBjb21wb25lbnQgbW9kdWxlIG91dHB1dCBhbmQgd2lsbFxuLy8gYmUgaW5jbHVkZWQgaW4gdGhlIGZpbmFsIHdlYnBhY2sgdXNlciBidW5kbGUuXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIG5vcm1hbGl6ZUNvbXBvbmVudCAoXG4gIHNjcmlwdEV4cG9ydHMsXG4gIHJlbmRlcixcbiAgc3RhdGljUmVuZGVyRm5zLFxuICBmdW5jdGlvbmFsVGVtcGxhdGUsXG4gIGluamVjdFN0eWxlcyxcbiAgc2NvcGVJZCxcbiAgbW9kdWxlSWRlbnRpZmllciwgLyogc2VydmVyIG9ubHkgKi9cbiAgc2hhZG93TW9kZSAvKiB2dWUtY2xpIG9ubHkgKi9cbikge1xuICAvLyBWdWUuZXh0ZW5kIGNvbnN0cnVjdG9yIGV4cG9ydCBpbnRlcm9wXG4gIHZhciBvcHRpb25zID0gdHlwZW9mIHNjcmlwdEV4cG9ydHMgPT09ICdmdW5jdGlvbidcbiAgICA/IHNjcmlwdEV4cG9ydHMub3B0aW9uc1xuICAgIDogc2NyaXB0RXhwb3J0c1xuXG4gIC8vIHJlbmRlciBmdW5jdGlvbnNcbiAgaWYgKHJlbmRlcikge1xuICAgIG9wdGlvbnMucmVuZGVyID0gcmVuZGVyXG4gICAgb3B0aW9ucy5zdGF0aWNSZW5kZXJGbnMgPSBzdGF0aWNSZW5kZXJGbnNcbiAgICBvcHRpb25zLl9jb21waWxlZCA9IHRydWVcbiAgfVxuXG4gIC8vIGZ1bmN0aW9uYWwgdGVtcGxhdGVcbiAgaWYgKGZ1bmN0aW9uYWxUZW1wbGF0ZSkge1xuICAgIG9wdGlvbnMuZnVuY3Rpb25hbCA9IHRydWVcbiAgfVxuXG4gIC8vIHNjb3BlZElkXG4gIGlmIChzY29wZUlkKSB7XG4gICAgb3B0aW9ucy5fc2NvcGVJZCA9ICdkYXRhLXYtJyArIHNjb3BlSWRcbiAgfVxuXG4gIHZhciBob29rXG4gIGlmIChtb2R1bGVJZGVudGlmaWVyKSB7IC8vIHNlcnZlciBidWlsZFxuICAgIGhvb2sgPSBmdW5jdGlvbiAoY29udGV4dCkge1xuICAgICAgLy8gMi4zIGluamVjdGlvblxuICAgICAgY29udGV4dCA9XG4gICAgICAgIGNvbnRleHQgfHwgLy8gY2FjaGVkIGNhbGxcbiAgICAgICAgKHRoaXMuJHZub2RlICYmIHRoaXMuJHZub2RlLnNzckNvbnRleHQpIHx8IC8vIHN0YXRlZnVsXG4gICAgICAgICh0aGlzLnBhcmVudCAmJiB0aGlzLnBhcmVudC4kdm5vZGUgJiYgdGhpcy5wYXJlbnQuJHZub2RlLnNzckNvbnRleHQpIC8vIGZ1bmN0aW9uYWxcbiAgICAgIC8vIDIuMiB3aXRoIHJ1bkluTmV3Q29udGV4dDogdHJ1ZVxuICAgICAgaWYgKCFjb250ZXh0ICYmIHR5cGVvZiBfX1ZVRV9TU1JfQ09OVEVYVF9fICE9PSAndW5kZWZpbmVkJykge1xuICAgICAgICBjb250ZXh0ID0gX19WVUVfU1NSX0NPTlRFWFRfX1xuICAgICAgfVxuICAgICAgLy8gaW5qZWN0IGNvbXBvbmVudCBzdHlsZXNcbiAgICAgIGlmIChpbmplY3RTdHlsZXMpIHtcbiAgICAgICAgaW5qZWN0U3R5bGVzLmNhbGwodGhpcywgY29udGV4dClcbiAgICAgIH1cbiAgICAgIC8vIHJlZ2lzdGVyIGNvbXBvbmVudCBtb2R1bGUgaWRlbnRpZmllciBmb3IgYXN5bmMgY2h1bmsgaW5mZXJyZW5jZVxuICAgICAgaWYgKGNvbnRleHQgJiYgY29udGV4dC5fcmVnaXN0ZXJlZENvbXBvbmVudHMpIHtcbiAgICAgICAgY29udGV4dC5fcmVnaXN0ZXJlZENvbXBvbmVudHMuYWRkKG1vZHVsZUlkZW50aWZpZXIpXG4gICAgICB9XG4gICAgfVxuICAgIC8vIHVzZWQgYnkgc3NyIGluIGNhc2UgY29tcG9uZW50IGlzIGNhY2hlZCBhbmQgYmVmb3JlQ3JlYXRlXG4gICAgLy8gbmV2ZXIgZ2V0cyBjYWxsZWRcbiAgICBvcHRpb25zLl9zc3JSZWdpc3RlciA9IGhvb2tcbiAgfSBlbHNlIGlmIChpbmplY3RTdHlsZXMpIHtcbiAgICBob29rID0gc2hhZG93TW9kZVxuICAgICAgPyBmdW5jdGlvbiAoKSB7IGluamVjdFN0eWxlcy5jYWxsKHRoaXMsIHRoaXMuJHJvb3QuJG9wdGlvbnMuc2hhZG93Um9vdCkgfVxuICAgICAgOiBpbmplY3RTdHlsZXNcbiAgfVxuXG4gIGlmIChob29rKSB7XG4gICAgaWYgKG9wdGlvbnMuZnVuY3Rpb25hbCkge1xuICAgICAgLy8gZm9yIHRlbXBsYXRlLW9ubHkgaG90LXJlbG9hZCBiZWNhdXNlIGluIHRoYXQgY2FzZSB0aGUgcmVuZGVyIGZuIGRvZXNuJ3RcbiAgICAgIC8vIGdvIHRocm91Z2ggdGhlIG5vcm1hbGl6ZXJcbiAgICAgIG9wdGlvbnMuX2luamVjdFN0eWxlcyA9IGhvb2tcbiAgICAgIC8vIHJlZ2lzdGVyIGZvciBmdW5jdGlvYWwgY29tcG9uZW50IGluIHZ1ZSBmaWxlXG4gICAgICB2YXIgb3JpZ2luYWxSZW5kZXIgPSBvcHRpb25zLnJlbmRlclxuICAgICAgb3B0aW9ucy5yZW5kZXIgPSBmdW5jdGlvbiByZW5kZXJXaXRoU3R5bGVJbmplY3Rpb24gKGgsIGNvbnRleHQpIHtcbiAgICAgICAgaG9vay5jYWxsKGNvbnRleHQpXG4gICAgICAgIHJldHVybiBvcmlnaW5hbFJlbmRlcihoLCBjb250ZXh0KVxuICAgICAgfVxuICAgIH0gZWxzZSB7XG4gICAgICAvLyBpbmplY3QgY29tcG9uZW50IHJlZ2lzdHJhdGlvbiBhcyBiZWZvcmVDcmVhdGUgaG9va1xuICAgICAgdmFyIGV4aXN0aW5nID0gb3B0aW9ucy5iZWZvcmVDcmVhdGVcbiAgICAgIG9wdGlvbnMuYmVmb3JlQ3JlYXRlID0gZXhpc3RpbmdcbiAgICAgICAgPyBbXS5jb25jYXQoZXhpc3RpbmcsIGhvb2spXG4gICAgICAgIDogW2hvb2tdXG4gICAgfVxuICB9XG5cbiAgcmV0dXJuIHtcbiAgICBleHBvcnRzOiBzY3JpcHRFeHBvcnRzLFxuICAgIG9wdGlvbnM6IG9wdGlvbnNcbiAgfVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///12\n");
+=======
+/***/ 117:
+/*!**********************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fregist%2Fregist"} ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _regist = _interopRequireDefault(__webpack_require__(/*! ./pages/me/regist/regist.vue */ 118));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_regist.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxtRztBQUNBQSxVQUFVLENBQUNDLGVBQUQsQ0FBVixDIiwiZmlsZSI6IjExNy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL21lL3JlZ2lzdC9yZWdpc3QudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///117\n");
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 
 /***/ }),
 
 /***/ 125:
+<<<<<<< HEAD
 /*!**************************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fmodify-password%2Fmodify-password"} ***!
   \**************************************************************************************************************/
+=======
+/*!****************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fmodify-password%2Fmodify-password"} ***!
+  \****************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -84,14 +125,22 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 13:
 /*!******************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Flogin%2Flogin"} ***!
   \******************************************************************************************/
+=======
+/***/ 133:
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Freset-pwd-result%2Freset-pwd-result"} ***!
+  \******************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _login = _interopRequireDefault(__webpack_require__(/*! ./pages/me/login/login.vue */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_login.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrRjtBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjEzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvbWUvbG9naW4vbG9naW4udnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///13\n");
 
 /***/ }),
@@ -100,10 +149,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!****************************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Freset-pwd-result%2Freset-pwd-result"} ***!
   \****************************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _resetPwdResult = _interopRequireDefault(__webpack_require__(/*! ./pages/me/reset-pwd-result/reset-pwd-result.vue */ 134));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_resetPwdResult.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrSDtBQUNBQSxVQUFVLENBQUNDLHVCQUFELENBQVYsQyIsImZpbGUiOiIxMzMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9yZXNldC1wd2QtcmVzdWx0L3Jlc2V0LXB3ZC1yZXN1bHQudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///133\n");
+
+/***/ }),
+
+/***/ 141:
+/*!*********************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fhome%2Fhelp%2Findex"} ***!
+  \*********************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _resetPwdResult = _interopRequireDefault(__webpack_require__(/*! ./pages/me/reset-pwd-result/reset-pwd-result.vue */ 134));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_resetPwdResult.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrSDtBQUNBQSxVQUFVLENBQUNDLHVCQUFELENBQVYsQyIsImZpbGUiOiIxMzMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9yZXNldC1wd2QtcmVzdWx0L3Jlc2V0LXB3ZC1yZXN1bHQudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///133\n");
 
 /***/ }),
@@ -112,10 +172,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!*******************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Fhelp%2Findex"} ***!
   \*******************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/help/index.vue */ 142));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpRztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE0MS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2hvbWUvaGVscC9pbmRleC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///141\n");
+
+/***/ }),
+
+/***/ 149:
+/*!***********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fpromotes%2FQRCode%2Findex%2Findex"} ***!
+  \***********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/help/index.vue */ 142));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpRztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE0MS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2hvbWUvaGVscC9pbmRleC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///141\n");
 
 /***/ }),
@@ -124,10 +195,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!*********************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2FQRCode%2Findex%2Findex"} ***!
   \*********************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/QRCode/index/index.vue */ 150));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw2RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE0OS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL1FSQ29kZS9pbmRleC9pbmRleC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///149\n");
+
+/***/ }),
+
+/***/ 157:
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fhome%2Fbecomevip%2Findex%2Findex"} ***!
+  \**********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/QRCode/index/index.vue */ 150));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw2RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE0OS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL1FSQ29kZS9pbmRleC9pbmRleC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///149\n");
 
 /***/ }),
@@ -136,10 +218,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!********************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Fbecomevip%2Findex%2Findex"} ***!
   \********************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/becomevip/index/index.vue */ 158));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE1Ny5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2hvbWUvYmVjb21ldmlwL2luZGV4L2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///157\n");
+
+/***/ }),
+
+/***/ 165:
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fawarddetail%2Findex"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/becomevip/index/index.vue */ 158));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE1Ny5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2hvbWUvYmVjb21ldmlwL2luZGV4L2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///157\n");
 
 /***/ }),
@@ -148,10 +241,33 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fawarddetail%2Findex"} ***!
   \******************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/awarddetail/index.vue */ 166));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE2NS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL2F3YXJkZGV0YWlsL2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///165\n");
+
+/***/ }),
+
+/***/ 17:
+/*!*************************************************!*\
+  !*** E:/projectcode/cloud-dream/common/util.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _api = _interopRequireDefault(__webpack_require__(/*! @/common/api.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\n\nvar token = null;\n/**\r\n                   * 封装请求方法\r\n                   * url:请求地址\r\n                   * params：请求参数\r\n                   * method: 请求方式\r\n                   * success: 请求成功的回调\r\n                   */\nfunction request(url, method, params, success) {\n  if (token != null) {\n    params[\"token\"] = token;\n  }\n  console.log(\"提交地址:\" + _api.default.testurl + url, \" at common\\\\util.js:15\");\n  console.log(\"提交参数:\" + params, \" at common\\\\util.js:16\");\n  uni.request({\n    url: _api.default.testurl + url,\n    method: method,\n    // header: {'content-type': 'application/json'},\n    header: { 'content-type': 'application/x-www-form-urlencoded'\n      // 'Access-Control-Allow-Headers':'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild',\n      // 'Access-Control-Allow-Origin':theApi.testurl\n    },\n    data: params,\n    success: success,\n    fail: function fail(error) {\n      if (error.errMsg == \"request:fail timeout\") {//网络请求超时\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail 请求超时。\") {\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail \") {\n        showWindow(\"请求失败\");\n      } else {\n        showWindow(\"加载失败\");\n      }\n    },\n    complete: function complete() {} });\n\n};\n\nfunction isSuccess(data) {\n  if (data.result) {\n    if (data.result.status == \"failed\") {\n      loadClose();\n      showWindow(data.result.data.message);\n      return false;\n    } else {\n      //status可能是“none” 或者“success”\n      return true;\n    }\n  } else {\n    loadClose();\n    showWindow(\"加载失败\");\n    return false;\n  }\n};\n\n\n\nfunction showWindow(txt) {\n  uni.showToast({\n    title: txt,\n    icon: \"none\",\n    duration: 2000 });\n\n}\n\n\n/**\r\n   * 预览图片\r\n   * imageList：图片集合\r\n   * index：当前图片index\r\n   */\nfunction previewImage(imageList, index) {\n  uni.previewImage({\n    current: imageList[index],\n    urls: imageList });\n\n}var _default =\n\n{\n  request: request,\n  isSuccess: isSuccess,\n  showWindow: showWindow,\n  previewImage: previewImage,\n  token: token };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tbW9uL3V0aWwuanMiXSwibmFtZXMiOlsidG9rZW4iLCJyZXF1ZXN0IiwidXJsIiwibWV0aG9kIiwicGFyYW1zIiwic3VjY2VzcyIsImNvbnNvbGUiLCJsb2ciLCJ0aGVBcGkiLCJ0ZXN0dXJsIiwidW5pIiwiaGVhZGVyIiwiZGF0YSIsImZhaWwiLCJlcnJvciIsImVyck1zZyIsInNob3dXaW5kb3ciLCJjb21wbGV0ZSIsImlzU3VjY2VzcyIsInJlc3VsdCIsInN0YXR1cyIsImxvYWRDbG9zZSIsIm1lc3NhZ2UiLCJ0eHQiLCJzaG93VG9hc3QiLCJ0aXRsZSIsImljb24iLCJkdXJhdGlvbiIsInByZXZpZXdJbWFnZSIsImltYWdlTGlzdCIsImluZGV4IiwiY3VycmVudCIsInVybHMiXSwibWFwcGluZ3MiOiJrSUFBQSxrRjs7QUFFQSxJQUFNQSxLQUFLLEdBQUcsSUFBZDtBQUNBOzs7Ozs7O0FBT0EsU0FBU0MsT0FBVCxDQUFpQkMsR0FBakIsRUFBcUJDLE1BQXJCLEVBQTRCQyxNQUE1QixFQUFtQ0MsT0FBbkMsRUFBNEM7QUFDM0MsTUFBR0wsS0FBSyxJQUFFLElBQVYsRUFBZTtBQUNkSSxVQUFNLENBQUMsT0FBRCxDQUFOLEdBQWdCSixLQUFoQjtBQUNBO0FBQ0RNLFNBQU8sQ0FBQ0MsR0FBUixDQUFZLFVBQVFDLGFBQU9DLE9BQWYsR0FBdUJQLEdBQW5DO0FBQ0FJLFNBQU8sQ0FBQ0MsR0FBUixDQUFZLFVBQVFILE1BQXBCO0FBQ0FNLEtBQUcsQ0FBQ1QsT0FBSixDQUFZO0FBQ1hDLE9BQUcsRUFBRU0sYUFBT0MsT0FBUCxHQUFlUCxHQURUO0FBRVhDLFVBQU0sRUFBRUEsTUFGRztBQUdYO0FBQ0FRLFVBQU0sRUFBRSxFQUFDLGdCQUFnQjtBQUN2QjtBQUNBO0FBRk0sS0FKRztBQVFYQyxRQUFJLEVBQUVSLE1BUks7QUFTWEMsV0FBTyxFQUFFQSxPQVRFO0FBVVhRLFFBQUksRUFBRSxjQUFDQyxLQUFELEVBQVc7QUFDaEIsVUFBSUEsS0FBSyxDQUFDQyxNQUFOLElBQWdCLHNCQUFwQixFQUE0QyxDQUFFO0FBQzdDQyxrQkFBVSxDQUFDLGVBQUQsQ0FBVjtBQUNBLE9BRkQsTUFFTyxJQUFJRixLQUFLLENBQUNDLE1BQU4sSUFBZ0Isb0JBQXBCLEVBQTBDO0FBQ2hEQyxrQkFBVSxDQUFDLGVBQUQsQ0FBVjtBQUNBLE9BRk0sTUFFQSxJQUFJRixLQUFLLENBQUNDLE1BQU4sSUFBZ0IsZUFBcEIsRUFBcUM7QUFDM0NDLGtCQUFVLENBQUMsTUFBRCxDQUFWO0FBQ0EsT0FGTSxNQUVBO0FBQ05BLGtCQUFVLENBQUMsTUFBRCxDQUFWO0FBQ0E7QUFDRCxLQXBCVTtBQXFCWEMsWUFBUSxFQUFFLG9CQUFNLENBQUUsQ0FyQlAsRUFBWjs7QUF1QkE7O0FBRUQsU0FBU0MsU0FBVCxDQUFtQk4sSUFBbkIsRUFBeUI7QUFDeEIsTUFBSUEsSUFBSSxDQUFDTyxNQUFULEVBQWlCO0FBQ2hCLFFBQUlQLElBQUksQ0FBQ08sTUFBTCxDQUFZQyxNQUFaLElBQXNCLFFBQTFCLEVBQW9DO0FBQ25DQyxlQUFTO0FBQ1RMLGdCQUFVLENBQUNKLElBQUksQ0FBQ08sTUFBTCxDQUFZUCxJQUFaLENBQWlCVSxPQUFsQixDQUFWO0FBQ0EsYUFBTyxLQUFQO0FBQ0EsS0FKRCxNQUlPO0FBQ047QUFDQSxhQUFPLElBQVA7QUFDQTtBQUNELEdBVEQsTUFTTztBQUNORCxhQUFTO0FBQ1RMLGNBQVUsQ0FBQyxNQUFELENBQVY7QUFDQSxXQUFPLEtBQVA7QUFDQTtBQUNEOzs7O0FBSUQsU0FBU0EsVUFBVCxDQUFvQk8sR0FBcEIsRUFBeUI7QUFDeEJiLEtBQUcsQ0FBQ2MsU0FBSixDQUFjO0FBQ2JDLFNBQUssRUFBRUYsR0FETTtBQUViRyxRQUFJLEVBQUUsTUFGTztBQUdiQyxZQUFRLEVBQUUsSUFIRyxFQUFkOztBQUtBOzs7QUFHRDs7Ozs7QUFLQSxTQUFTQyxZQUFULENBQXNCQyxTQUF0QixFQUFpQ0MsS0FBakMsRUFBd0M7QUFDdkNwQixLQUFHLENBQUNrQixZQUFKLENBQWlCO0FBQ2hCRyxXQUFPLEVBQUVGLFNBQVMsQ0FBQ0MsS0FBRCxDQURGO0FBRWhCRSxRQUFJLEVBQUVILFNBRlUsRUFBakI7O0FBSUEsQzs7QUFFYTtBQUNiNUIsU0FBTyxFQUFQQSxPQURhO0FBRWJpQixXQUFTLEVBQVRBLFNBRmE7QUFHYkYsWUFBVSxFQUFWQSxVQUhhO0FBSWJZLGNBQVksRUFBWkEsWUFKYTtBQUtiNUIsT0FBSyxFQUFMQSxLQUxhLEUiLCJmaWxlIjoiMTcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdGhlQXBpIGZyb20gXCJAL2NvbW1vbi9hcGkuanNcIlxyXG5cclxuY29uc3QgdG9rZW4gPSBudWxsO1xyXG4vKipcclxuICog5bCB6KOF6K+35rGC5pa55rOVXHJcbiAqIHVybDror7fmsYLlnLDlnYBcclxuICogcGFyYW1z77ya6K+35rGC5Y+C5pWwXHJcbiAqIG1ldGhvZDog6K+35rGC5pa55byPXHJcbiAqIHN1Y2Nlc3M6IOivt+axguaIkOWKn+eahOWbnuiwg1xyXG4gKi9cclxuZnVuY3Rpb24gcmVxdWVzdCh1cmwsbWV0aG9kLHBhcmFtcyxzdWNjZXNzKSB7XHJcblx0aWYodG9rZW4hPW51bGwpe1xyXG5cdFx0cGFyYW1zW1widG9rZW5cIl09dG9rZW47XHJcblx0fVxyXG5cdGNvbnNvbGUubG9nKFwi5o+Q5Lqk5Zyw5Z2AOlwiK3RoZUFwaS50ZXN0dXJsK3VybCk7XHJcblx0Y29uc29sZS5sb2coXCLmj5DkuqTlj4LmlbA6XCIrcGFyYW1zKTtcclxuXHR1bmkucmVxdWVzdCh7XHJcblx0XHR1cmw6IHRoZUFwaS50ZXN0dXJsK3VybCxcclxuXHRcdG1ldGhvZDogbWV0aG9kLFxyXG5cdFx0Ly8gaGVhZGVyOiB7J2NvbnRlbnQtdHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJ30sXHJcblx0XHRoZWFkZXI6IHsnY29udGVudC10eXBlJzogJ2FwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCcsXHJcblx0XHRcdFx0Ly8gJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnOidDb250ZW50LVR5cGUsIENvbnRlbnQtTGVuZ3RoLCBBdXRob3JpemF0aW9uLCBBY2NlcHQsIFgtUmVxdWVzdGVkLVdpdGggLCB5b3VySGVhZGVyRmVpbGQnLFxyXG5cdFx0XHRcdC8vICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nOnRoZUFwaS50ZXN0dXJsXHJcblx0XHRcdFx0fSxcclxuXHRcdGRhdGE6IHBhcmFtcyxcclxuXHRcdHN1Y2Nlc3M6IHN1Y2Nlc3MsXHJcblx0XHRmYWlsOiAoZXJyb3IpID0+IHtcclxuXHRcdFx0aWYgKGVycm9yLmVyck1zZyA9PSBcInJlcXVlc3Q6ZmFpbCB0aW1lb3V0XCIpIHsgLy/nvZHnu5zor7fmsYLotoXml7ZcclxuXHRcdFx0XHRzaG93V2luZG93KFwi572R57uc5LiN56iz5a6a77yM6K+35qOA5p+l572R57uc6K6+572uXCIpO1xyXG5cdFx0XHR9IGVsc2UgaWYgKGVycm9yLmVyck1zZyA9PSBcInJlcXVlc3Q6ZmFpbCDor7fmsYLotoXml7bjgIJcIikge1xyXG5cdFx0XHRcdHNob3dXaW5kb3coXCLnvZHnu5zkuI3nqLPlrprvvIzor7fmo4Dmn6XnvZHnu5zorr7nva5cIik7XHJcblx0XHRcdH0gZWxzZSBpZiAoZXJyb3IuZXJyTXNnID09IFwicmVxdWVzdDpmYWlsIFwiKSB7XHJcblx0XHRcdFx0c2hvd1dpbmRvdyhcIuivt+axguWksei0pVwiKTtcclxuXHRcdFx0fSBlbHNlIHtcclxuXHRcdFx0XHRzaG93V2luZG93KFwi5Yqg6L295aSx6LSlXCIpO1xyXG5cdFx0XHR9XHJcblx0XHR9LFxyXG5cdFx0Y29tcGxldGU6ICgpID0+IHt9XHJcblx0fSk7XHJcbn07XHJcblxyXG5mdW5jdGlvbiBpc1N1Y2Nlc3MoZGF0YSkge1xyXG5cdGlmIChkYXRhLnJlc3VsdCkge1xyXG5cdFx0aWYgKGRhdGEucmVzdWx0LnN0YXR1cyA9PSBcImZhaWxlZFwiKSB7XHJcblx0XHRcdGxvYWRDbG9zZSgpXHJcblx0XHRcdHNob3dXaW5kb3coZGF0YS5yZXN1bHQuZGF0YS5tZXNzYWdlKTtcclxuXHRcdFx0cmV0dXJuIGZhbHNlXHJcblx0XHR9IGVsc2Uge1xyXG5cdFx0XHQvL3N0YXR1c+WPr+iDveaYr+KAnG5vbmXigJ0g5oiW6ICF4oCcc3VjY2Vzc+KAnVxyXG5cdFx0XHRyZXR1cm4gdHJ1ZVxyXG5cdFx0fVxyXG5cdH0gZWxzZSB7XHJcblx0XHRsb2FkQ2xvc2UoKVxyXG5cdFx0c2hvd1dpbmRvdyhcIuWKoOi9veWksei0pVwiKTtcclxuXHRcdHJldHVybiBmYWxzZVxyXG5cdH1cclxufTtcclxuXHJcblxyXG5cclxuZnVuY3Rpb24gc2hvd1dpbmRvdyh0eHQpIHtcclxuXHR1bmkuc2hvd1RvYXN0KHtcclxuXHRcdHRpdGxlOiB0eHQsXHJcblx0XHRpY29uOiBcIm5vbmVcIixcclxuXHRcdGR1cmF0aW9uOiAyMDAwXHJcblx0fSlcclxufVxyXG5cclxuXHJcbi8qKlxyXG4gKiDpooTop4jlm77niYdcclxuICogaW1hZ2VMaXN077ya5Zu+54mH6ZuG5ZCIXHJcbiAqIGluZGV477ya5b2T5YmN5Zu+54mHaW5kZXhcclxuICovXHJcbmZ1bmN0aW9uIHByZXZpZXdJbWFnZShpbWFnZUxpc3QsIGluZGV4KSB7XHJcblx0dW5pLnByZXZpZXdJbWFnZSh7XHJcblx0XHRjdXJyZW50OiBpbWFnZUxpc3RbaW5kZXhdLFxyXG5cdFx0dXJsczogaW1hZ2VMaXN0XHJcblx0fSk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0e1xyXG5cdHJlcXVlc3QsXHJcblx0aXNTdWNjZXNzLFxyXG5cdHNob3dXaW5kb3csXHJcblx0cHJldmlld0ltYWdlLFxyXG5cdHRva2VuXHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///17\n");
+
+/***/ }),
+
+/***/ 173:
+/*!*****************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fprentice%2Findex"} ***!
+  \*****************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/awarddetail/index.vue */ 166));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE2NS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL2F3YXJkZGV0YWlsL2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///165\n");
 
 /***/ }),
@@ -160,18 +276,38 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!***************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Fprentice%2Findex"} ***!
   \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
+=======
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/prentice/index.vue */ 174));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE3My5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL3ByZW50aWNlL2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///173\n");
 
 /***/ }),
 
+/***/ 18:
+/*!************************************************!*\
+  !*** E:/projectcode/cloud-dream/common/api.js ***!
+  \************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+<<<<<<< HEAD
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/promotes/prentice/index.vue */ 174));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjE3My5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Byb21vdGVzL3ByZW50aWNlL2luZGV4LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///173\n");
+=======
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var testurl = \"http://douke.51dreaming.com\"; //测试域名\nvar _default =\n{\n  testurl: testurl };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tbW9uL2FwaS5qcyJdLCJuYW1lcyI6WyJ0ZXN0dXJsIl0sIm1hcHBpbmdzIjoidUZBQUEsSUFBTUEsT0FBTyxHQUFHLDZCQUFoQixDLENBQStDOztBQUVqQztBQUNiQSxTQUFPLEVBQVBBLE9BRGEsRSIsImZpbGUiOiIxOC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHRlc3R1cmwgPSBcImh0dHA6Ly9kb3VrZS41MWRyZWFtaW5nLmNvbVwiOyAvL+a1i+ivleWfn+WQjVxyXG5cclxuZXhwb3J0IGRlZmF1bHR7XHJcblx0dGVzdHVybFxyXG59XHJcblxyXG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///18\n");
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
+
+/***/ }),
+
 /***/ 181:
+<<<<<<< HEAD
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Frecharge%2Frecharge"} ***!
   \************************************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Frecharge%2Frecharge"} ***!
+  \**************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -181,9 +317,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 189:
+<<<<<<< HEAD
 /*!****************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fvip-center%2Fvip-center"} ***!
   \****************************************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fvip-center%2Fvip-center"} ***!
+  \******************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -193,9 +335,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 197:
+<<<<<<< HEAD
 /*!****************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-release%2Fmy-release"} ***!
   \****************************************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-release%2Fmy-release"} ***!
+  \******************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -216,14 +364,21 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ }),
 
 /***/ 205:
+<<<<<<< HEAD
 /*!********************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-records%2Ftask-records"} ***!
   \********************************************************************************************************/
+=======
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-records%2Ftask-records"} ***!
+  \**********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _taskRecords = _interopRequireDefault(__webpack_require__(/*! ./pages/me/task-records/task-records.vue */ 206));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_taskRecords.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxvSDtBQUNBQSxVQUFVLENBQUNDLG9CQUFELENBQVYsQyIsImZpbGUiOiIyMDUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS90YXNrLXJlY29yZHMvdGFzay1yZWNvcmRzLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///205\n");
+<<<<<<< HEAD
 
 /***/ }),
 
@@ -231,6 +386,14 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fhome%2Findex%2Findex"} ***!
   \********************************************************************************************/
+=======
+
+/***/ }),
+
+/***/ 21:
+/*!**********************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fhome%2Findex%2Findex"} ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -240,13 +403,38 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 213:
-/*!**********************************************************************************************!*\
-  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fexamine%2Fexamine"} ***!
-  \**********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fexamine%2Fexamine"} ***!
+  \************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/home/index/index.vue */ 22));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_index.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpRztBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjIxLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvaG9tZS9pbmRleC9pbmRleC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///21\n");
+
+/***/ }),
+
+/***/ 213:
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fexamine%2Fexamine"} ***!
+  \**********************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _examine = _interopRequireDefault(__webpack_require__(/*! ./pages/me/examine/examine.vue */ 214));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_examine.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyMTMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9leGFtaW5lL2V4YW1pbmUudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///213\n");
+
+/***/ }),
+
+/***/ 221:
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-detail%2Ftask-detail"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _examine = _interopRequireDefault(__webpack_require__(/*! ./pages/me/examine/examine.vue */ 214));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_examine.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyMTMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9leGFtaW5lL2V4YW1pbmUudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///213\n");
 
 /***/ }),
@@ -255,10 +443,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Ftask-detail%2Ftask-detail"} ***!
   \******************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _taskDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/me/task-detail/task-detail.vue */ 222));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_taskDetail.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyMjEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS90YXNrLWRldGFpbC90YXNrLWRldGFpbC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///221\n");
+
+/***/ }),
+
+/***/ 229:
+/*!**************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2FVIP-open%2FVIP-open"} ***!
+  \**************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _taskDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/me/task-detail/task-detail.vue */ 222));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_taskDetail.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyMjEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS90YXNrLWRldGFpbC90YXNrLWRldGFpbC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///221\n");
 
 /***/ }),
@@ -267,10 +466,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2FVIP-open%2FVIP-open"} ***!
   \************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _VIPOpen = _interopRequireDefault(__webpack_require__(/*! ./pages/me/VIP-open/VIP-open.vue */ 230));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_VIPOpen.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyMjkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9WSVAtb3Blbi9WSVAtb3Blbi52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///229\n");
+
+/***/ }),
+
+/***/ 237:
+/*!******************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fwithdrawal%2Fwithdrawal"} ***!
+  \******************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _VIPOpen = _interopRequireDefault(__webpack_require__(/*! ./pages/me/VIP-open/VIP-open.vue */ 230));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_VIPOpen.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyMjkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9WSVAtb3Blbi9WSVAtb3Blbi52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///229\n");
 
 /***/ }),
@@ -279,10 +489,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!****************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fwithdrawal%2Fwithdrawal"} ***!
   \****************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _withdrawal = _interopRequireDefault(__webpack_require__(/*! ./pages/me/withdrawal/withdrawal.vue */ 238));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_withdrawal.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrRztBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyMzcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS93aXRoZHJhd2FsL3dpdGhkcmF3YWwudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///237\n");
+
+/***/ }),
+
+/***/ 245:
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fchange-info%2Fchange-info"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _withdrawal = _interopRequireDefault(__webpack_require__(/*! ./pages/me/withdrawal/withdrawal.vue */ 238));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_withdrawal.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrRztBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyMzcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS93aXRoZHJhd2FsL3dpdGhkcmF3YWwudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///237\n");
 
 /***/ }),
@@ -291,10 +512,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchange-info%2Fchange-info"} ***!
   \******************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _changeInfo = _interopRequireDefault(__webpack_require__(/*! ./pages/me/change-info/change-info.vue */ 246));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_changeInfo.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyNDUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFuZ2UtaW5mby9jaGFuZ2UtaW5mby52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///245\n");
+
+/***/ }),
+
+/***/ 253:
+/*!************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fsetting%2Fsetting"} ***!
+  \************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _changeInfo = _interopRequireDefault(__webpack_require__(/*! ./pages/me/change-info/change-info.vue */ 246));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_changeInfo.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIyNDUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFuZ2UtaW5mby9jaGFuZ2UtaW5mby52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///245\n");
 
 /***/ }),
@@ -303,10 +535,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!**********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fsetting%2Fsetting"} ***!
   \**********************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _setting = _interopRequireDefault(__webpack_require__(/*! ./pages/me/setting/setting.vue */ 254));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_setting.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyNTMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9zZXR0aW5nL3NldHRpbmcudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///253\n");
+
+/***/ }),
+
+/***/ 261:
+/*!********************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-merchants%2Fchannel-merchants"} ***!
+  \********************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _setting = _interopRequireDefault(__webpack_require__(/*! ./pages/me/setting/setting.vue */ 254));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_setting.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIyNTMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9zZXR0aW5nL3NldHRpbmcudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///253\n");
 
 /***/ }),
@@ -315,10 +558,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!******************************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-merchants%2Fchannel-merchants"} ***!
   \******************************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channelMerchants = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-merchants/channel-merchants.vue */ 262));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channelMerchants.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxtSTtBQUNBQSxVQUFVLENBQUNDLHlCQUFELENBQVYsQyIsImZpbGUiOiIyNjEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsLW1lcmNoYW50cy9jaGFubmVsLW1lcmNoYW50cy52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///261\n");
+
+/***/ }),
+
+/***/ 269:
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fopen-channel%2Fopen-channel"} ***!
+  \**********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channelMerchants = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-merchants/channel-merchants.vue */ 262));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channelMerchants.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxtSTtBQUNBQSxVQUFVLENBQUNDLHlCQUFELENBQVYsQyIsImZpbGUiOiIyNjEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsLW1lcmNoYW50cy9jaGFubmVsLW1lcmNoYW50cy52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///261\n");
 
 /***/ }),
@@ -339,6 +593,16 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!************************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Faccount-manage%2Faccount-manage"} ***!
   \************************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _openChannel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/open-channel/open-channel.vue */ 270));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_openChannel.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxvSDtBQUNBQSxVQUFVLENBQUNDLG9CQUFELENBQVYsQyIsImZpbGUiOiIyNjkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9vcGVuLWNoYW5uZWwvb3Blbi1jaGFubmVsLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///269\n");
+
+/***/ }),
+
+/***/ 277:
+/*!**************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Faccount-manage%2Faccount-manage"} ***!
+  \**************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -348,9 +612,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 285:
+<<<<<<< HEAD
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fadd-account%2Fadd-account"} ***!
   \******************************************************************************************************/
+=======
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fadd-account%2Fadd-account"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -360,9 +630,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 29:
+<<<<<<< HEAD
 /*!********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Ftask%2Findex%2Findex"} ***!
   \********************************************************************************************/
+=======
+/*!**********************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Ftask%2Findex%2Findex"} ***!
+  \**********************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -372,9 +648,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 293:
+<<<<<<< HEAD
 /*!**************************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fopen-channel-02%2Fopen-channel-02"} ***!
   \**************************************************************************************************************/
+=======
+/*!****************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fopen-channel-02%2Fopen-channel-02"} ***!
+  \****************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -396,9 +678,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ }),
 
 /***/ 301:
+<<<<<<< HEAD
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-save%2Fhow-save"} ***!
   \************************************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-save%2Fhow-save"} ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -408,13 +695,38 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 309:
-/*!******************************************************************************************************!*\
-  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-release%2Fhow-release"} ***!
-  \******************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-release%2Fhow-release"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _howSave = _interopRequireDefault(__webpack_require__(/*! ./pages/me/how-save/how-save.vue */ 302));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_howSave.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIzMDEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9ob3ctc2F2ZS9ob3ctc2F2ZS52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///301\n");
+
+/***/ }),
+
+/***/ 309:
+/*!******************************************************************************************************!*\
+  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhow-release%2Fhow-release"} ***!
+  \******************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _howRelease = _interopRequireDefault(__webpack_require__(/*! ./pages/me/how-release/how-release.vue */ 310));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_howRelease.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIzMDkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9ob3ctcmVsZWFzZS9ob3ctcmVsZWFzZS52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///309\n");
+
+/***/ }),
+
+/***/ 317:
+/*!************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel%2Fchannel"} ***!
+  \************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _howRelease = _interopRequireDefault(__webpack_require__(/*! ./pages/me/how-release/how-release.vue */ 310));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_howRelease.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxpSDtBQUNBQSxVQUFVLENBQUNDLG1CQUFELENBQVYsQyIsImZpbGUiOiIzMDkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9ob3ctcmVsZWFzZS9ob3ctcmVsZWFzZS52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///309\n");
 
 /***/ }),
@@ -423,10 +735,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!**********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel%2Fchannel"} ***!
   \**********************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel/channel.vue */ 318));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channel.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIzMTcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsL2NoYW5uZWwudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///317\n");
+
+/***/ }),
+
+/***/ 325:
+/*!**************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-agent%2Fmy-agent"} ***!
+  \**************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channel = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel/channel.vue */ 318));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channel.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxzRztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIzMTcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsL2NoYW5uZWwudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///317\n");
 
 /***/ }),
@@ -435,10 +758,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fmy-agent%2Fmy-agent"} ***!
   \************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _myAgent = _interopRequireDefault(__webpack_require__(/*! ./pages/me/my-agent/my-agent.vue */ 326));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_myAgent.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIzMjUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9teS1hZ2VudC9teS1hZ2VudC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///325\n");
+
+/***/ }),
+
+/***/ 333:
+/*!**********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-save%2Fchannel-save"} ***!
+  \**********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _myAgent = _interopRequireDefault(__webpack_require__(/*! ./pages/me/my-agent/my-agent.vue */ 326));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_myAgent.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiIzMjUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9teS1hZ2VudC9teS1hZ2VudC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///325\n");
 
 /***/ }),
@@ -447,10 +781,21 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /*!********************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fchannel-save%2Fchannel-save"} ***!
   \********************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channelSave = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-save/channel-save.vue */ 334));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channelSave.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxvSDtBQUNBQSxVQUFVLENBQUNDLG9CQUFELENBQVYsQyIsImZpbGUiOiIzMzMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsLXNhdmUvY2hhbm5lbC1zYXZlLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///333\n");
+
+/***/ }),
+
+/***/ 341:
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fshenhetongguo%2Fshenhetongguo"} ***!
+  \************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _channelSave = _interopRequireDefault(__webpack_require__(/*! ./pages/me/channel-save/channel-save.vue */ 334));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_channelSave.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxvSDtBQUNBQSxVQUFVLENBQUNDLG9CQUFELENBQVYsQyIsImZpbGUiOiIzMzMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9jaGFubmVsLXNhdmUvY2hhbm5lbC1zYXZlLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///333\n");
 
 /***/ }),
@@ -467,6 +812,12 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 /***/ }),
 
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _shenhetongguo = _interopRequireDefault(__webpack_require__(/*! ./pages/me/shenhetongguo/shenhetongguo.vue */ 342));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_shenhetongguo.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3SDtBQUNBQSxVQUFVLENBQUNDLHNCQUFELENBQVYsQyIsImZpbGUiOiIzNDEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy9tZS9zaGVuaGV0b25nZ3VvL3NoZW5oZXRvbmdndW8udnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///341\n");
+
+/***/ }),
+
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /***/ 361:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
@@ -501,9 +852,15 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ }),
 
 /***/ 37:
+<<<<<<< HEAD
 /*!***********************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Frelease%2Findex%2Findex"} ***!
   \***********************************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Frelease%2Findex%2Findex"} ***!
+  \*************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -525,9 +882,15 @@ eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset
 /***/ }),
 
 /***/ 45:
+<<<<<<< HEAD
 /*!************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Findex%2Findex"} ***!
   \************************************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fpromotes%2Findex%2Findex"} ***!
+  \**************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -537,9 +900,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 53:
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Findex%2Findex"} ***!
   \******************************************************************************************/
+=======
+/*!********************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Findex%2Findex"} ***!
+  \********************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -549,9 +918,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 61:
+<<<<<<< HEAD
 /*!******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Fme%2Fhelp-center%2Fhelp-center"} ***!
   \******************************************************************************************************/
+=======
+/*!********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Fme%2Fhelp-center%2Fhelp-center"} ***!
+  \********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -561,9 +936,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 69:
+<<<<<<< HEAD
 /*!***************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease%2Frelease"} ***!
   \***************************************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease%2Frelease"} ***!
+  \*****************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -573,9 +954,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ }),
 
 /***/ 77:
+<<<<<<< HEAD
 /*!*******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease02%2Frelease02"} ***!
   \*******************************************************************************************************/
+=======
+/*!*********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease02%2Frelease02"} ***!
+  \*********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -584,14 +971,22 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 8:
 /*!***********************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/common/util.js ***!
   \***********************************************************/
+=======
+/***/ 85:
+/*!*********************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease03%2Frelease03"} ***!
+  \*********************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _api = _interopRequireDefault(__webpack_require__(/*! @/common/api.js */ 9));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar data = {\n  \"data\": {\n    \"code\": 1,\n    \"msg\": \"\",\n    \"time\": \"1565361257\",\n    \"data\": {\n      \"uploadurl\": \"https://upload-z2.qiniup.com\",\n      \"cdnurl\": \"http://cdn.douke.51dreaming.com\",\n      \"savekey\": \"/uploads/{year}{mon}{day}/{filemd5}{.suffix}\",\n      \"maxsize\": \"10M\",\n      \"mimetype\": \"jpg,png,bmp,jpeg,gif,zip,rar,xls,xlsx\",\n      \"multiple\": false,\n      \"bucket\": \"douke\",\n      \"multipart\": {\n        \"token\": \"sJw9Qcazsr_MfxUSyeQyj6WTJ83owE6tjjz1KODF:6vnGOFux7igQYWH190R0jbqhikA=:eyJzYXZlS2V5IjoidXBsb2Fkc1wvJCh5ZWFyKSQobW9uKSQoZGF5KVwvJChldGFnKSQoZXh0KSIsInNjb3BlIjoiZG91a2UiLCJkZWFkbGluZSI6MTU2NTM2MTg1N30=\",\n        \"admin\": 0,\n        \"user\": 0 } } },\n\n\n\n  \"statusCode\": 200,\n  \"header\": {\n    \"Transfer-Encoding\": \"chunked\",\n    \"Server\": \"nginx\",\n    \"Connection\": \"keep-alive\",\n    \"Pragma\": \"no-cache\",\n    \"X-Android-Received-Millis\": \"1565361256839\",\n    \"Date\": \"Fri, 09 Aug 2019 14:34:17 GMT\",\n    \"X-Android-Selected-Protocol\": \"http/1.1\",\n    \"Cache-Control\": \"no-store, no-cache, must-revalidate\",\n    \"X-Android-Response-Source\": \"NETWORK 200\",\n    \"Expires\": \"Thu, 19 Nov 1981 08:52:00 GMT\",\n    \"X-Android-Sent-Millis\": \"1565361256338\",\n    \"Content-Type\": \"application/json; charset=utf-8\",\n    \"X-Powered-By\": \"PHP/7.1.5\" },\n\n  \"errMsg\": \"request:ok\" };\n\nvar token = null;\n// \"data\": {\n//     \"uploadurl\": \"https://upload-z2.qiniup.com\",\n//     \"cdnurl\": \"http://cdn.douke.51dreaming.com\",\n//     \"savekey\": \"/uploads/{year}{mon}{day}/{filemd5}{.suffix}\",\n//     \"maxsize\": \"10M\",\n//     \"mimetype\": \"jpg,png,bmp,jpeg,gif,zip,rar,xls,xlsx\",\n//     \"multiple\": false,\n//     \"bucket\": \"douke\",\n//     \"multipart\": {\n//       \"token\": \"sJw9Qcazsr_MfxUSyeQyj6WTJ83owE6tjjz1KODF:CAmFMpepABq2cP2cr1ZGRztiRsM=:eyJzYXZlS2V5IjoidXBsb2Fkc1wvJCh5ZWFyKSQobW9uKSQoZGF5KVwvJChldGFnKSQoZXh0KSIsInNjb3BlIjoiZG91a2UiLCJkZWFkbGluZSI6MTU2NTM1OTY1Nn0=\",\n//       \"admin\": 0,\n//       \"user\": 0\n//     }\nvar uploaddata = null;\n/**\r\n                        * 封装请求方法\r\n                        * url:请求地址\r\n                        * params：请求参数\r\n                        * method: 请求方式\r\n                        * success: 请求成功的回调\r\n                        */\nfunction request(url, method, params, success) {\n  if (this.token != null) {\n    params[\"token\"] = this.token;\n  }\n  console.log(\"提交地址:\" + _api.default.testurl + url, \" at common\\\\util.js:66\");\n  console.log(\"提交参数:\" + params, \" at common\\\\util.js:67\");\n  uni.request({\n    url: _api.default.testurl + url,\n    method: method,\n    // header: {'content-type': 'application/json'},\n    header: {\n      'content-type': 'application/x-www-form-urlencoded'\n      // 'Access-Control-Allow-Headers':'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild',\n      // 'Access-Control-Allow-Origin':theApi.testurl\n    },\n    data: params,\n    success: success,\n    fail: function fail(error) {\n      if (error.errMsg == \"request:fail timeout\") {//网络请求超时\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail 请求超时。\") {\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail \") {\n        showWindow(\"请求失败\");\n      } else {\n        showWindow(\"加载失败\");\n      }\n    },\n    complete: function complete() {} });\n\n};\n\n// \"data\": {\n//     \"uploadurl\": \"https://upload-z2.qiniup.com\",\n//     \"cdnurl\": \"http://cdn.douke.51dreaming.com\",\n//     \"savekey\": \"/uploads/{year}{mon}{day}/{filemd5}{.suffix}\",\n//     \"maxsize\": \"10M\",\n//     \"mimetype\": \"jpg,png,bmp,jpeg,gif,zip,rar,xls,xlsx\",\n//     \"multiple\": false,\n//     \"bucket\": \"douke\",\n//     \"multipart\": {\n//       \"token\": \"sJw9Qcazsr_MfxUSyeQyj6WTJ83owE6tjjz1KODF:CAmFMpepABq2cP2cr1ZGRztiRsM=:eyJzYXZlS2V5IjoidXBsb2Fkc1wvJCh5ZWFyKSQobW9uKSQoZGF5KVwvJChldGFnKSQoZXh0KSIsInNjb3BlIjoiZG91a2UiLCJkZWFkbGluZSI6MTU2NTM1OTY1Nn0=\",\n//       \"admin\": 0,\n//       \"user\": 0\n//     }\n// uploaddata\nfunction requestImg(method, params, file, success) {\n  params[\"token\"] = this.uploaddata.multipart.token;\n  // params[\"bucket\"] = this.uploaddata.bucket;\n  console.log(\"文件路径filePath：\" + file, \" at common\\\\util.js:111\");\n  console.log(\"上传的formData：\" + JSON.stringify(params), \" at common\\\\util.js:112\");\n  uni.uploadFile({\n    url: this.uploaddata.uploadurl, // 后端api接口\n    filePath: file, // uni.chooseImage函数调用后获取的本地文件路劲\n    name: 'file', //后端通过'file'获取上传的文件对象\n    fileType: 'image',\n    formData: params,\n    header: {\n      \"Content-Type\": \"multipart/form-data\" },\n\n    success: success,\n    fail: function fail(error) {\n      if (error.errMsg == \"request:fail timeout\") {//网络请求超时\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail 请求超时。\") {\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail \") {\n        showWindow(\"请求失败\");\n      } else {\n        showWindow(\"加载失败\");\n      }\n    },\n    complete: function complete() {} });\n\n};\n\nfunction requestType(url, method, params, contentType, success) {\n  if (token != null) {\n    params[\"token\"] = this.token;\n  }\n  console.log(\"提交地址:\" + _api.default.testurl + url, \" at common\\\\util.js:142\");\n  console.log(\"提交参数:\" + params, \" at common\\\\util.js:143\");\n  uni.request({\n    url: _api.default.testurl + url,\n    method: method,\n    // header: {'content-type': 'application/json'},\n    header: {\n      'content-type': contentType\n      // 'Access-Control-Allow-Headers':'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild',\n      // 'Access-Control-Allow-Origin':theApi.testurl\n    },\n    data: params,\n    success: success,\n    fail: function fail(error) {\n      if (error.errMsg == \"request:fail timeout\") {//网络请求超时\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail 请求超时。\") {\n        showWindow(\"网络不稳定，请检查网络设置\");\n      } else if (error.errMsg == \"request:fail \") {\n        showWindow(\"请求失败\");\n      } else {\n        showWindow(\"加载失败\");\n      }\n    },\n    complete: function complete() {} });\n\n};\n\nfunction isSuccess(data) {\n  if (data.result) {\n    if (data.result.status == \"failed\") {\n      loadClose();\n      showWindow(data.result.data.message);\n      return false;\n    } else {\n      //status可能是“none” 或者“success”\n      return true;\n    }\n  } else {\n    loadClose();\n    showWindow(\"加载失败\");\n    return false;\n  }\n};\n\n\n\nfunction showWindow(txt) {\n  uni.showToast({\n    title: txt,\n    icon: \"none\",\n    duration: 2000 });\n\n}\n\n\n/**\r\n   * 预览图片\r\n   * imageList：图片集合\r\n   * index：当前图片index\r\n   */\nfunction previewImage(imageList, index) {\n  uni.previewImage({\n    current: imageList[index],\n    urls: imageList });\n\n}var _default =\n\n{\n  request: request,\n  isSuccess: isSuccess,\n  showWindow: showWindow,\n  previewImage: previewImage,\n  token: token,\n  requestImg: requestImg,\n  requestType: requestType,\n  uploaddata: uploaddata };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tbW9uL3V0aWwuanMiXSwibmFtZXMiOlsiZGF0YSIsInRva2VuIiwidXBsb2FkZGF0YSIsInJlcXVlc3QiLCJ1cmwiLCJtZXRob2QiLCJwYXJhbXMiLCJzdWNjZXNzIiwiY29uc29sZSIsImxvZyIsInRoZUFwaSIsInRlc3R1cmwiLCJ1bmkiLCJoZWFkZXIiLCJmYWlsIiwiZXJyb3IiLCJlcnJNc2ciLCJzaG93V2luZG93IiwiY29tcGxldGUiLCJyZXF1ZXN0SW1nIiwiZmlsZSIsIm11bHRpcGFydCIsIkpTT04iLCJzdHJpbmdpZnkiLCJ1cGxvYWRGaWxlIiwidXBsb2FkdXJsIiwiZmlsZVBhdGgiLCJuYW1lIiwiZmlsZVR5cGUiLCJmb3JtRGF0YSIsInJlcXVlc3RUeXBlIiwiY29udGVudFR5cGUiLCJpc1N1Y2Nlc3MiLCJyZXN1bHQiLCJzdGF0dXMiLCJsb2FkQ2xvc2UiLCJtZXNzYWdlIiwidHh0Iiwic2hvd1RvYXN0IiwidGl0bGUiLCJpY29uIiwiZHVyYXRpb24iLCJwcmV2aWV3SW1hZ2UiLCJpbWFnZUxpc3QiLCJpbmRleCIsImN1cnJlbnQiLCJ1cmxzIl0sIm1hcHBpbmdzIjoia0lBQUEsaUY7QUFDQSxJQUFNQSxJQUFJLEdBQUc7QUFDWixVQUFRO0FBQ1AsWUFBUSxDQUREO0FBRVAsV0FBTyxFQUZBO0FBR1AsWUFBUSxZQUhEO0FBSVAsWUFBUTtBQUNQLG1CQUFhLDhCQUROO0FBRVAsZ0JBQVUsaUNBRkg7QUFHUCxpQkFBVyw4Q0FISjtBQUlQLGlCQUFXLEtBSko7QUFLUCxrQkFBWSx1Q0FMTDtBQU1QLGtCQUFZLEtBTkw7QUFPUCxnQkFBVSxPQVBIO0FBUVAsbUJBQWE7QUFDWixpQkFBUyx3TUFERztBQUVaLGlCQUFTLENBRkc7QUFHWixnQkFBUSxDQUhJLEVBUk4sRUFKRCxFQURJOzs7O0FBb0JaLGdCQUFjLEdBcEJGO0FBcUJaLFlBQVU7QUFDVCx5QkFBcUIsU0FEWjtBQUVULGNBQVUsT0FGRDtBQUdULGtCQUFjLFlBSEw7QUFJVCxjQUFVLFVBSkQ7QUFLVCxpQ0FBNkIsZUFMcEI7QUFNVCxZQUFRLCtCQU5DO0FBT1QsbUNBQStCLFVBUHRCO0FBUVQscUJBQWlCLHFDQVJSO0FBU1QsaUNBQTZCLGFBVHBCO0FBVVQsZUFBVywrQkFWRjtBQVdULDZCQUF5QixlQVhoQjtBQVlULG9CQUFnQixpQ0FaUDtBQWFULG9CQUFnQixXQWJQLEVBckJFOztBQW9DWixZQUFVLFlBcENFLEVBQWI7O0FBc0NBLElBQU1DLEtBQUssR0FBRyxJQUFkO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxJQUFNQyxVQUFVLEdBQUcsSUFBbkI7QUFDQTs7Ozs7OztBQU9BLFNBQVNDLE9BQVQsQ0FBaUJDLEdBQWpCLEVBQXNCQyxNQUF0QixFQUE4QkMsTUFBOUIsRUFBc0NDLE9BQXRDLEVBQStDO0FBQzlDLE1BQUksS0FBS04sS0FBTCxJQUFjLElBQWxCLEVBQXdCO0FBQ3ZCSyxVQUFNLENBQUMsT0FBRCxDQUFOLEdBQWtCLEtBQUtMLEtBQXZCO0FBQ0E7QUFDRE8sU0FBTyxDQUFDQyxHQUFSLENBQVksVUFBVUMsYUFBT0MsT0FBakIsR0FBMkJQLEdBQXZDO0FBQ0FJLFNBQU8sQ0FBQ0MsR0FBUixDQUFZLFVBQVVILE1BQXRCO0FBQ0FNLEtBQUcsQ0FBQ1QsT0FBSixDQUFZO0FBQ1hDLE9BQUcsRUFBRU0sYUFBT0MsT0FBUCxHQUFpQlAsR0FEWDtBQUVYQyxVQUFNLEVBQUVBLE1BRkc7QUFHWDtBQUNBUSxVQUFNLEVBQUU7QUFDUCxzQkFBZ0I7QUFDaEI7QUFDQTtBQUhPLEtBSkc7QUFTWGIsUUFBSSxFQUFFTSxNQVRLO0FBVVhDLFdBQU8sRUFBRUEsT0FWRTtBQVdYTyxRQUFJLEVBQUUsY0FBQ0MsS0FBRCxFQUFXO0FBQ2hCLFVBQUlBLEtBQUssQ0FBQ0MsTUFBTixJQUFnQixzQkFBcEIsRUFBNEMsQ0FBRTtBQUM3Q0Msa0JBQVUsQ0FBQyxlQUFELENBQVY7QUFDQSxPQUZELE1BRU8sSUFBSUYsS0FBSyxDQUFDQyxNQUFOLElBQWdCLG9CQUFwQixFQUEwQztBQUNoREMsa0JBQVUsQ0FBQyxlQUFELENBQVY7QUFDQSxPQUZNLE1BRUEsSUFBSUYsS0FBSyxDQUFDQyxNQUFOLElBQWdCLGVBQXBCLEVBQXFDO0FBQzNDQyxrQkFBVSxDQUFDLE1BQUQsQ0FBVjtBQUNBLE9BRk0sTUFFQTtBQUNOQSxrQkFBVSxDQUFDLE1BQUQsQ0FBVjtBQUNBO0FBQ0QsS0FyQlU7QUFzQlhDLFlBQVEsRUFBRSxvQkFBTSxDQUFFLENBdEJQLEVBQVo7O0FBd0JBOztBQUVEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxTQUFTQyxVQUFULENBQW9CZCxNQUFwQixFQUE0QkMsTUFBNUIsRUFBb0NjLElBQXBDLEVBQTBDYixPQUExQyxFQUFtRDtBQUNsREQsUUFBTSxDQUFDLE9BQUQsQ0FBTixHQUFrQixLQUFLSixVQUFMLENBQWdCbUIsU0FBaEIsQ0FBMEJwQixLQUE1QztBQUNBO0FBQ0FPLFNBQU8sQ0FBQ0MsR0FBUixDQUFZLGtCQUFnQlcsSUFBNUI7QUFDQVosU0FBTyxDQUFDQyxHQUFSLENBQVksaUJBQWVhLElBQUksQ0FBQ0MsU0FBTCxDQUFlakIsTUFBZixDQUEzQjtBQUNBTSxLQUFHLENBQUNZLFVBQUosQ0FBZTtBQUNkcEIsT0FBRyxFQUFFLEtBQUtGLFVBQUwsQ0FBZ0J1QixTQURQLEVBQ2tCO0FBQ2hDQyxZQUFRLEVBQUVOLElBRkksRUFFRTtBQUNoQk8sUUFBSSxFQUFFLE1BSFEsRUFHQTtBQUNkQyxZQUFRLEVBQUMsT0FKSztBQUtkQyxZQUFRLEVBQUV2QixNQUxJO0FBTWRPLFVBQU0sRUFBRTtBQUNQLHNCQUFnQixxQkFEVCxFQU5NOztBQVNkTixXQUFPLEVBQUVBLE9BVEs7QUFVZE8sUUFBSSxFQUFFLGNBQUNDLEtBQUQsRUFBVztBQUNoQixVQUFJQSxLQUFLLENBQUNDLE1BQU4sSUFBZ0Isc0JBQXBCLEVBQTRDLENBQUU7QUFDN0NDLGtCQUFVLENBQUMsZUFBRCxDQUFWO0FBQ0EsT0FGRCxNQUVPLElBQUlGLEtBQUssQ0FBQ0MsTUFBTixJQUFnQixvQkFBcEIsRUFBMEM7QUFDaERDLGtCQUFVLENBQUMsZUFBRCxDQUFWO0FBQ0EsT0FGTSxNQUVBLElBQUlGLEtBQUssQ0FBQ0MsTUFBTixJQUFnQixlQUFwQixFQUFxQztBQUMzQ0Msa0JBQVUsQ0FBQyxNQUFELENBQVY7QUFDQSxPQUZNLE1BRUE7QUFDTkEsa0JBQVUsQ0FBQyxNQUFELENBQVY7QUFDQTtBQUNELEtBcEJhO0FBcUJkQyxZQUFRLEVBQUUsb0JBQU0sQ0FBRSxDQXJCSixFQUFmOztBQXVCQTs7QUFFRCxTQUFTWSxXQUFULENBQXFCMUIsR0FBckIsRUFBMEJDLE1BQTFCLEVBQWtDQyxNQUFsQyxFQUEwQ3lCLFdBQTFDLEVBQXVEeEIsT0FBdkQsRUFBZ0U7QUFDL0QsTUFBSU4sS0FBSyxJQUFJLElBQWIsRUFBbUI7QUFDbEJLLFVBQU0sQ0FBQyxPQUFELENBQU4sR0FBa0IsS0FBS0wsS0FBdkI7QUFDQTtBQUNETyxTQUFPLENBQUNDLEdBQVIsQ0FBWSxVQUFVQyxhQUFPQyxPQUFqQixHQUEyQlAsR0FBdkM7QUFDQUksU0FBTyxDQUFDQyxHQUFSLENBQVksVUFBVUgsTUFBdEI7QUFDQU0sS0FBRyxDQUFDVCxPQUFKLENBQVk7QUFDWEMsT0FBRyxFQUFFTSxhQUFPQyxPQUFQLEdBQWlCUCxHQURYO0FBRVhDLFVBQU0sRUFBRUEsTUFGRztBQUdYO0FBQ0FRLFVBQU0sRUFBRTtBQUNQLHNCQUFnQmtCO0FBQ2hCO0FBQ0E7QUFITyxLQUpHO0FBU1gvQixRQUFJLEVBQUVNLE1BVEs7QUFVWEMsV0FBTyxFQUFFQSxPQVZFO0FBV1hPLFFBQUksRUFBRSxjQUFDQyxLQUFELEVBQVc7QUFDaEIsVUFBSUEsS0FBSyxDQUFDQyxNQUFOLElBQWdCLHNCQUFwQixFQUE0QyxDQUFFO0FBQzdDQyxrQkFBVSxDQUFDLGVBQUQsQ0FBVjtBQUNBLE9BRkQsTUFFTyxJQUFJRixLQUFLLENBQUNDLE1BQU4sSUFBZ0Isb0JBQXBCLEVBQTBDO0FBQ2hEQyxrQkFBVSxDQUFDLGVBQUQsQ0FBVjtBQUNBLE9BRk0sTUFFQSxJQUFJRixLQUFLLENBQUNDLE1BQU4sSUFBZ0IsZUFBcEIsRUFBcUM7QUFDM0NDLGtCQUFVLENBQUMsTUFBRCxDQUFWO0FBQ0EsT0FGTSxNQUVBO0FBQ05BLGtCQUFVLENBQUMsTUFBRCxDQUFWO0FBQ0E7QUFDRCxLQXJCVTtBQXNCWEMsWUFBUSxFQUFFLG9CQUFNLENBQUUsQ0F0QlAsRUFBWjs7QUF3QkE7O0FBRUQsU0FBU2MsU0FBVCxDQUFtQmhDLElBQW5CLEVBQXlCO0FBQ3hCLE1BQUlBLElBQUksQ0FBQ2lDLE1BQVQsRUFBaUI7QUFDaEIsUUFBSWpDLElBQUksQ0FBQ2lDLE1BQUwsQ0FBWUMsTUFBWixJQUFzQixRQUExQixFQUFvQztBQUNuQ0MsZUFBUztBQUNUbEIsZ0JBQVUsQ0FBQ2pCLElBQUksQ0FBQ2lDLE1BQUwsQ0FBWWpDLElBQVosQ0FBaUJvQyxPQUFsQixDQUFWO0FBQ0EsYUFBTyxLQUFQO0FBQ0EsS0FKRCxNQUlPO0FBQ047QUFDQSxhQUFPLElBQVA7QUFDQTtBQUNELEdBVEQsTUFTTztBQUNORCxhQUFTO0FBQ1RsQixjQUFVLENBQUMsTUFBRCxDQUFWO0FBQ0EsV0FBTyxLQUFQO0FBQ0E7QUFDRDs7OztBQUlELFNBQVNBLFVBQVQsQ0FBb0JvQixHQUFwQixFQUF5QjtBQUN4QnpCLEtBQUcsQ0FBQzBCLFNBQUosQ0FBYztBQUNiQyxTQUFLLEVBQUVGLEdBRE07QUFFYkcsUUFBSSxFQUFFLE1BRk87QUFHYkMsWUFBUSxFQUFFLElBSEcsRUFBZDs7QUFLQTs7O0FBR0Q7Ozs7O0FBS0EsU0FBU0MsWUFBVCxDQUFzQkMsU0FBdEIsRUFBaUNDLEtBQWpDLEVBQXdDO0FBQ3ZDaEMsS0FBRyxDQUFDOEIsWUFBSixDQUFpQjtBQUNoQkcsV0FBTyxFQUFFRixTQUFTLENBQUNDLEtBQUQsQ0FERjtBQUVoQkUsUUFBSSxFQUFFSCxTQUZVLEVBQWpCOztBQUlBLEM7O0FBRWM7QUFDZHhDLFNBQU8sRUFBUEEsT0FEYztBQUVkNkIsV0FBUyxFQUFUQSxTQUZjO0FBR2RmLFlBQVUsRUFBVkEsVUFIYztBQUlkeUIsY0FBWSxFQUFaQSxZQUpjO0FBS2R6QyxPQUFLLEVBQUxBLEtBTGM7QUFNZGtCLFlBQVUsRUFBVkEsVUFOYztBQU9kVyxhQUFXLEVBQVhBLFdBUGM7QUFRZDVCLFlBQVUsRUFBVkEsVUFSYyxFIiwiZmlsZSI6IjguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdGhlQXBpIGZyb20gXCJAL2NvbW1vbi9hcGkuanNcIlxyXG5jb25zdCBkYXRhID0ge1xyXG5cdFwiZGF0YVwiOiB7XHJcblx0XHRcImNvZGVcIjogMSxcclxuXHRcdFwibXNnXCI6IFwiXCIsXHJcblx0XHRcInRpbWVcIjogXCIxNTY1MzYxMjU3XCIsXHJcblx0XHRcImRhdGFcIjoge1xyXG5cdFx0XHRcInVwbG9hZHVybFwiOiBcImh0dHBzOi8vdXBsb2FkLXoyLnFpbml1cC5jb21cIixcclxuXHRcdFx0XCJjZG51cmxcIjogXCJodHRwOi8vY2RuLmRvdWtlLjUxZHJlYW1pbmcuY29tXCIsXHJcblx0XHRcdFwic2F2ZWtleVwiOiBcIi91cGxvYWRzL3t5ZWFyfXttb259e2RheX0ve2ZpbGVtZDV9ey5zdWZmaXh9XCIsXHJcblx0XHRcdFwibWF4c2l6ZVwiOiBcIjEwTVwiLFxyXG5cdFx0XHRcIm1pbWV0eXBlXCI6IFwianBnLHBuZyxibXAsanBlZyxnaWYsemlwLHJhcix4bHMseGxzeFwiLFxyXG5cdFx0XHRcIm11bHRpcGxlXCI6IGZhbHNlLFxyXG5cdFx0XHRcImJ1Y2tldFwiOiBcImRvdWtlXCIsXHJcblx0XHRcdFwibXVsdGlwYXJ0XCI6IHtcclxuXHRcdFx0XHRcInRva2VuXCI6IFwic0p3OVFjYXpzcl9NZnhVU3llUXlqNldUSjgzb3dFNnRqanoxS09ERjo2dm5HT0Z1eDdpZ1FZV0gxOTBSMGpicWhpa0E9OmV5SnpZWFpsUzJWNUlqb2lkWEJzYjJGa2Mxd3ZKQ2g1WldGeUtTUW9iVzl1S1NRb1pHRjVLVnd2SkNobGRHRm5LU1FvWlhoMEtTSXNJbk5qYjNCbElqb2laRzkxYTJVaUxDSmtaV0ZrYkdsdVpTSTZNVFUyTlRNMk1UZzFOMzA9XCIsXHJcblx0XHRcdFx0XCJhZG1pblwiOiAwLFxyXG5cdFx0XHRcdFwidXNlclwiOiAwXHJcblx0XHRcdH1cclxuXHRcdH1cclxuXHR9LFxyXG5cdFwic3RhdHVzQ29kZVwiOiAyMDAsXHJcblx0XCJoZWFkZXJcIjoge1xyXG5cdFx0XCJUcmFuc2Zlci1FbmNvZGluZ1wiOiBcImNodW5rZWRcIixcclxuXHRcdFwiU2VydmVyXCI6IFwibmdpbnhcIixcclxuXHRcdFwiQ29ubmVjdGlvblwiOiBcImtlZXAtYWxpdmVcIixcclxuXHRcdFwiUHJhZ21hXCI6IFwibm8tY2FjaGVcIixcclxuXHRcdFwiWC1BbmRyb2lkLVJlY2VpdmVkLU1pbGxpc1wiOiBcIjE1NjUzNjEyNTY4MzlcIixcclxuXHRcdFwiRGF0ZVwiOiBcIkZyaSwgMDkgQXVnIDIwMTkgMTQ6MzQ6MTcgR01UXCIsXHJcblx0XHRcIlgtQW5kcm9pZC1TZWxlY3RlZC1Qcm90b2NvbFwiOiBcImh0dHAvMS4xXCIsXHJcblx0XHRcIkNhY2hlLUNvbnRyb2xcIjogXCJuby1zdG9yZSwgbm8tY2FjaGUsIG11c3QtcmV2YWxpZGF0ZVwiLFxyXG5cdFx0XCJYLUFuZHJvaWQtUmVzcG9uc2UtU291cmNlXCI6IFwiTkVUV09SSyAyMDBcIixcclxuXHRcdFwiRXhwaXJlc1wiOiBcIlRodSwgMTkgTm92IDE5ODEgMDg6NTI6MDAgR01UXCIsXHJcblx0XHRcIlgtQW5kcm9pZC1TZW50LU1pbGxpc1wiOiBcIjE1NjUzNjEyNTYzMzhcIixcclxuXHRcdFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOFwiLFxyXG5cdFx0XCJYLVBvd2VyZWQtQnlcIjogXCJQSFAvNy4xLjVcIlxyXG5cdH0sXHJcblx0XCJlcnJNc2dcIjogXCJyZXF1ZXN0Om9rXCJcclxufVxyXG5jb25zdCB0b2tlbiA9IG51bGw7XHJcbi8vIFwiZGF0YVwiOiB7XHJcbi8vICAgICBcInVwbG9hZHVybFwiOiBcImh0dHBzOi8vdXBsb2FkLXoyLnFpbml1cC5jb21cIixcclxuLy8gICAgIFwiY2RudXJsXCI6IFwiaHR0cDovL2Nkbi5kb3VrZS41MWRyZWFtaW5nLmNvbVwiLFxyXG4vLyAgICAgXCJzYXZla2V5XCI6IFwiL3VwbG9hZHMve3llYXJ9e21vbn17ZGF5fS97ZmlsZW1kNX17LnN1ZmZpeH1cIixcclxuLy8gICAgIFwibWF4c2l6ZVwiOiBcIjEwTVwiLFxyXG4vLyAgICAgXCJtaW1ldHlwZVwiOiBcImpwZyxwbmcsYm1wLGpwZWcsZ2lmLHppcCxyYXIseGxzLHhsc3hcIixcclxuLy8gICAgIFwibXVsdGlwbGVcIjogZmFsc2UsXHJcbi8vICAgICBcImJ1Y2tldFwiOiBcImRvdWtlXCIsXHJcbi8vICAgICBcIm11bHRpcGFydFwiOiB7XHJcbi8vICAgICAgIFwidG9rZW5cIjogXCJzSnc5UWNhenNyX01meFVTeWVReWo2V1RKODNvd0U2dGpqejFLT0RGOkNBbUZNcGVwQUJxMmNQMmNyMVpHUnp0aVJzTT06ZXlKellYWmxTMlY1SWpvaWRYQnNiMkZrYzF3dkpDaDVaV0Z5S1NRb2JXOXVLU1FvWkdGNUtWd3ZKQ2hsZEdGbktTUW9aWGgwS1NJc0luTmpiM0JsSWpvaVpHOTFhMlVpTENKa1pXRmtiR2x1WlNJNk1UVTJOVE0xT1RZMU5uMD1cIixcclxuLy8gICAgICAgXCJhZG1pblwiOiAwLFxyXG4vLyAgICAgICBcInVzZXJcIjogMFxyXG4vLyAgICAgfVxyXG5jb25zdCB1cGxvYWRkYXRhID0gbnVsbDtcclxuLyoqXHJcbiAqIOWwgeijheivt+axguaWueazlVxyXG4gKiB1cmw66K+35rGC5Zyw5Z2AXHJcbiAqIHBhcmFtc++8muivt+axguWPguaVsFxyXG4gKiBtZXRob2Q6IOivt+axguaWueW8j1xyXG4gKiBzdWNjZXNzOiDor7fmsYLmiJDlip/nmoTlm57osINcclxuICovXHJcbmZ1bmN0aW9uIHJlcXVlc3QodXJsLCBtZXRob2QsIHBhcmFtcywgc3VjY2Vzcykge1xyXG5cdGlmICh0aGlzLnRva2VuICE9IG51bGwpIHtcclxuXHRcdHBhcmFtc1tcInRva2VuXCJdID0gdGhpcy50b2tlbjtcclxuXHR9XHJcblx0Y29uc29sZS5sb2coXCLmj5DkuqTlnLDlnYA6XCIgKyB0aGVBcGkudGVzdHVybCArIHVybCk7XHJcblx0Y29uc29sZS5sb2coXCLmj5DkuqTlj4LmlbA6XCIgKyBwYXJhbXMpO1xyXG5cdHVuaS5yZXF1ZXN0KHtcclxuXHRcdHVybDogdGhlQXBpLnRlc3R1cmwgKyB1cmwsXHJcblx0XHRtZXRob2Q6IG1ldGhvZCxcclxuXHRcdC8vIGhlYWRlcjogeydjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24vanNvbid9LFxyXG5cdFx0aGVhZGVyOiB7XHJcblx0XHRcdCdjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJyxcclxuXHRcdFx0Ly8gJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnOidDb250ZW50LVR5cGUsIENvbnRlbnQtTGVuZ3RoLCBBdXRob3JpemF0aW9uLCBBY2NlcHQsIFgtUmVxdWVzdGVkLVdpdGggLCB5b3VySGVhZGVyRmVpbGQnLFxyXG5cdFx0XHQvLyAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzp0aGVBcGkudGVzdHVybFxyXG5cdFx0fSxcclxuXHRcdGRhdGE6IHBhcmFtcyxcclxuXHRcdHN1Y2Nlc3M6IHN1Y2Nlc3MsXHJcblx0XHRmYWlsOiAoZXJyb3IpID0+IHtcclxuXHRcdFx0aWYgKGVycm9yLmVyck1zZyA9PSBcInJlcXVlc3Q6ZmFpbCB0aW1lb3V0XCIpIHsgLy/nvZHnu5zor7fmsYLotoXml7ZcclxuXHRcdFx0XHRzaG93V2luZG93KFwi572R57uc5LiN56iz5a6a77yM6K+35qOA5p+l572R57uc6K6+572uXCIpO1xyXG5cdFx0XHR9IGVsc2UgaWYgKGVycm9yLmVyck1zZyA9PSBcInJlcXVlc3Q6ZmFpbCDor7fmsYLotoXml7bjgIJcIikge1xyXG5cdFx0XHRcdHNob3dXaW5kb3coXCLnvZHnu5zkuI3nqLPlrprvvIzor7fmo4Dmn6XnvZHnu5zorr7nva5cIik7XHJcblx0XHRcdH0gZWxzZSBpZiAoZXJyb3IuZXJyTXNnID09IFwicmVxdWVzdDpmYWlsIFwiKSB7XHJcblx0XHRcdFx0c2hvd1dpbmRvdyhcIuivt+axguWksei0pVwiKTtcclxuXHRcdFx0fSBlbHNlIHtcclxuXHRcdFx0XHRzaG93V2luZG93KFwi5Yqg6L295aSx6LSlXCIpO1xyXG5cdFx0XHR9XHJcblx0XHR9LFxyXG5cdFx0Y29tcGxldGU6ICgpID0+IHt9XHJcblx0fSk7XHJcbn07XHJcblxyXG4vLyBcImRhdGFcIjoge1xyXG4vLyAgICAgXCJ1cGxvYWR1cmxcIjogXCJodHRwczovL3VwbG9hZC16Mi5xaW5pdXAuY29tXCIsXHJcbi8vICAgICBcImNkbnVybFwiOiBcImh0dHA6Ly9jZG4uZG91a2UuNTFkcmVhbWluZy5jb21cIixcclxuLy8gICAgIFwic2F2ZWtleVwiOiBcIi91cGxvYWRzL3t5ZWFyfXttb259e2RheX0ve2ZpbGVtZDV9ey5zdWZmaXh9XCIsXHJcbi8vICAgICBcIm1heHNpemVcIjogXCIxME1cIixcclxuLy8gICAgIFwibWltZXR5cGVcIjogXCJqcGcscG5nLGJtcCxqcGVnLGdpZix6aXAscmFyLHhscyx4bHN4XCIsXHJcbi8vICAgICBcIm11bHRpcGxlXCI6IGZhbHNlLFxyXG4vLyAgICAgXCJidWNrZXRcIjogXCJkb3VrZVwiLFxyXG4vLyAgICAgXCJtdWx0aXBhcnRcIjoge1xyXG4vLyAgICAgICBcInRva2VuXCI6IFwic0p3OVFjYXpzcl9NZnhVU3llUXlqNldUSjgzb3dFNnRqanoxS09ERjpDQW1GTXBlcEFCcTJjUDJjcjFaR1J6dGlSc009OmV5SnpZWFpsUzJWNUlqb2lkWEJzYjJGa2Mxd3ZKQ2g1WldGeUtTUW9iVzl1S1NRb1pHRjVLVnd2SkNobGRHRm5LU1FvWlhoMEtTSXNJbk5qYjNCbElqb2laRzkxYTJVaUxDSmtaV0ZrYkdsdVpTSTZNVFUyTlRNMU9UWTFObjA9XCIsXHJcbi8vICAgICAgIFwiYWRtaW5cIjogMCxcclxuLy8gICAgICAgXCJ1c2VyXCI6IDBcclxuLy8gICAgIH1cclxuLy8gdXBsb2FkZGF0YVxyXG5mdW5jdGlvbiByZXF1ZXN0SW1nKG1ldGhvZCwgcGFyYW1zLCBmaWxlLCBzdWNjZXNzKSB7XHJcblx0cGFyYW1zW1widG9rZW5cIl0gPSB0aGlzLnVwbG9hZGRhdGEubXVsdGlwYXJ0LnRva2VuO1xyXG5cdC8vIHBhcmFtc1tcImJ1Y2tldFwiXSA9IHRoaXMudXBsb2FkZGF0YS5idWNrZXQ7XHJcblx0Y29uc29sZS5sb2coXCLmlofku7bot6/lvoRmaWxlUGF0aO+8mlwiK2ZpbGUpO1xyXG5cdGNvbnNvbGUubG9nKFwi5LiK5Lyg55qEZm9ybURhdGHvvJpcIitKU09OLnN0cmluZ2lmeShwYXJhbXMpKTtcclxuXHR1bmkudXBsb2FkRmlsZSh7XHJcblx0XHR1cmw6IHRoaXMudXBsb2FkZGF0YS51cGxvYWR1cmwsIC8vIOWQjuerr2FwaeaOpeWPo1xyXG5cdFx0ZmlsZVBhdGg6IGZpbGUsIC8vIHVuaS5jaG9vc2VJbWFnZeWHveaVsOiwg+eUqOWQjuiOt+WPlueahOacrOWcsOaWh+S7tui3r+WKslxyXG5cdFx0bmFtZTogJ2ZpbGUnLCAvL+WQjuerr+mAmui/hydmaWxlJ+iOt+WPluS4iuS8oOeahOaWh+S7tuWvueixoVxyXG5cdFx0ZmlsZVR5cGU6J2ltYWdlJyxcclxuXHRcdGZvcm1EYXRhOiBwYXJhbXMsXHJcblx0XHRoZWFkZXI6IHtcclxuXHRcdFx0XCJDb250ZW50LVR5cGVcIjogXCJtdWx0aXBhcnQvZm9ybS1kYXRhXCJcclxuXHRcdH0sXHJcblx0XHRzdWNjZXNzOiBzdWNjZXNzLFxyXG5cdFx0ZmFpbDogKGVycm9yKSA9PiB7XHJcblx0XHRcdGlmIChlcnJvci5lcnJNc2cgPT0gXCJyZXF1ZXN0OmZhaWwgdGltZW91dFwiKSB7IC8v572R57uc6K+35rGC6LaF5pe2XHJcblx0XHRcdFx0c2hvd1dpbmRvdyhcIue9kee7nOS4jeeos+Wumu+8jOivt+ajgOafpee9kee7nOiuvue9rlwiKTtcclxuXHRcdFx0fSBlbHNlIGlmIChlcnJvci5lcnJNc2cgPT0gXCJyZXF1ZXN0OmZhaWwg6K+35rGC6LaF5pe244CCXCIpIHtcclxuXHRcdFx0XHRzaG93V2luZG93KFwi572R57uc5LiN56iz5a6a77yM6K+35qOA5p+l572R57uc6K6+572uXCIpO1xyXG5cdFx0XHR9IGVsc2UgaWYgKGVycm9yLmVyck1zZyA9PSBcInJlcXVlc3Q6ZmFpbCBcIikge1xyXG5cdFx0XHRcdHNob3dXaW5kb3coXCLor7fmsYLlpLHotKVcIik7XHJcblx0XHRcdH0gZWxzZSB7XHJcblx0XHRcdFx0c2hvd1dpbmRvdyhcIuWKoOi9veWksei0pVwiKTtcclxuXHRcdFx0fVxyXG5cdFx0fSxcclxuXHRcdGNvbXBsZXRlOiAoKSA9PiB7fVxyXG5cdH0pO1xyXG59O1xyXG5cclxuZnVuY3Rpb24gcmVxdWVzdFR5cGUodXJsLCBtZXRob2QsIHBhcmFtcywgY29udGVudFR5cGUsIHN1Y2Nlc3MpIHtcclxuXHRpZiAodG9rZW4gIT0gbnVsbCkge1xyXG5cdFx0cGFyYW1zW1widG9rZW5cIl0gPSB0aGlzLnRva2VuO1xyXG5cdH1cclxuXHRjb25zb2xlLmxvZyhcIuaPkOS6pOWcsOWdgDpcIiArIHRoZUFwaS50ZXN0dXJsICsgdXJsKTtcclxuXHRjb25zb2xlLmxvZyhcIuaPkOS6pOWPguaVsDpcIiArIHBhcmFtcyk7XHJcblx0dW5pLnJlcXVlc3Qoe1xyXG5cdFx0dXJsOiB0aGVBcGkudGVzdHVybCArIHVybCxcclxuXHRcdG1ldGhvZDogbWV0aG9kLFxyXG5cdFx0Ly8gaGVhZGVyOiB7J2NvbnRlbnQtdHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJ30sXHJcblx0XHRoZWFkZXI6IHtcclxuXHRcdFx0J2NvbnRlbnQtdHlwZSc6IGNvbnRlbnRUeXBlLFxyXG5cdFx0XHQvLyAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycyc6J0NvbnRlbnQtVHlwZSwgQ29udGVudC1MZW5ndGgsIEF1dGhvcml6YXRpb24sIEFjY2VwdCwgWC1SZXF1ZXN0ZWQtV2l0aCAsIHlvdXJIZWFkZXJGZWlsZCcsXHJcblx0XHRcdC8vICdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nOnRoZUFwaS50ZXN0dXJsXHJcblx0XHR9LFxyXG5cdFx0ZGF0YTogcGFyYW1zLFxyXG5cdFx0c3VjY2Vzczogc3VjY2VzcyxcclxuXHRcdGZhaWw6IChlcnJvcikgPT4ge1xyXG5cdFx0XHRpZiAoZXJyb3IuZXJyTXNnID09IFwicmVxdWVzdDpmYWlsIHRpbWVvdXRcIikgeyAvL+e9kee7nOivt+axgui2heaXtlxyXG5cdFx0XHRcdHNob3dXaW5kb3coXCLnvZHnu5zkuI3nqLPlrprvvIzor7fmo4Dmn6XnvZHnu5zorr7nva5cIik7XHJcblx0XHRcdH0gZWxzZSBpZiAoZXJyb3IuZXJyTXNnID09IFwicmVxdWVzdDpmYWlsIOivt+axgui2heaXtuOAglwiKSB7XHJcblx0XHRcdFx0c2hvd1dpbmRvdyhcIue9kee7nOS4jeeos+Wumu+8jOivt+ajgOafpee9kee7nOiuvue9rlwiKTtcclxuXHRcdFx0fSBlbHNlIGlmIChlcnJvci5lcnJNc2cgPT0gXCJyZXF1ZXN0OmZhaWwgXCIpIHtcclxuXHRcdFx0XHRzaG93V2luZG93KFwi6K+35rGC5aSx6LSlXCIpO1xyXG5cdFx0XHR9IGVsc2Uge1xyXG5cdFx0XHRcdHNob3dXaW5kb3coXCLliqDovb3lpLHotKVcIik7XHJcblx0XHRcdH1cclxuXHRcdH0sXHJcblx0XHRjb21wbGV0ZTogKCkgPT4ge31cclxuXHR9KTtcclxufTtcclxuXHJcbmZ1bmN0aW9uIGlzU3VjY2VzcyhkYXRhKSB7XHJcblx0aWYgKGRhdGEucmVzdWx0KSB7XHJcblx0XHRpZiAoZGF0YS5yZXN1bHQuc3RhdHVzID09IFwiZmFpbGVkXCIpIHtcclxuXHRcdFx0bG9hZENsb3NlKClcclxuXHRcdFx0c2hvd1dpbmRvdyhkYXRhLnJlc3VsdC5kYXRhLm1lc3NhZ2UpO1xyXG5cdFx0XHRyZXR1cm4gZmFsc2VcclxuXHRcdH0gZWxzZSB7XHJcblx0XHRcdC8vc3RhdHVz5Y+v6IO95piv4oCcbm9uZeKAnSDmiJbogIXigJxzdWNjZXNz4oCdXHJcblx0XHRcdHJldHVybiB0cnVlXHJcblx0XHR9XHJcblx0fSBlbHNlIHtcclxuXHRcdGxvYWRDbG9zZSgpXHJcblx0XHRzaG93V2luZG93KFwi5Yqg6L295aSx6LSlXCIpO1xyXG5cdFx0cmV0dXJuIGZhbHNlXHJcblx0fVxyXG59O1xyXG5cclxuXHJcblxyXG5mdW5jdGlvbiBzaG93V2luZG93KHR4dCkge1xyXG5cdHVuaS5zaG93VG9hc3Qoe1xyXG5cdFx0dGl0bGU6IHR4dCxcclxuXHRcdGljb246IFwibm9uZVwiLFxyXG5cdFx0ZHVyYXRpb246IDIwMDBcclxuXHR9KVxyXG59XHJcblxyXG5cclxuLyoqXHJcbiAqIOmihOiniOWbvueJh1xyXG4gKiBpbWFnZUxpc3TvvJrlm77niYfpm4blkIhcclxuICogaW5kZXjvvJrlvZPliY3lm77niYdpbmRleFxyXG4gKi9cclxuZnVuY3Rpb24gcHJldmlld0ltYWdlKGltYWdlTGlzdCwgaW5kZXgpIHtcclxuXHR1bmkucHJldmlld0ltYWdlKHtcclxuXHRcdGN1cnJlbnQ6IGltYWdlTGlzdFtpbmRleF0sXHJcblx0XHR1cmxzOiBpbWFnZUxpc3RcclxuXHR9KTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQge1xyXG5cdHJlcXVlc3QsXHJcblx0aXNTdWNjZXNzLFxyXG5cdHNob3dXaW5kb3csXHJcblx0cHJldmlld0ltYWdlLFxyXG5cdHRva2VuLFxyXG5cdHJlcXVlc3RJbWcsXHJcblx0cmVxdWVzdFR5cGUsXHJcblx0dXBsb2FkZGF0YVxyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///8\n");
 
 /***/ }),
@@ -600,10 +995,21 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /*!*******************************************************************************************************!*\
   !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Frelease%2Frelease03%2Frelease03"} ***!
   \*******************************************************************************************************/
+=======
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _release = _interopRequireDefault(__webpack_require__(/*! ./pages/release/release03/release03.vue */ 86));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_release.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw4RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiI4NS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3JlbGVhc2UvcmVsZWFzZTAzL3JlbGVhc2UwMy52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///85\n");
+
+/***/ }),
+
+/***/ 93:
+/*!************************************************************************************************!*\
+  !*** E:/projectcode/cloud-dream/main.js?{"page":"pages%2Ftask%2Ftask-records%2Ftask-records"} ***!
+  \************************************************************************************************/
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _release = _interopRequireDefault(__webpack_require__(/*! ./pages/release/release03/release03.vue */ 86));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_release.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw4RztBQUNBQSxVQUFVLENBQUNDLGdCQUFELENBQVYsQyIsImZpbGUiOiI4NS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3JlbGVhc2UvcmVsZWFzZTAzL3JlbGVhc2UwMy52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///85\n");
 
 /***/ }),
@@ -628,6 +1034,8 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+=======
+>>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990
 eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _taskRecords = _interopRequireDefault(__webpack_require__(/*! ./pages/task/task-records/task-records.vue */ 94));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_taskRecords.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSxxSDtBQUNBQSxVQUFVLENBQUNDLG9CQUFELENBQVYsQyIsImZpbGUiOiI5My5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL3Rhc2svdGFzay1yZWNvcmRzL3Rhc2stcmVjb3Jkcy52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///93\n");
 
 /***/ })
