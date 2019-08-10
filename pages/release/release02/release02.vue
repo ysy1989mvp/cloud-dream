@@ -18,19 +18,19 @@
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
 					<view class="leibie">标题:</view>
-					<view>帮忙转发推广</view>
+					<input class="input1" placeholder="" />
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
 					<view class="leibie">任务单价:</view>
-					<view>1.20元</view>
+					<view  class="pailie"><input class="input3"/><view>元</view></view>
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/04@3x.png"></image>
 					<view class="leibie">任务数量:</view>
 					<view class="shuliangannniu">
 						<view class="xiaoanniu">-</view>
-						<view class="number">100</view>
+						<view class="number"><input class="input2" /></view>
 						<view class="xiaoanniu">+</view>
 					</view>
 				</view>
@@ -39,20 +39,27 @@
 					<view class="leibie">时间节点:</view>
 					<view class="shuliangannniu">
 						<view class="xiaoanniu">-</view>
-						<view class="number">一天</view>
+						<view class="number">
+							<input class="input2" />
+						</view>
 						<view class="xiaoanniu">+</view>
+						<view>天</view>
 					</view>
+				</view>
+				<view class="content1">
+					<view class="leibie suojin">网址:</view>
+					<input class="input1 wangzhi1"/>
 				</view>
 			</view>
 			<view class="part3">
-				<view class="totle">#总金额1200.00元，退单按原款</view>
+				<view class="totle">#总金额1200.00元 服务费0.00元，退单按原款</view>
 				<view class="button_ysy">
 					发布
 				</view>
 				<view class="tishi">
 					温馨提示：尊敬的抖客雇主们，请大家根据自己的任务需求选择
 					分类，正确的分类会提供用户做任务的效率哦
-					
+
 				</view>
 			</view>
 		</view>
@@ -77,61 +84,73 @@
 </script>
 
 <style>
-	*{
+	* {
 		/* border: 1px solid red; */
 	}
-	.container{
-		border-top:10upx solid #E5E5E5 ;
+
+	.container {
+		border-top: 10upx solid #E5E5E5;
 	}
-	.text{
+
+	.text {
 		width: 90%;
 		display: flex;
 		/* height: 140upx; */
 		justify-content: center;
-		align-items:center;
+		align-items: center;
 		margin: 15upx auto;
 	}
-	.text>textarea{
-		border:1px solid #E5E5E5;
+
+	.text>textarea {
+		border: 1px solid #E5E5E5;
 		width: 100%;
 	}
-	.upload_imgs{
+
+	.upload_imgs {
 		width: 90%;
 		display: flex;
 		/* height: 140upx; */
 		justify-content: center;
-		align-items:center;
+		align-items: center;
 		margin: 0upx auto;
 	}
-	.part2{
+
+	.part2 {
 		width: 90%;
 		margin: 0upx auto;
 		display: flex;
 		/* height: 140upx; */
-		justify-content:center;
-		align-items:flex-start;
+		justify-content: center;
+		align-items: flex-start;
 		flex-direction: column;
 		font-size: 32upx;
 		line-height: 80upx;
 	}
-	.content1{
+
+	
+
+	.content1 {
 		display: flex;
 	}
-	.image_view{
+
+	.image_view {
 		width: 80upx;
 		height: 80upx;
 	}
-	.leibie{
+
+	.leibie {
 		margin-right: 10upx;
 	}
-	.shuliangannniu{
+
+	.shuliangannniu {
 		display: flex;
 		/* height: 140upx; */
-		justify-content:space-between;
-		align-items:center;
+		justify-content: space-between;
+		align-items: center;
 		flex-direction: row;
 	}
-	.xiaoanniu{
+
+	.xiaoanniu {
 		width: 40upx;
 		height: 40upx;
 		border-radius: 20upx;
@@ -141,38 +160,87 @@
 		color: #FFFFFF;
 		text-align: center;
 	}
-	.part3{
+
+	.part3 {
 		width: 90%;
 		margin: 0upx auto;
 	}
-	.number{
+
+	.number {
 		margin: 0upx 20upx;
 	}
-	.totle{
+
+	.totle {
 		text-align: center;
 	}
-	.totle{
+
+	.totle {
 		color: #FF5400;
 		font-size: 28upx;
 		margin-top: 80upx;
 	}
-	.tishi{
+
+	.tishi {
 		color: #A5A5A5;
 		font-size: 25upx;
 		width: 80%;
 		text-align: center;
 		margin: 0upx auto;
-		-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
-		-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
-		word-break: break-all; /* // 使<p>中的文字换行 */
-		overflow: hidden; /* // 超出的文字部分隐藏 */
-		text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
-		display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+		-webkit-line-clamp: 2;
+		/* // 限制显示的文本的行数为3 */
+		-webkit-box-orient: vertical;
+		/* // 水平排列<p>，使其不纵向显示 */
+		word-break: break-all;
+		/* // 使<p>中的文字换行 */
+		overflow: hidden;
+		/* // 超出的文字部分隐藏 */
+		text-overflow: ellipsis;
+		/* // 超出的文字部分用...来显示 */
+		display: -webkit-box;
+		/* // 将<p>变成高度定死，宽度自适应的行内块元素 */
 		margin-top: 20upx;
 	}
-	.button_ysy{
-		width: 70% ;
+
+	.button_ysy {
+		width: 70%;
 		margin-top: 50upx;
 		margin-bottom: 50upx;
+	}
+
+	.suojin {
+		margin-left: 20upx;
+	}
+
+	.wangzhi {
+		color: #4ea7df;
+	}
+
+	.input1 {
+		width: 400upx;
+		height: 45upx;
+		margin: auto 0upx;
+	}
+
+	.input2 {
+		width: 100upx;
+		height: 45upx;
+		margin: auto 0upx;
+	}
+
+	.input3 {
+		width: 200upx;
+		height: 45upx;
+		margin: auto 15upx;
+	}
+	.pailie {
+		display: flex;
+		/* height: 140upx; */
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: row;
+		margin: auto 0upx;
+	}
+	.wangzhi1{
+		width: 500upx;
 	}
 </style>

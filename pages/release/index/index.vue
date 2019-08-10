@@ -2,9 +2,9 @@
 	<view class="container">
 		<view class="content">
 			<view class="release_content">
-				<text class="text2" @click="release">抖音点赞+评论+转发</text>
 				<text class="text2" @click="release03">朋友圈推广</text>
 				<text class="text2" @click="release02">抖音点赞+评论</text>
+				<text class="text2" @click="release01">抖音点赞+评论+转发</text>
 				<!-- <view class="login_btn" @click="logining">
 					<text>登&nbsp;录</text>
 				</view> -->
@@ -42,7 +42,7 @@
 
 		},
 		methods: {
-			release() {
+			release01() {
 				uni.navigateTo({
 					url: "../release/release"
 				})

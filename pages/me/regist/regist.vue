@@ -40,7 +40,6 @@
 </template>
 
 <script>
-	import util from '@/common/util.js';
 	export default {
 		data() {
 			return {
@@ -55,23 +54,23 @@
 		methods: {
 			regist() {
 				if (this.nickname.trim() == '') {
-					util.showWindow("昵称输入错误");
+					this.util.showWindow("昵称输入错误");
 					return;
 				} else if (this.mobile.trim()==''||!(/^1[3456789]\d{9}$/.test(this.mobile))){
-					util.showWindow("电话号码输入错误");
+					this.util.showWindow("电话号码输入错误");
 					return;
 				} else if (this.vcode.trim() == '') {
-					util.showWindow("验证码输入错误");
+					this.util.showWindow("验证码输入错误");
 					return;
 				} else if (this.idcard.trim()==''||(/^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/.test(this.idcard))==false) {
-					util.showWindow("身份证号码错误");
+					this.util.showWindow("身份证号码错误");
 					return;
 
 				} else if (this.password.trim() == '') {
-					util.showWindow("密码输入错误");
+					this.util.showWindow("密码输入错误");
 					return;
 				}else if (this.confirmPwd.trim() == ''||this.password!=this.confirmPwd) {
-					util.showWindow("确认密码输入错误");
+					this.util.showWindow("确认密码输入错误");
 					return;
 				}
 				let params = {
@@ -82,20 +81,18 @@
 					"password":this.password
 				};
 				let url="/api/user/register";
-				util.request(url,"POST",params,(res) => {
-					console.log(res);
+				this.util.request(url,"POST",params,(res) => {
 					if(res.statusCode==200){
 						if(res.data.code==1){
-							util.token = res.data.data.userinfo.token;
-							console.log("token:"+util.token);
+							this.util.token = res.data.data.userinfo.token;
 							uni.switchTab({
 								url:"../../home/index/index"
 							})
 						}else{
-							util.showWindow("注册失败");
+							this.util.showWindow("注册失败");
 						}
 					}else{
-						util.showWindow("注册请求失败");
+						this.util.showWindow("注册请求失败");
 					}
 				});
 				

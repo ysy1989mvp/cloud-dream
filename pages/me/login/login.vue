@@ -38,7 +38,6 @@
 </template>
 
 <script>
-	import util from '@/common/util.js';
 	export default {
 		data() {
 			return {
@@ -49,10 +48,10 @@
 		methods: {
 			logining() {
 				if (this.mobile.trim() == '' || !(/^1[3456789]\d{9}$/.test(this.mobile))) {
-					util.showWindow("电话号码格式错误");
+					this.util.showWindow("电话号码格式错误");
 					return;
 				} else if (this.password.trim() == '') {
-					util.showWindow("密码输入错误");
+					this.util.showWindow("密码输入错误");
 					return;
 				}
 				let params = {
@@ -61,19 +60,36 @@
 				};
 				let url = "/api/user/login";
 
-				util.request(url, "GET", params, (res) => {
+				this.util.request(url, "GET", params, (res) => {
+					console.log("登录返回:"+JSON.stringify(res));
 					if (res.statusCode == 200) {
 						if (res.data.code == 1) {
-							util.token = res.data.data.userinfo.token;
+							this.util.token = res.data.data.userinfo.token;
+							/**********************************/
+							this.util.request('/api/common/uploadconfig?token='+this.util.token, "GET", params, (res1) => {
+								console.log("配置返回:"+JSON.stringify(res1));
+								if (res1.statusCode == 200) {
+									if (res1.data.code == 1) {
+											this.util.uploaddata = res1.data.data;
+											console.log("获取到的上传文件参数配置:"+JSON.stringify(this.util.uploaddata));
+									}else{
+										this.util.showWindow("配置获取错误");
+										return;
+									}
+								} else {
+									this.util.showWindow("配置请求错误");
+								}
+							});
+							/**********************************/
 							uni.switchTab({
 								url: "../../home/index/index"
 							})
 						}else{
-							util.showWindow("账号或密码错误");
+							this.util.showWindow("账号或密码错误");
 							return;
 						}
 					} else {
-						util.showWindow("登录请求错误");
+						this.util.showWindow("登录请求错误");
 					}
 				});
 			},

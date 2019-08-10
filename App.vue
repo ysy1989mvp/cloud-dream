@@ -1,4 +1,5 @@
 <script>
+	import util from './common/util.js'
 	export default {
 		onLaunch: function() {
 			// console.log('App Launch')
