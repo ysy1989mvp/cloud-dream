@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 <view class="container"><view class="content"><view class="release_content"><text data-event-opts="{{[['tap',[['release03',['$event']]]]]}}" class="text2" bindtap="__e">朋友圈推广</text><text data-event-opts="{{[['tap',[['release02',['$event']]]]]}}" class="text2" bindtap="__e">抖音点赞+评论</text><text data-event-opts="{{[['tap',[['release01',['$event']]]]]}}" class="text2" bindtap="__e">抖音点赞+评论+转发</text></view></view></view>
-=======
-<view class="container"><view class="content"><view class="release_content"><text data-event-opts="{{[['tap',[['release',['$event']]]]]}}" class="text2" bindtap="__e">抖音点赞+评论+转发</text><text data-event-opts="{{[['tap',[['release03',['$event']]]]]}}" class="text2" bindtap="__e">朋友圈推广</text><text data-event-opts="{{[['tap',[['release02',['$event']]]]]}}" class="text2" bindtap="__e">抖音点赞+评论</text></view></view></view>
->>>>>>> 263f9d5cd1ec9c4910d8c9d74d6ee327c80d0990

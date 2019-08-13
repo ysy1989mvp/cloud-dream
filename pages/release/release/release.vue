@@ -13,12 +13,12 @@
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/02@3x.png"></image>
 					<view class="leibie">类别:</view>
-					<view>抖音点赞+评论+转发</view>
+					<view>{{leibie}}</view>
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
 					<view class="leibie">标题:</view>
-					<input class="input1" placeholder="" v-model="title" />
+					<input class="input1" v-model="title" />
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
@@ -54,7 +54,7 @@
 				</view>
 			</view>
 			<view class="part3">
-				<view class="totle">#总金额1200.00元 服务费0.00元，退单按原款</view>
+				<view class="totle">#总金额{{publish_count*publish_price}}元 服务费0.00元，退单按原款</view>
 				<view class="button_ysy" @click="release">
 					发布
 				</view>
@@ -76,9 +76,9 @@
 		},
 		data() {
 			return {
+				leibie: '抖音点赞+评论+转发',
 				contenttext: '',
-				task_images: [],
-				task_type_id: 2,
+				task_type_id: 1,
 				title: '',
 				scope_day: 0,
 				publish_count: 0,
@@ -104,9 +104,13 @@
 				this.scope_day++;
 			},
 			release(){
+				if(this.publish_count<1){
+					this.util.showWindow("任务数量不能为0");
+					return;
+				}
 				let params = {
 					"content": this.contenttext,
-					"task_images": this.task_images,
+					"task_images": this.util.uploadImgas,
 					"task_type_id":this.task_type_id,
 					"title": this.title,
 					"scope_day": this.scope_day,
@@ -118,10 +122,9 @@
 				this.util.request(url,"POST",params,(res) => {
 					if(res.statusCode==200){
 						if(res.data.code==1){
-							this.util.token = res.data.data.userinfo.token;
 							this.util.showWindow("发布成功");
 							uni.switchTab({
-								url:"../../release/index/index"
+								url:"../../task/index/index"
 							})
 						}else{
 							this.util.showWindow("注册失败");

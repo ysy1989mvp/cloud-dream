@@ -17,10 +17,10 @@ page {
 }
 .douyin {
 	color: red;
-	margin-left:12rpx;
+	margin-left: 12rpx;
 }
-.small{
-	margin-left:12rpx;
+.small {
+	margin-left: 12rpx;
 }
 .right {
 	line-height: 40rpx;
@@ -121,8 +121,8 @@ page {
 	    -ms-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
 	border-bottom: 2rpx red solid;
-	padding-left: 70rpx;
-	padding-right: 70rpx;
+	padding-left: 40rpx;
+	padding-right: 40rpx;
 }
 .uni-tab-item-title {
 	color: rgb(110, 107, 107);

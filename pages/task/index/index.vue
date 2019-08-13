@@ -9,90 +9,77 @@
 		</scroll-view>
 		<view class="container">
 			<!-- 抖音 -->
-			<view v-show="tabIndex==0" class="part part_lower" v-for="a in 10">
-				<view class="left">
-					<image src="../../../static/cdnImg/task/douying/1.png"></image>
+			<view class="part part_lower" v-for="(item,index) in data" :key="item.id" @click="taskDetail(item.id)">
+				<view class="left" v-if="item.task_images.length>0">
+					<image :src="imgurl+item.task_images[0]"></image>
+				</view>
+				<view class="left" v-if="item.task_images.length<1">
+					<image :src="defaultImgSrc"></image>
 				</view>
 				<view class="right">
-					<text class="tex bigFont">【2501】任务标题0</text>
+					<text class="tex bigFont">【{{item.task_no}}】{{item.title}}</text>
 					<view>
-						<text class="tex douyin">抖音</text>
+						<text class="tex douyin">{{item.type_name}}</text>
 					</view>
 					<view class="small">
-						<text class="tex">剩余：321456</text>
-						<text class="tex" style="margin-left: 40upx;">12小时后结束</text>
+						<text class="tex">剩余：{{item.remain_count}}</text>
+						<text class="tex" style="margin-left: 40upx;">{{item.endtime_text}}</text>
 					</view>
 				</view>
-				<button class="btn">¥1.00</button>
+				<button class="btn">¥{{item.publish_price}}元</button>
 			</view>
 
-			<!-- 朋友圈 -->
-			<view v-show="tabIndex==1" class="part part_lower" v-for="a in 4">
-				<view class="left">
-					<image src="../../../static/cdnImg/task/douying/1.png"></image>
-				</view>
-				<view class="right">
-					<text class="tex bigFont">【2501】任务标题1</text>
-					<view>
-						<text class="tex douyin">抖音</text>
-					</view>
-					<view class="small">
-						<text class="tex">剩余：321456</text>
-						<text class="tex" style="margin-left: 40upx;">12小时后结束</text>
-					</view>
-				</view>
-				<button class="btn">¥1.00</button>
-			</view>
-			<!-- 关注 -->
-			<view v-show="tabIndex==2" class="part part_lower" v-for="a in 4">
-				<view class="left">
-					<image src="../../../static/cdnImg/task/douying/1.png"></image>
-				</view>
-				<view class="right">
-					<text class="tex bigFont">【2501】任务标题2</text>
-					<view>
-						<text class="tex douyin">抖音</text>
-					</view>
-					<view class="small">
-						<text class="tex">剩余：321456</text>
-						<text class="tex" style="margin-left: 40upx;">12小时后结束</text>
-					</view>
-				</view>
-				<button class="btn">¥1.00</button>
-			</view>
 		</view>
-	<view class="loading">{{loadingText}}</view>
+		<view class="loading">{{loadingText}}</view>
 	</view>
 </template>
 <script>
 	export default {
 		data() {
 			return {
-				imgs: [],
+				imgurl: this.util.uploaddata.cdnurl + "/",
+				defaultImgSrc: '../../../static/image/yangsongyan/release02/01.png',
 				tabIndex: 0,
 				pageSize: 0,
 				loadingText: '加载更多...',
 				tabBars: [{
-					name: '抖音',
+					name: '抖音点评转',
 					id: 'dou'
 				}, {
-					name: '朋友圈',
+					name: '抖音点评',
 					id: 'friends'
 				}, {
-					name: '关注',
+					name: '朋友圈',
 					id: 'guanzhu'
-				}]
+				}],
+				data: []
 			}
 		},
 		onLoad: function(options) {
 			setTimeout(function() {
-				console.log('start pulldown');
+				// console.log('start pulldown');
 			}, 1000);
 			uni.startPullDownRefresh();
+			let params = {
+				"task_type_id": 1
+			};
+			let url = "/api/task";
+			this.util.request(url, "GET", params, (res) => {
+				if (res.statusCode == 200) {
+					if (res.data.code == 1) {
+						this.data = res.data.data;
+						// console.log(JSON.stringify(this.data));
+					} else {
+						this.util.showWindow("注册失败");
+					}
+				} else {
+					this.util.showWindow("注册请求失败");
+				}
+			});
 		},
 		// 下拉方法
 		onPullDownRefresh() {
-			console.log('下拉刷新');
+			// console.log('下拉刷新');
 			this.pageSize = 0;
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
@@ -101,42 +88,39 @@
 		},
 		// xia划方法
 		onReachBottom: function() {
-			console.log("下划")
+			// console.log("下划")
 			this.pageSize++;
-			this.loadingText = "没有更多了"
+			// this.loadingText = "没有更多了"
 		},
 		methods: {
-			// getImgList(index) {
-			// 	this.imgs = [];
-			// 	switch (index) {
-			// 		case "0":
-			// 			// for (var i = 0; i < 5; i++) {
-			// 				this.imgs.push("../../../static/cdnImg/task/douying/1.png")
-			// 			// }
-			// 			break;
-			// 		case "1":
-			// 			for (var i = 0; i < 5; i++) {
-			// 				this.imgs.push("../../../static/cdnImg/task/friends/" + i + ".png")
-			// 			}
-			// 			break
-			// 		default:
-			// 			for (var i = 0; i < 5; i++) {
-			// 				this.imgs.push("../../../static/cdnImg/task/guanzhu/" + i + ".png")
-			// 			}
-			// 			break;
-			// 	}
-			// },
+			taskDetail(id) {
+				uni.navigateTo({
+					url:"../task-detail/task-detail?id="+id
+				})
+			},
 			// 切换触发
 			ontabtap(e) {
 				let index = e.target.dataset.current || e.currentTarget.dataset.current;
 				this.tabIndex = index
-				this.getImgList(index)
-				console.log(index)
+				let params = {
+					"task_type_id": this.tabIndex + 1
+				};
+				let url = "/api/task";
+				this.util.request(url, "POST", params, (res) => {
+					if (res.statusCode == 200) {
+						if (res.data.code == 1) {
+							this.data = res.data.data;
+						} else {
+							this.util.showWindow("请求失败");
+						}
+					} else {
+						this.util.showWindow("请求失败");
+					}
+				});
+
 			}
 		},
-		mounted() {
-			this.getImgList(0);
-		}
+		mounted() {}
 	}
 </script>
 
@@ -160,10 +144,11 @@
 
 	.douyin {
 		color: red;
-		margin-left:12upx;
+		margin-left: 12upx;
 	}
-	.small{
-		margin-left:12upx;
+
+	.small {
+		margin-left: 12upx;
 	}
 
 	.right {
@@ -245,8 +230,8 @@
 		display: inline-block;
 		flex-wrap: nowrap;
 		border-bottom: 2upx red solid;
-		padding-left: 70upx;
-		padding-right: 70upx;
+		padding-left: 40upx;
+		padding-right: 40upx;
 	}
 
 	.uni-tab-item-title {

@@ -1,42 +1,4 @@
 import theApi from "@/common/api.js"
-const data = {
-	"data": {
-		"code": 1,
-		"msg": "",
-		"time": "1565361257",
-		"data": {
-			"uploadurl": "https://upload-z2.qiniup.com",
-			"cdnurl": "http://cdn.douke.51dreaming.com",
-			"savekey": "/uploads/{year}{mon}{day}/{filemd5}{.suffix}",
-			"maxsize": "10M",
-			"mimetype": "jpg,png,bmp,jpeg,gif,zip,rar,xls,xlsx",
-			"multiple": false,
-			"bucket": "douke",
-			"multipart": {
-				"token": "sJw9Qcazsr_MfxUSyeQyj6WTJ83owE6tjjz1KODF:6vnGOFux7igQYWH190R0jbqhikA=:eyJzYXZlS2V5IjoidXBsb2Fkc1wvJCh5ZWFyKSQobW9uKSQoZGF5KVwvJChldGFnKSQoZXh0KSIsInNjb3BlIjoiZG91a2UiLCJkZWFkbGluZSI6MTU2NTM2MTg1N30=",
-				"admin": 0,
-				"user": 0
-			}
-		}
-	},
-	"statusCode": 200,
-	"header": {
-		"Transfer-Encoding": "chunked",
-		"Server": "nginx",
-		"Connection": "keep-alive",
-		"Pragma": "no-cache",
-		"X-Android-Received-Millis": "1565361256839",
-		"Date": "Fri, 09 Aug 2019 14:34:17 GMT",
-		"X-Android-Selected-Protocol": "http/1.1",
-		"Cache-Control": "no-store, no-cache, must-revalidate",
-		"X-Android-Response-Source": "NETWORK 200",
-		"Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-		"X-Android-Sent-Millis": "1565361256338",
-		"Content-Type": "application/json; charset=utf-8",
-		"X-Powered-By": "PHP/7.1.5"
-	},
-	"errMsg": "request:ok"
-}
 const token = null;
 // "data": {
 //     "uploadurl": "https://upload-z2.qiniup.com",
@@ -51,7 +13,9 @@ const token = null;
 //       "admin": 0,
 //       "user": 0
 //     }
-const uploaddata = null;
+
+const uploaddata = null;// 文件上传需要的配置数据
+const uploadImgas = [];//上传云图片到后台的图片数据
 /**
  * 封装请求方法
  * url:请求地址
@@ -64,7 +28,7 @@ function request(url, method, params, success) {
 		params["token"] = this.token;
 	}
 	console.log("提交地址:" + theApi.testurl + url);
-	console.log("提交参数:" + params);
+	console.log("提交参数:" + JSON.stringify(params));
 	uni.request({
 		url: theApi.testurl + url,
 		method: method,
@@ -108,8 +72,6 @@ function request(url, method, params, success) {
 function requestImg(method, params, file, success) {
 	params["token"] = this.uploaddata.multipart.token;
 	// params["bucket"] = this.uploaddata.bucket;
-	console.log("文件路径filePath："+file);
-	console.log("上传的formData："+JSON.stringify(params));
 	uni.uploadFile({
 		url: this.uploaddata.uploadurl, // 后端api接口
 		filePath: file, // uni.chooseImage函数调用后获取的本地文件路劲
@@ -134,6 +96,7 @@ function requestImg(method, params, file, success) {
 		complete: () => {}
 	});
 };
+
 
 function requestType(url, method, params, contentType, success) {
 	if (token != null) {
@@ -201,6 +164,12 @@ function showWindow(txt) {
  * index：当前图片index
  */
 function previewImage(imageList, index) {
+	for(let i=0;i<imageList.length;i++){
+		if(imageList[i].indexOf(this.uploaddata.cdnurl)==-1){
+			let img = this.uploaddata.cdnurl+"/"+imageList[i];
+			imageList[i] = img;
+		}
+	}
 	uni.previewImage({
 		current: imageList[index],
 		urls: imageList
@@ -215,5 +184,6 @@ export default {
 	token,
 	requestImg,
 	requestType,
-	uploaddata
+	uploaddata,
+	uploadImgas
 }

@@ -3,7 +3,7 @@
 		<view class="content">
 			<view class="part1">
 				<view class="text">
-					<textarea maxlength="500" placeholder="发布您的内容……"></textarea>
+					<textarea maxlength="500" placeholder="发布您的内容……" v-model="contenttext"></textarea>
 				</view>
 				<view class="upload_imgs">
 					<uploadimgs></uploadimgs>
@@ -13,47 +13,49 @@
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/02@3x.png"></image>
 					<view class="leibie">类别:</view>
-					<view>抖音点赞+评论</view>
+					<view>{{leibie}}</view>
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/05@3x.png"></image>
 					<view class="leibie">标题:</view>
-					<input class="input1" placeholder="" />
+					<input class="input1" v-model="title" />
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/03@3x.png"></image>
 					<view class="leibie">任务单价:</view>
-					<view  class="pailie"><input class="input3"/><view>元</view></view>
+					<view class="pailie"><input class="input3" type="number" v-model="publish_price" />
+						<view>元</view>
+					</view>
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/04@3x.png"></image>
 					<view class="leibie">任务数量:</view>
 					<view class="shuliangannniu">
-						<view class="xiaoanniu">-</view>
-						<view class="number"><input class="input2" /></view>
-						<view class="xiaoanniu">+</view>
+						<view class="xiaoanniu" @click="countjian">-</view>
+						<view class="number"><input class="input2"  type="number" v-model="publish_count" /></view>
+						<view class="xiaoanniu" @click="countjia">+</view>
 					</view>
 				</view>
 				<view class="content1">
 					<image class="image_view" src="../../../static/image/yangsongyan/release02/07@3x.png"></image>
 					<view class="leibie">时间节点:</view>
 					<view class="shuliangannniu">
-						<view class="xiaoanniu">-</view>
+						<view class="xiaoanniu" @click="dayjian">-</view>
 						<view class="number">
-							<input class="input2" />
+							<input class="input2"  type="number" v-model="scope_day" />
 						</view>
-						<view class="xiaoanniu">+</view>
+						<view class="xiaoanniu" @click="dayjia">+</view>
 						<view>天</view>
 					</view>
 				</view>
 				<view class="content1">
 					<view class="leibie suojin">网址:</view>
-					<input class="input1 wangzhi1"/>
+					<input class="input1 wangzhi1" v-model="url" />
 				</view>
 			</view>
 			<view class="part3">
-				<view class="totle">#总金额1200.00元 服务费0.00元，退单按原款</view>
-				<view class="button_ysy">
+				<view class="totle">#总金额{{publish_count*publish_price}}元 服务费0.00元，退单按原款</view>
+				<view class="button_ysy" @click="release">
 					发布
 				</view>
 				<view class="tishi">
@@ -74,11 +76,64 @@
 		},
 		data() {
 			return {
-
+				leibie: '抖音点赞+评论',
+				contenttext: '',
+				task_type_id: 2,
+				title: '',
+				scope_day: 0,
+				publish_count: 0,
+				publish_price: '0',
+				url: ''
 			}
 		},
 		methods: {
-
+			countjian() {
+				if (this.publish_count > 0) {
+					this.publish_count--;
+				}
+			},
+			countjia() {
+				this.publish_count++;
+			},
+			dayjian() {
+				if (this.scope_day > 0) {
+					this.scope_day--;
+				}
+			},
+			dayjia() {
+				this.scope_day++;
+			},
+			release(){
+				if(this.publish_count<1){
+					this.util.showWindow("任务数量不能为0");
+					return;
+				}
+				let params = {
+					"content": this.contenttext,
+					"task_images": this.util.uploadImgas,
+					"task_type_id":this.task_type_id,
+					"title": this.title,
+					"scope_day": this.scope_day,
+					"publish_count": this.publish_count,
+					"publish_price": this.publish_price,
+					"url": this.url
+				};
+				let url="/api/task/add";
+				this.util.request(url,"POST",params,(res) => {
+					if(res.statusCode==200){
+						if(res.data.code==1){
+							this.util.showWindow("发布成功");
+							uni.switchTab({
+								url:"../../task/index/index"
+							})
+						}else{
+							this.util.showWindow("注册失败");
+						}
+					}else{
+						this.util.showWindow("注册请求失败");
+					}
+				});
+			}
 		}
 	}
 </script>
@@ -127,7 +182,7 @@
 		line-height: 80upx;
 	}
 
-	
+
 
 	.content1 {
 		display: flex;
@@ -225,13 +280,16 @@
 		width: 100upx;
 		height: 45upx;
 		margin: auto 0upx;
+		text-align: center;
 	}
 
 	.input3 {
 		width: 200upx;
 		height: 45upx;
 		margin: auto 15upx;
+		text-align: center;
 	}
+
 	.pailie {
 		display: flex;
 		/* height: 140upx; */
@@ -240,7 +298,8 @@
 		flex-direction: row;
 		margin: auto 0upx;
 	}
-	.wangzhi1{
+
+	.wangzhi1 {
 		width: 500upx;
 	}
 </style>

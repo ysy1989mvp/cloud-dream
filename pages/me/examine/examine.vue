@@ -1,7 +1,6 @@
 <template>
 	<view class="container">
 		<view class="content">
-			
 			<view class="part1">
 				<view class="line">
 					<text class="tex bigFont theTitle">

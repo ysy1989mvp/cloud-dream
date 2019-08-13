@@ -69,5 +69,15 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
+    },
+    "h5" : {
+        "title" : "cloud-dream",
+        "domain" : "www.ysy1989mvp.com",
+        "router" : {
+            "base" : "/html5/"
+        },
+        "sdkConfigs" : {
+            "maps" : {}
+        }
     }
 }

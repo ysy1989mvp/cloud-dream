@@ -163,11 +163,13 @@
 	width: 100rpx;
 	height: 45rpx;
 	margin: auto 0rpx;
+	text-align: center;
 }
 .input3 {
 	width: 200rpx;
 	height: 45rpx;
 	margin: auto 15rpx;
+	text-align: center;
 }
 .pailie {
 	display: -webkit-box;
@@ -190,7 +192,7 @@
 	        flex-direction: row;
 	margin: auto 0rpx;
 }
-.wangzhi1{
+.wangzhi1 {
 	width: 500rpx;
 }
 

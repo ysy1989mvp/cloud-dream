@@ -62,6 +62,7 @@
 		methods: {
 			//选择图片
 			chooseImage: async function() {
+				this.util.uploadImgas = [];
 				uni.chooseImage({
 					sourceType: sourceType[this.sourceTypeIndex],
 					// #ifdef MP-WEIXIN
@@ -70,18 +71,14 @@
 					count: this.imageLength - this.imageList.length,
 					success: (res) => {
 						this.imageList = this.imageList.concat(res.tempFilePaths);
-						console.log("---------------------------全局变量token:"+this.util.token);
 						//图片上传到服务器
 						for(var i=0;i<this.imageList.length;i++){
 							let params = {"file":res.tempFiles[i]};
 							this.util.requestImg("POST",params,this.imageList[i], (res) => {
-								console.log("图片上传返回:"+JSON.stringify(res));
 								if (res.statusCode == 200) {
-									if (res.data.code == 1) {
-										
-									} else {
-										this.util.showWindow("图片上传错误");
-									}
+									let strData = JSON.stringify(res.data).replace(/\\/g,"");
+									let dataJson = JSON.parse(strData.substring(1,strData.length-1));
+									this.util.uploadImgas[this.util.uploadImgas.length] = dataJson.key;
 								} else {
 									this.util.showWindow("图片上传请求错误");
 								}
