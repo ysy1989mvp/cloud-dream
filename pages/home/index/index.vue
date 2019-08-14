@@ -91,10 +91,8 @@
 						<text class="tex">{{item.endTimeHour}}小时后结束</text>
 					</view>
 				</view>
-				<button class="btn">{{item.publish_price}}元</button>
-
+				<button class="btn">￥{{item.publish_price}}</button>
 			</view>
-
 		</view>
 	</view>
 </template>
@@ -104,9 +102,9 @@
 		data() {
 			return {
 				animate: false,
-				marqueeList:[],
+				marqueeList: [],
 				// defaultURL:'http://cdn.douke.51dreaming.com',
-				defaultURL:this.util.uploaddata.cdnurl,
+				defaultURL: this.util.uploaddata.cdnurl,
 				background: ['color1', 'color2', 'color3'],
 				indicatorDots: true,
 				autoplay: true,
@@ -136,13 +134,13 @@
 			});
 		},
 		mounted() {
-			
+
 			// uni.navigateTo({
 			// 	url:"../../me/vip-center/vip-center"
 			// })
 		},
 		methods: {
-			navito(url){
+			navito(url) {
 				window.location.href = url;
 			},
 			changeIndicatorDots(e) {
@@ -173,7 +171,7 @@
 			},
 			task_detail(id) {
 				uni.navigateTo({
-					url: "../../me/task-detail/task-detail?id="+id
+					url: "../../task/task-detail/task-detail?id=" + id
 				})
 			},
 			howsave: function() {
@@ -257,6 +255,18 @@
 
 	.bigFont {
 		font-weight: bold;
+		-webkit-line-clamp: 1;
+		/* // 限制显示的文本的行数为3 */
+		-webkit-box-orient: vertical;
+		/* // 水平排列<p>，使其不纵向显示 */
+		word-break: break-all;
+		/* // 使<p>中的文字换行 */
+		overflow: hidden;
+		/* // 超出的文字部分隐藏 */
+		text-overflow: ellipsis;
+		/* // 超出的文字部分用...来显示 */
+		display: -webkit-box;
+		/* // 将<p>变成高度定死，宽度自适应的行内块元素 */
 	}
 
 	.skilled {
@@ -370,6 +380,7 @@
 		justify-content: flex-start;
 		height: 120upx;
 		margin-left: 20upx;
+		width: 60%;
 	}
 
 	.right>view {

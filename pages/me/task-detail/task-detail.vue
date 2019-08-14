@@ -73,11 +73,11 @@
 			</view>
 			<view class="part2">
 				<view class="login huise">
-					<text class="dd1" v-if="item.audit_state==4">已到期</text>
-					<text class="dd1" v-if="item.audit_state==3">已完成</text>
-					<text class="dd1" v-if="item.audit_state==2">未通过</text>
-					<text class="dd1" v-if="item.audit_state==1">已通过</text>
-					<text class="dd1" v-if="item.audit_state==0">待审核</text>
+					<text class="dd1" v-if="data.audit_state==4">已到期</text>
+					<text class="dd1" v-if="data.audit_state==3">已完成</text>
+					<text class="dd1" v-if="data.audit_state==2">未通过</text>
+					<text class="dd1" v-if="data.audit_state==1">已通过</text>
+					<text class="dd1" v-if="data.audit_state==0">待审核</text>
 				</view>
 			</view>
 		</view>

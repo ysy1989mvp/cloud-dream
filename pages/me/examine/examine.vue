@@ -108,7 +108,7 @@
 					<text class="dd1">提交任务</text>
 				</view>
 			</view>
-			<view class="part2">
+			<view class="part2" v-if="data.status>1">
 				<view class="login huise">
 					<text class="dd1" v-if="data.status==2">任务待审核</text>
 					<text class="dd1" v-if="data.status==3">任务通过</text>
@@ -343,6 +343,7 @@
 	}
 	.huise{
 		background-color: #E5E5E5;
+		
 	}
 	.upload_imgs {
 		width: 90%;

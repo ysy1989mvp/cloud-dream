@@ -60,7 +60,7 @@
 						<text class="tex">任务记录</text>
 					</view>
 					<view>
-						<text class="tex redFont redCircle">1</text>
+						<!-- <text class="tex redFont redCircle">1</text> 红1-->
 						<text class="tex jiantou">〉</text>
 					</view>
 				</view>

@@ -204,8 +204,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 var _default =
 {
   data: function data() {
@@ -280,7 +278,7 @@ var _default =
     },
     task_detail: function task_detail(id) {
       uni.navigateTo({
-        url: "../../me/task-detail/task-detail?id=" + id });
+        url: "../../task/task-detail/task-detail?id=" + id });
 
     },
     howsave: function howsave() {

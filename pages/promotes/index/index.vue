@@ -36,7 +36,7 @@
 						<text class="tex bigFont">任务收入：</text>
 						<text class="tex redFont bigFont">{{data.income_task}}</text>
 					</view>
-					<button class="small_btn">更多金币</button>
+					<!-- <button class="small_btn">更多金币</button> -->
 				</view>
 				<view class="line">
 					<view>
