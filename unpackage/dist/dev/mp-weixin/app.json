@@ -40,7 +40,8 @@
     "pages/me/how-release/how-release",
     "pages/me/channel/channel",
     "pages/me/my-agent/my-agent",
-    "pages/me/channel-save/channel-save"
+    "pages/me/channel-save/channel-save",
+    "pages/me/shenhetongguo/shenhetongguo"
   ],
   "subPackages": [],
   "window": {

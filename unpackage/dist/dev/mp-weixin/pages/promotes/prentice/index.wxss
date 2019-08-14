@@ -1,5 +1,5 @@
 
-.tabbar{
+.tabbar {
 	background: #FFFFFF;
 	height: 120rpx;
 	width: 100%;
@@ -12,34 +12,35 @@
 	text-align: center;
 	margin: 0 10%;
 }
-.border{
+.border {
 	border-bottom: #007AFF 5rpx groove;
 }
-.content{
+.content {
 	margin-top: 20rpx;
 }
-.cell{
+.cell {
 	background-color: #FFFFFF;
 	height: 180rpx;
+	border-bottom: 10rpx solid #F5F5F5;
 }
-.photo{
-	width: 140rpx;
-	height: 140rpx;
+.photo {
+	width: 102rpx;
+	height: 102rpx;
 	border-radius: 50px;
-	margin-top: 20rpx;
-	margin-left: 20rpx;
+	margin-top: 35rpx;
+	margin-left: 50rpx;
 	float: left;
 }
-.info1{
-	width: calc(100vw - 200rpx);
+.info1 {
+	width: calc(100vw - 250rpx);
 	float: left;
 	margin-left: 30rpx;
 	margin-top: 20rpx;
 	height: 80rpx;
 	line-height: 80rpx;
 }
-.info2{
-	width: calc(100vw - 200rpx);
+.info2 {
+	width: calc(100vw - 250rpx);
 	float: left;
 	margin-left: 30rpx;
 	font-size: 12px;

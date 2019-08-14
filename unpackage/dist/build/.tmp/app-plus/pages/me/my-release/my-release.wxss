@@ -180,16 +180,16 @@
 	color: #434343;
 	border-bottom-right-radius: 10rpx;
 }
-.content{
+.content {
 	width: 100%;
 	position: relative;
 }
-.weui-navbar{
+.weui-navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
 }
-.line{
+.line {
 	width: 100%;
 	height: auto;
 	padding: 24rpx;
@@ -210,14 +210,14 @@
 	        align-items: center;
 	margin: 12rpx 0;
 }
-.left{
-	width: 150rpx;
-	height: 150rpx;
+.left {
+	width: 140rpx;
+	height: 140rpx;
 }
-.right{
+.right {
 	width: 75%;
 }
-.line_inner{
+.line_inner {
 	width: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -232,8 +232,7 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.inner_left .tex:first-child{
+.inner_left .tex:first-child {
 	margin-right: 24rpx;
 }
-
 

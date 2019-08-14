@@ -40,7 +40,7 @@
 	bottom: 25rpx;
 }
 .part_float view {
-	width: 20%;
+	width: 30%;
 }
 .part_float view image {
 	width: 70rpx;
@@ -181,8 +181,9 @@
 	border-bottom-right-radius: 10rpx;
 }
 .content{
-	width: 100%;
+	width: 96%;
 	position: relative;
+	margin: 0rpx auto;
 }
 ._part{
 	padding: 0;
@@ -272,6 +273,7 @@
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	margin-top: 24rpx;
+	border-bottom: 1rpx solid #E5E5E5;
 }
 .line view{
 	display: -webkit-box;
@@ -297,13 +299,20 @@
 	color: #FFFFFF;
 }
 .redCircle{
-	height: 50rpx;
+	height: 38rpx;
+	width: 55rpx;
 	border-radius: 30rpx;
 	color: white;
 	background-color: red;
-	line-height: 45rpx;
+	line-height: 40rpx;
 	text-align: center;
 	padding: 0 12rpx;
+	font-size: 18rpx;
+	margin-right: 30rpx;
 }
-
+.tongzhianniu{
+	-webkit-transform: scale(0.8,0.7);
+	    -ms-transform: scale(0.8,0.7);
+	        transform: scale(0.8,0.7);
+}
 

@@ -6,13 +6,14 @@
 					<image class="topImg" src="../../../static/image/_11.png"></image>
 				</view>
 				<view class="userInfo">
-					<view class="touxiang" :style="{'background-image' : 'url(' + headImg + ')'}">
+					<view class="touxiang" :style="{'background-image' : 'url(' + imgurl+data.avatar + ')'}">
 						<!-- <image src="../../../static/lyl/12.png" mode="aspectFit"></image> -->
 					</view>
-					<text class="tex whiteFont1">999999999【VIP】会员</text>
-					<text class="whiteFont2 tex">编号：9999</text>
+					<text class="tex whiteFont1" v-if="data.is_member==1">{{data.mobile}}【VIP】会员</text>
+					<text class="tex whiteFont1" v-if="data.is_member==0">{{data.mobile}} 非会员</text>
+					<text class="whiteFont2 tex">编号：{{data.id}}</text>
 				</view>
-				<view class="sign"  @click="toSetting">
+				<view class="sign" @click="toSetting">
 					<image src="../../../static/lyl/11@3x.png" mode="aspectFit"></image>
 					<text class="tex bigFont whiteFont3">设置</text>
 				</view>
@@ -23,7 +24,7 @@
 							<image src="../../../static/image/_08@2x.png" mode="aspectFit"></image>
 							<text class="tex">余额</text>
 						</view>
-						<text class="tex bigFont">244</text>
+						<text class="tex bigFont">{{data.money}}元</text>
 					</view>
 					<view class="two_anniu">
 						<text class="tex" @click="toRecharge">充值</text>
@@ -31,7 +32,7 @@
 					</view>
 				</view>
 			</view>
-			
+
 			<view class="_part">
 				<view class="line" @click="toMyRelease">
 					<view>
@@ -113,7 +114,7 @@
 						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
-				
+
 				<!-- <view class="line" @click="toSetting">
 					<view>
 						<image src="../../../static/lyl/06@3x.png" mode="aspectFit"></image>
@@ -123,7 +124,7 @@
 						<text class="tex jiantou">〉</text>
 					</view>
 				</view> -->
-				
+
 				<view class="line" @click="toHelpCenter">
 					<view>
 						<image src="../../../static/lyl/10@3x.png" mode="aspectFit"></image>
@@ -144,15 +145,15 @@
 						<text class="tex jiantou">〉</text>
 					</view>
 				</view>
-				
+
 			</view>
-			
+
 			<!-- <view class="bottom">
 				<button class="bottom_btn">推荐会员/享永久收益</button>
 			</view> -->
-			
-			
-			
+
+
+
 		</view>
 	</view>
 </template>
@@ -161,63 +162,73 @@
 	export default {
 		data() {
 			return {
-				headImg:"../../../static/lyl/12.png"
+				imgurl: this.util.uploaddata.cdnurl,
+				data: {
+					"avatar": "/uploads/20190814/FgMfSuGLJTSJu7oqC-Vei-HBkwef.png",
+					"mobile": "13211675827",
+					"is_member": "0",
+					"id": 29,
+					"money": 88
+				},
 			}
 		},
+		onLoad() {
+
+		},
 		methods: {
-			toRecharge(){
+			toRecharge() {
 				uni.navigateTo({
-					url:"../recharge/recharge"
+					url: "../recharge/recharge"
 				})
 			},
-			toMyRelease(){
+			toMyRelease() {
 				uni.navigateTo({
-					url:"../my-release/my-release"
+					url: "../my-release/my-release"
 				})
 			},
-			toAccountManage(){
+			toAccountManage() {
 				uni.navigateTo({
-					url:"../account-manage/account-manage"
+					url: "../account-manage/account-manage"
 				})
 			},
-			toHelpCenter(){
+			toHelpCenter() {
 				uni.navigateTo({
-					url:"../help-center/help-center"
+					url: "../help-center/help-center"
 				})
 			},
-			toTaskRecords(){
+			toTaskRecords() {
 				uni.navigateTo({
-					url:"../task-records/task-records"
+					url: "../task-records/task-records"
 				})
 			},
-			toWithdrawal(){
+			toWithdrawal() {
 				uni.navigateTo({
-					url:"../withdrawal/withdrawal"
+					url: "../withdrawal/withdrawal"
 				})
 			},
-			toSetting(){
+			toSetting() {
 				uni.navigateTo({
-					url:"../setting/setting"
+					url: "../setting/setting"
 				})
 			},
-			toChannel(){
+			toChannel() {
 				uni.navigateTo({
-					url:"../channel-merchants/channel-merchants"
+					url: "../channel-merchants/channel-merchants"
 				})
 			},
-			toHowSave(){
+			toHowSave() {
 				uni.navigateTo({
-					url:"../how-save/how-save"
+					url: "../how-save/how-save"
 				})
 			},
-			toHowRelease(){
+			toHowRelease() {
 				uni.navigateTo({
-					url:"../how-release/how-release"
+					url: "../how-release/how-release"
 				})
 			},
-			becomevip(){
+			becomevip() {
 				uni.navigateTo({
-					url:"../../home/becomevip/index/index"
+					url: "../../home/becomevip/index/index"
 				})
 			}
 		}
@@ -226,13 +237,14 @@
 
 <style>
 	@import url("../../../css/main-style.css");
-	.content{
+
+	.content {
 		width: 100%;
 		background-color: #FFFFFF;
 		position: relative;
 	}
-	
-	.userInfo{
+
+	.userInfo {
 		width: 50%;
 		position: absolute;
 		top: 10%;
@@ -244,42 +256,47 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.topview{
+
+	.topview {
 		/* border:1px solid red; */
 		width: 100%;
 		padding: 0upx;
 		margin: 0upx;
-		
+
 	}
-	.userInfo image,.userInfo .tex{
+
+	.userInfo image,
+	.userInfo .tex {
 		display: block;
 		text-align: center;
 		margin: 0 auto;
 		line-height: 45upx;
 	}
-	
-	.userInfo image{
+
+	.userInfo image {
 		width: 100%;
 		height: 100%;
 	}
-	.userInfo>view{
+
+	.userInfo>view {
 		width: 100upx;
 		height: 100upx;
 		/* border:1px solid red; */
 		background-size: 100%;
 		border-radius: 50upx;
 	}
+
 	/* .touxiang>image{
 		border-radius: 50upx;
 	} */
-	.userInfo .tex{
+	.userInfo .tex {
 		width: 100%;
 	}
-	
-	.sign{
+
+	.sign {
 		width: 175upx;
 		height: 75upx;
-		background: rgba(0,0,0,0.5);
+		background: rgba(0, 0, 0, 0.5);
 		top: 200upx;
 		right: 0upx;
 		position: absolute;
@@ -292,74 +309,80 @@
 		box-sizing: border-box;
 		z-index: 100;
 	}
-	
-	.sign image{
+
+	.sign image {
 		width: 80upx;
 		height: 80upx;
 		margin-right: 5upx;
 	}
-	
-	.part_float{
+
+	.part_float {
 		padding: 48upx 24upx;
 		box-sizing: border-box;
 		bottom: -50upx;
 	}
-	
-	.part_float .left_img_tex{
+
+	.part_float .left_img_tex {
 		width: 100%;
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
 	}
-	
-	.part_float view image,.line image{
+
+	.part_float view image,
+	.line image {
 		width: 80upx;
 		height: 80upx;
 	}
-	
-	.line{
+
+	.line {
 		height: 100upx;
 		border-bottom: 1upx solid #E5E5E5;
 	}
-	
-	.line view{
+
+	.line view {
 		display: flex;
 		align-items: center;
 	}
-	
-	.line image{
+
+	.line image {
 		margin-right: 12upx;
 	}
-	
-	.tex{
+
+	.tex {
 		font-size: 30upx;
 	}
-	
-	.redFont{
+
+	.redFont {
 		margin-right: 12upx;
 		font-size: 28upx;
 		color: #000000;
 	}
-	
-	.whiteFont1{
+
+	.whiteFont1 {
 		color: #FFFFFF;
 		margin-top: 50upx;
 	}
-	.whiteFont2{
+
+	.whiteFont2 {
 		color: #FFFFFF;
 	}
-	.whiteFont3{
+
+	.whiteFont3 {
 		color: #FFFFFF;
 	}
-	.topview{
+
+	.topview {
 		width: 100%;
 		height: 500upx;
 	}
-	.topImg{
+
+	.topImg {
 		height: 100%;
 	}
-	.redCircle{
-		width:35upx;
+
+	.redCircle {
+		width: 35upx;
 		height: 35upx;
 		border-radius: 50%;
 		color: white;
@@ -367,20 +390,23 @@
 		line-height: 38upx;
 		text-align: center;
 	}
-	.touxiang{
+
+	.touxiang {
 		margin-bottom: 30upx;
 	}
-	.two_anniu{
+
+	.two_anniu {
 		display: flex;
 	}
-	.two_anniu>text{
+
+	.two_anniu>text {
 		background-color: #1BCC8D;
 		border-radius: 20upx;
 		margin-right: 10upx;
-		
+
 	}
-	
-	.jiantou{
+
+	.jiantou {
 		color: #c5c5c5;
 		margin-right: 15upx;
 	}

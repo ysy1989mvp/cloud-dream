@@ -9,6 +9,19 @@ page {
 }
 .bigFont {
 	font-weight: bold;
+	-webkit-line-clamp: 1;
+	/* // 限制显示的文本的行数为3 */
+	-webkit-box-orient: vertical;
+	/* // 水平排列<p>，使其不纵向显示 */
+	word-break: break-all;
+	/* // 使<p>中的文字换行 */
+	overflow: hidden;
+	/* // 超出的文字部分隐藏 */
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	/* // 超出的文字部分用...来显示 */
+	display: -webkit-box;
+	/* // 将<p>变成高度定死，宽度自适应的行内块元素 */
 }
 .loading {
 	text-align: center;
@@ -17,10 +30,10 @@ page {
 }
 .douyin {
 	color: red;
-	margin-left:12rpx;
+	margin-left: 12rpx;
 }
-.small{
-	margin-left:12rpx;
+.small {
+	margin-left: 12rpx;
 }
 .right {
 	line-height: 40rpx;
@@ -121,8 +134,8 @@ page {
 	    -ms-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
 	border-bottom: 2rpx red solid;
-	padding-left: 70rpx;
-	padding-right: 70rpx;
+	padding-left: 40rpx;
+	padding-right: 40rpx;
 }
 .uni-tab-item-title {
 	color: rgb(110, 107, 107);

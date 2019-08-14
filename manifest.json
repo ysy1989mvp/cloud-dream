@@ -48,7 +48,26 @@
             /* ios打包配置 */
             "ios" : {},
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {},
+            "icons" : {
+                "android" : {
+                    "hdpi" : "static/image/yangsongyan/logo.png",
+                    "xhdpi" : "static/image/yangsongyan/logo.png",
+                    "xxhdpi" : "static/image/yangsongyan/logo.png",
+                    "xxxhdpi" : "static/image/yangsongyan/logo.png"
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "E:/projectcode/hbuilderX/6003启动页面.png",
+                    "xhdpi" : "static/image/zxx/photo/01.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "E:/projectcode/hbuilderX/6004启动页面.png"
+                    }
+                }
+            }
         }
     },
     /* 快应用特有相关 */

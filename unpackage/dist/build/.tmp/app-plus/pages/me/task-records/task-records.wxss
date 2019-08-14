@@ -180,21 +180,21 @@
 	color: #434343;
 	border-bottom-right-radius: 10rpx;
 }
-.content{
+.content {
 	width: 100%;
 	position: relative;
-	margin-top: 90rpx;
+	margin-top: 60rpx;
 }
-.weui-navbar{
+.weui-navbar {
 	position: fixed;
-	top: 80rpx;
+	top: 20rpx;
 	left: 0;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 }
-.line{
+.line {
 	width: 100%;
 	height: auto;
 	padding: 24rpx;
@@ -215,14 +215,14 @@
 	        align-items: center;
 	margin: 12rpx 0;
 }
-.left{
+.left {
 	width: 150rpx;
 	height: 150rpx;
 }
-.right{
+.right {
 	width: 75%;
 }
-.line_inner{
+.line_inner {
 	width: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -237,8 +237,7 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.inner_left .tex:first-child{
+.inner_left .tex:first-child {
 	margin-right: 24rpx;
 }
-
 

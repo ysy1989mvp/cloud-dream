@@ -38,4 +38,7 @@
 		line-height: 88upx;
 		color: #FFFFFF;
 	}
+	.button_ysy:active{
+		background-color: #E5E5E5;
+	}
 </style>

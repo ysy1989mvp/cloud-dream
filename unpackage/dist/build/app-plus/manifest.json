@@ -44,6 +44,25 @@
     },
     "usingComponents": true,
     "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "static/image/yangsongyan/logo.png",
+          "xhdpi": "static/image/yangsongyan/logo.png",
+          "xxhdpi": "static/image/yangsongyan/logo.png",
+          "xxxhdpi": "static/image/yangsongyan/logo.png"
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+          "xhdpi": "static/image/zxx/photo/01.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "E:/projectcode/hbuilderX/6004启动页面.png"
+          }
+        }
+      },
       "google": {
         "permissions": [
           "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",

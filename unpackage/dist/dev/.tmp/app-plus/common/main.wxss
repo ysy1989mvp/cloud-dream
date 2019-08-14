@@ -1298,5 +1298,7 @@ page{line-height:1.6;font-family:-apple-system-font,Helvetica Neue,sans-serif}ic
 	height: 88rpx;
 	line-height: 88rpx;
 	color: #FFFFFF;
+}.button_ysy:active{
+	background-color: #E5E5E5;
 }
 

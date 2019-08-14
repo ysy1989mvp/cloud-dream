@@ -180,12 +180,12 @@
 	color: #434343;
 	border-bottom-right-radius: 10rpx;
 }
-.content{
+.content {
 	width: 100%;
 	background-color: #FFFFFF;
 	position: relative;
 }
-.userInfo{
+.userInfo {
 	width: 50%;
 	position: absolute;
 	top: 10%;
@@ -209,23 +209,24 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.topview{
+.topview {
 	/* border:1px solid red; */
 	width: 100%;
 	padding: 0rpx;
 	margin: 0rpx;
 }
-.userInfo image,.userInfo .tex{
+.userInfo image,
+.userInfo .tex {
 	display: block;
 	text-align: center;
 	margin: 0 auto;
 	line-height: 45rpx;
 }
-.userInfo image{
+.userInfo image {
 	width: 100%;
 	height: 100%;
 }
-.userInfo>view{
+.userInfo>view {
 	width: 100rpx;
 	height: 100rpx;
 	/* border:1px solid red; */
@@ -236,13 +237,13 @@
 /* .touxiang>image{
 	border-radius: 50upx;
 } */
-.userInfo .tex{
+.userInfo .tex {
 	width: 100%;
 }
-.sign{
+.sign {
 	width: 175rpx;
 	height: 75rpx;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0, 0, 0, 0.5);
 	top: 200rpx;
 	right: 0rpx;
 	position: absolute;
@@ -265,18 +266,18 @@
 	        box-sizing: border-box;
 	z-index: 100;
 }
-.sign image{
+.sign image {
 	width: 80rpx;
 	height: 80rpx;
 	margin-right: 5rpx;
 }
-.part_float{
+.part_float {
 	padding: 48rpx 24rpx;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	bottom: -50rpx;
 }
-.part_float .left_img_tex{
+.part_float .left_img_tex {
 	width: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -291,15 +292,16 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.part_float view image,.line image{
+.part_float view image,
+.line image {
 	width: 80rpx;
 	height: 80rpx;
 }
-.line{
+.line {
 	height: 100rpx;
 	border-bottom: 1rpx solid #E5E5E5;
 }
-.line view{
+.line view {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -309,36 +311,36 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.line image{
+.line image {
 	margin-right: 12rpx;
 }
-.tex{
+.tex {
 	font-size: 30rpx;
 }
-.redFont{
+.redFont {
 	margin-right: 12rpx;
 	font-size: 28rpx;
 	color: #000000;
 }
-.whiteFont1{
+.whiteFont1 {
 	color: #FFFFFF;
 	margin-top: 50rpx;
 }
-.whiteFont2{
+.whiteFont2 {
 	color: #FFFFFF;
 }
-.whiteFont3{
+.whiteFont3 {
 	color: #FFFFFF;
 }
-.topview{
+.topview {
 	width: 100%;
 	height: 500rpx;
 }
-.topImg{
+.topImg {
 	height: 100%;
 }
-.redCircle{
-	width:35rpx;
+.redCircle {
+	width: 35rpx;
 	height: 35rpx;
 	border-radius: 50%;
 	color: white;
@@ -346,21 +348,21 @@
 	line-height: 38rpx;
 	text-align: center;
 }
-.touxiang{
+.touxiang {
 	margin-bottom: 30rpx;
 }
-.two_anniu{
+.two_anniu {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 }
-.two_anniu>text{
+.two_anniu>text {
 	background-color: #1BCC8D;
 	border-radius: 20rpx;
 	margin-right: 10rpx;
 }
-.jiantou{
+.jiantou {
 	color: #c5c5c5;
 	margin-right: 15rpx;
 }

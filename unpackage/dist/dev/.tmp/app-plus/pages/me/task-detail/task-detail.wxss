@@ -134,4 +134,8 @@
 	font-size: 40rpx;
 	color: #FFFFFF;
 }
+.huise{
+	color: #FFFFFF;
+}
+
 

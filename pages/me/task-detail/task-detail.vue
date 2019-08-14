@@ -8,11 +8,12 @@
 				</view>
 				<view class="part_12 part_1_ct">
 					<text class="text_b">审核周期:</text>
-					<text>48小时</text>
+					<text>{{data.endtime}}</text>
 				</view>
 				<view class="part_13 part_1_ct">
 					<text class="text_b">任务限制:</text>
-					<text>VIP以上可接</text>
+					<text v-if="data.scope<1">不限</text>
+					<text v-if="data.scope>0">VIP以上可接</text>
 				</view>
 				<view class="part_14 part_1_ct">
 					<text class="text_b">任务金额:</text>
@@ -71,7 +72,7 @@
 				</view>
 			</view>
 			<view class="part2">
-				<view class="login">
+				<view class="login huise">
 					<text class="dd1" v-if="item.audit_state==4">已到期</text>
 					<text class="dd1" v-if="item.audit_state==3">已完成</text>
 					<text class="dd1" v-if="item.audit_state==2">未通过</text>
@@ -88,7 +89,7 @@
 		data() {
 			return {
 				task_id:null,
-				imgurl: this.util.uploaddata.cdnurl + "/",
+				imgurl: this.util.uploaddata.cdnurl,
 				data: {
 					title: "试试就试试",
 					publish_price: "10.00",
@@ -258,6 +259,9 @@
 		align-items: center;
 		font-size: 40upx;
 		color: #FFFFFF;
-
 	}
+	.huise{
+		color: #FFFFFF;
+	}
+	
 </style>

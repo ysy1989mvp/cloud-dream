@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "评论转发",
-  "usingComponents": {}
+  "usingComponents": {
+    "uploadimgs": "/components/upload-image/upload-imgs"
+  }
 }

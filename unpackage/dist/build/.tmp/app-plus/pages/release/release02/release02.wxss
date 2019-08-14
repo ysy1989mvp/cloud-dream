@@ -1,8 +1,8 @@
 
-.container{
-	border-top:10rpx solid #E5E5E5;
+.container {
+	border-top: 10rpx solid #E5E5E5;
 }
-.text{
+.text {
 	width: 90%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -13,17 +13,17 @@
 	-webkit-justify-content: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	-webkit-box-align:center;
-	-webkit-align-items:center;
-	    -ms-flex-align:center;
-	        align-items:center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin: 15rpx auto;
 }
-.text>textarea{
-	border:1px solid #E5E5E5;
+.text>textarea {
+	border: 1px solid #E5E5E5;
 	width: 100%;
 }
-.upload_imgs{
+.upload_imgs {
 	width: 90%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -34,13 +34,13 @@
 	-webkit-justify-content: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	-webkit-box-align:center;
-	-webkit-align-items:center;
-	    -ms-flex-align:center;
-	        align-items:center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin: 0rpx auto;
 }
-.part2{
+.part2 {
 	width: 90%;
 	margin: 0rpx auto;
 	display: -webkit-box;
@@ -48,14 +48,14 @@
 	display: -ms-flexbox;
 	display: flex;
 	/* height: 140upx; */
-	-webkit-box-pack:center;
-	-webkit-justify-content:center;
-	    -ms-flex-pack:center;
-	        justify-content:center;
-	-webkit-box-align:start;
-	-webkit-align-items:flex-start;
-	    -ms-flex-align:start;
-	        align-items:flex-start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
@@ -64,40 +64,40 @@
 	font-size: 32rpx;
 	line-height: 80rpx;
 }
-.content1{
+.content1 {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 }
-.image_view{
+.image_view {
 	width: 80rpx;
 	height: 80rpx;
 }
-.leibie{
+.leibie {
 	margin-right: 10rpx;
 }
-.shuliangannniu{
+.shuliangannniu {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	/* height: 140upx; */
-	-webkit-box-pack:justify;
-	-webkit-justify-content:space-between;
-	    -ms-flex-pack:justify;
-	        justify-content:space-between;
-	-webkit-box-align:center;
-	-webkit-align-items:center;
-	    -ms-flex-align:center;
-	        align-items:center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
 }
-.xiaoanniu{
+.xiaoanniu {
 	width: 40rpx;
 	height: 40rpx;
 	border-radius: 20rpx;
@@ -107,39 +107,92 @@
 	color: #FFFFFF;
 	text-align: center;
 }
-.part3{
+.part3 {
 	width: 90%;
 	margin: 0rpx auto;
 }
-.number{
+.number {
 	margin: 0rpx 20rpx;
 }
-.totle{
+.totle {
 	text-align: center;
 }
-.totle{
+.totle {
 	color: #FF5400;
 	font-size: 28rpx;
 	margin-top: 80rpx;
 }
-.tishi{
+.tishi {
 	color: #A5A5A5;
 	font-size: 25rpx;
 	width: 80%;
 	text-align: center;
 	margin: 0rpx auto;
-	-webkit-line-clamp: 2; /* // 限制显示的文本的行数为3 */
-	-webkit-box-orient: vertical; /* // 水平排列<p>，使其不纵向显示 */
-	word-break: break-all; /* // 使<p>中的文字换行 */
-	overflow: hidden; /* // 超出的文字部分隐藏 */
+	-webkit-line-clamp: 2;
+	/* // 限制显示的文本的行数为3 */
+	-webkit-box-orient: vertical;
+	/* // 水平排列<p>，使其不纵向显示 */
+	word-break: break-all;
+	/* // 使<p>中的文字换行 */
+	overflow: hidden;
+	/* // 超出的文字部分隐藏 */
 	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis; /* // 超出的文字部分用...来显示 */
-	display: -webkit-box; /* // 将<p>变成高度定死，宽度自适应的行内块元素 */
+	   text-overflow: ellipsis;
+	/* // 超出的文字部分用...来显示 */
+	display: -webkit-box;
+	/* // 将<p>变成高度定死，宽度自适应的行内块元素 */
 	margin-top: 20rpx;
 }
-.button_ysy{
-	width: 70% ;
+.button_ysy {
+	width: 70%;
 	margin-top: 50rpx;
 	margin-bottom: 50rpx;
+}
+.suojin {
+	margin-left: 20rpx;
+}
+.wangzhi {
+	color: #4ea7df;
+}
+.input1 {
+	width: 400rpx;
+	height: 45rpx;
+	margin: auto 0rpx;
+}
+.input2 {
+	width: 100rpx;
+	height: 45rpx;
+	margin: auto 0rpx;
+	text-align: center;
+}
+.input3 {
+	width: 200rpx;
+	height: 45rpx;
+	margin: auto 15rpx;
+	text-align: center;
+}
+.pailie {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	/* height: 140upx; */
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin: auto 0rpx;
+}
+.wangzhi1 {
+	width: 500rpx;
 }
 

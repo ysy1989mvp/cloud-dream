@@ -37,7 +37,7 @@
 	export default {
 		data() {
 			return {
-				imgurl: this.util.uploaddata.cdnurl + "/",
+				imgurl: this.util.uploaddata.cdnurl,
 				defaultImgSrc: '../../../static/image/yangsongyan/release02/01.png',
 				tabIndex: 0,
 				pageSize: 0,
@@ -84,7 +84,7 @@
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 1000);
-			this.loadingText = "下拉刷新"
+			// this.loadingText = "下拉刷新"
 		},
 		// xia划方法
 		onReachBottom: function() {
@@ -134,6 +134,18 @@
 
 	.bigFont {
 		font-weight: bold;
+		-webkit-line-clamp: 1;
+		/* // 限制显示的文本的行数为3 */
+		-webkit-box-orient: vertical;
+		/* // 水平排列<p>，使其不纵向显示 */
+		word-break: break-all;
+		/* // 使<p>中的文字换行 */
+		overflow: hidden;
+		/* // 超出的文字部分隐藏 */
+		text-overflow: ellipsis;
+		/* // 超出的文字部分用...来显示 */
+		display: -webkit-box;
+		/* // 将<p>变成高度定死，宽度自适应的行内块元素 */
 	}
 
 	.loading {

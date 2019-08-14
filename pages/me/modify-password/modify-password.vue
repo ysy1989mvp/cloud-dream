@@ -11,8 +11,8 @@
 					<text>短信验证：</text>
 					<input class="c1" type="text" 
 					placeholder="请输入验证码">
-					<view class="anniu">
-						<text class="c2 kkt">发&nbsp;&nbsp;送</text>
+					<view class="anniu button_ysy" @click="smsSend">
+						<text class="c2 kkt">{{send}}</text>
 					</view>
 				</view>
 				<view class="e  smpt">
@@ -27,7 +27,7 @@
 				</view>
 			</view>
 			<view class="part2">
-				<view class="login">
+				<view class="login button_ysy">
 					<text class="dd1" @click="confirm">确认重置</text>
 				</view>
 			</view>
@@ -39,10 +39,34 @@
 	export default {
 		data() {
 			return {
-				
+				send:"发 送"
 			}
 		},
 		methods: {
+			smsSend(){
+				let params = {
+					"mobile":this.mobile,
+					"event":"register"
+				};
+				let url="/api/sms/send";
+				this.util.request(url,"POST",params,(res) => {
+					if(res.statusCode==200){
+						if(res.data.code==1){
+							this.util.showWindow("验证码发送成功");
+							this.send = 60;
+							setInterval(()=>{
+								if(this.send>0){
+									this.send--;
+								}
+							},1000);
+						}else{
+							this.util.showWindow(res.data.msg);
+						}
+					}else{
+						this.util.showWindow("请求失败");
+					}
+				});
+			},
 			confirm(){
 				uni.navigateTo({
 					url:"../reset-pwd-result/reset-pwd-result"

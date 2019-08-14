@@ -29,7 +29,7 @@
 				</view>
 			</view>
 			<view class="part3">
-				<view class="login_btn" @click="logining">
+				<view class="login_btn button_ysy" @click="logining">
 					<text>登&nbsp;&nbsp;&nbsp;&nbsp;录</text>
 				</view>
 			</view>
@@ -72,6 +72,10 @@
 									if (res1.data.code == 1) {
 											this.util.uploaddata = res1.data.data;
 											console.log("获取到的上传文件参数配置:"+JSON.stringify(this.util.uploaddata));
+											/**********************************/
+											uni.switchTab({
+												url: "../../home/index/index"
+											})
 									}else{
 										this.util.showWindow("配置获取错误");
 										return;
@@ -80,10 +84,6 @@
 									this.util.showWindow("配置请求错误");
 								}
 							});
-							/**********************************/
-							uni.switchTab({
-								url: "../../home/index/index"
-							})
 						}else{
 							this.util.showWindow("账号或密码错误");
 							return;

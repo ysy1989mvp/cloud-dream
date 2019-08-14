@@ -7,12 +7,13 @@
 					<text>{{data.title}}</text>
 				</view>
 				<view class="part_12 part_1_ct">
-					<text class="text_b">审核周期:</text>
-					<text>48小时</text>
+					<text class="text_b">剩余时间:</text>
+					<text>{{data.endtime}}</text>
 				</view>
 				<view class="part_13 part_1_ct">
 					<text class="text_b">任务限制:</text>
-					<text>VIP以上可接</text>
+					<text v-if="data.scope<1">不限</text>
+					<text v-if="data.scope>0">VIP以上可接</text>
 				</view>
 				<view class="part_14 part_1_ct">
 					<text class="text_b">任务金额:</text>
@@ -43,7 +44,7 @@
 						<text class="text_b tab21">任务图片:</text>
 						<view class="tab22 teshu">
 							<view class="img_img" v-for="(item,index) in data.task_images" :key="index" @click="previewImage1(data.task_images,index)">
-								<image class="img"  :src="imgurl+item"></image>
+								<image class="img" :src="imgurl+item"></image>
 							</view>
 							<!-- <view class="img_img">
 								<image class="img" src="../../../static/lyl/04_examine.png"></image>
@@ -71,7 +72,7 @@
 				</view>
 			</view>
 			<view class="part2" @click="qiangdan">
-				<view class="login">
+				<view class="login button_ysy">
 					<text class="dd1">抢单</text>
 				</view>
 			</view>
@@ -83,18 +84,21 @@
 	export default {
 		data() {
 			return {
-				task_id:null,
-				imgurl: this.util.uploaddata.cdnurl + "/",
+				task_id: null,
+				imgurl: this.util.uploaddata.cdnurl,
 				data: {
-					title: "试试就试试",
-					publish_price: "10.00",
-					type_name: "抖音点赞+评论+转发",
-					content: "试试就试试",
-					url: "试试网址",
-					task_images: [
+					"title": "123",
+					"endtime": -50.863055555555555,
+					"scope": "0",
+					"publish_price": "10.00",
+					"type_name": "抖音点赞+评论+转发",
+					"content": "恩呵",
+					"url": "额呵呵",
+					"task_images": [
+						"uploads/20190810/Fq5JwM_TNr8Qaey1ZKN1HOpG3sMn.jpg"
 					],
-					task_tip_text: "",
-					other_tip_text: ""
+					"task_tip_text": "",
+					"other_tip_text": ""
 				}
 			}
 		},
@@ -126,19 +130,19 @@
 					if (res.statusCode == 200) {
 						if (res.data.code == 1) {
 							uni.navigateTo({
-								url: "../../me/examine/examine?id="+task_id
+								url: "../../me/task-records/task-records"
 							})
-						}else {
+						} else {
 							this.util.showWindow(res.data.msg);
 						}
 					} else {
 						this.util.showWindow("请求失败");
 					}
 				});
-				
+
 			},
-			previewImage1:function(imgs,index){
-				this.util.previewImage(imgs,index);
+			previewImage1: function(imgs, index) {
+				this.util.previewImage(imgs, index);
 			}
 		}
 	}

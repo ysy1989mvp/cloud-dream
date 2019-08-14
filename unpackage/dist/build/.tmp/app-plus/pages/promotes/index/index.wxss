@@ -180,37 +180,49 @@
 	color: #434343;
 	border-bottom-right-radius: 10rpx;
 }
-.content{
+.content {
 	width: 100%;
 	background-color: #FFFFFF;
 	position: relative;
 }
-.bottom{
+.bottom {
 	color: #1BCC8D;
 }
-.bottom_btn{
+.bottom_btn {
 	color: #FFFFFF;
-	font-size: 34rpx;
-	background-color: #1BCC8D
+	font-size: 40rpx;
+	background-color: #1BCC8D;
+	height: 88rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
-._part{
-	border-bottom:5rpx solid #F5F5F5;
+._part {
+	border-bottom: 5rpx solid #F5F5F5;
 	padding-bottom: 40rpx;
 }
-.container{
-	background-color:#FFFFFF ;
+.container {
+	background-color: #FFFFFF;
 }
-.topImg{
+.topImg {
 	width: 100%;
 	height: 300rpx;
 }
-.part_float{
+.part_float {
 	margin-bottom: -150rpx;
 	width: 97%;
 	margin-left: 1%;
 }
-.part_{
+.part_ {
 	margin-bottom: 155rpx;
 }
-
 

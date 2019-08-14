@@ -13,8 +13,8 @@
 				<view class="c smpt">
 					<text>短信验证：</text>
 					<input class="c1" type="number" placeholder="请输入验证码" v-model="vcode">
-					<view class="anniu">
-						<text class="c2 kkt">发&nbsp;&nbsp;送</text>
+					<view class="anniu button_ysy" @click="smsSend">
+						<text class="c2 kkt">{{send}}</text>
 					</view>
 				</view>
 				<view class="d  smpt">
@@ -22,7 +22,7 @@
 					<input class="d1  kkt" type="idcard" placeholder="请输入身份证号码" v-model="idcard">
 				</view>
 				<view class="e  smpt">
-					<text>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</text>
+					<text>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</text>
 					<input class="e1  kkt" type="password" placeholder="请输入密码" v-model="password">
 				</view>
 				<view class="f smpt">
@@ -31,7 +31,7 @@
 				</view>
 			</view>
 			<view class="part2">
-				<view class="login" @click="regist">
+				<view class="login button_ysy" @click="regist">
 					<text class="dd1">立即注册</text>
 				</view>
 			</view>
@@ -43,6 +43,7 @@
 	export default {
 		data() {
 			return {
+				send:"发 送",
 				nickname: '',
 				mobile: '',
 				vcode: '',
@@ -52,6 +53,31 @@
 			}
 		},
 		methods: {
+			smsSend(){
+				let params = {
+					"mobile":this.mobile,
+					"event":"register"
+				};
+				let url="/api/sms/send";
+				this.util.request(url,"POST",params,(res) => {
+					if(res.statusCode==200){
+						if(res.data.code==1){
+							this.util.showWindow("验证码发送成功");
+							this.send = 60;
+							setInterval(()=>{
+								if(this.send>0){
+									this.send--;
+								}
+							},1000);
+							
+						}else{
+							this.util.showWindow(res.data.msg);
+						}
+					}else{
+						this.util.showWindow("请求失败");
+					}
+				});
+			},
 			regist() {
 				if (this.nickname.trim() == '') {
 					this.util.showWindow("昵称输入错误");

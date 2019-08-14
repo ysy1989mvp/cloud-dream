@@ -78,7 +78,7 @@
 								if (res.statusCode == 200) {
 									let strData = JSON.stringify(res.data).replace(/\\/g,"");
 									let dataJson = JSON.parse(strData.substring(1,strData.length-1));
-									this.util.uploadImgas[this.util.uploadImgas.length] = dataJson.key;
+									this.util.uploadImgas[this.util.uploadImgas.length] = "/"+dataJson.key;
 								} else {
 									this.util.showWindow("图片上传请求错误");
 								}

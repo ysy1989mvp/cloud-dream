@@ -1,38 +1,70 @@
 
-.content{
+.content {
 	background-color: #FFFFFF;
 	height: calc(100vh);
 }
-.title{
+.title {
 	height: calc(100vh * 0.15);
 	text-align: center;
 	font-size: 14px;
 }
-.qrcode{
-	height: calc(100vh * 0.6);
+.qrcode {
+	height: calc(100vh * 0.5);
 }
-.img{
-	text-align: center;
+.img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
-.img image{
+.img image {
 	width: 50%;
 }
-.tip{
-	height: calc(100vh * 0.25);
+.tip {
+	height: calc(100vh * 0.35);
 }
-.line{
+.line {
 	height: 5rpx;
 	width: 90%;
 	background-color: #E5E5E5;
 	margin: 0 auto;
 }
-.tiptitle{
+.tiptitle {
 	color: #ED4040;
 }
-.tipcontent{
+.tipcontent {
 	font-size: 14px;
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: -ms-flexbox;
+	
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 30rpx;
 }
-.tipcontent ._span{
+.tipcontent ._span {
 	display: block;
+	width: 80%;
+	color: #484848;
 }
 

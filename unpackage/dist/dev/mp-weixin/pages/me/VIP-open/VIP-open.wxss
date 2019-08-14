@@ -40,7 +40,7 @@
 	bottom: 25rpx;
 }
 .part_float view {
-	width: 20%;
+	width: 30%;
 }
 .part_float view image {
 	width: 70rpx;
@@ -199,6 +199,7 @@
 		    -ms-flex-align: center;
 		        align-items: center;
 		margin-bottom: 12rpx;
+		border-bottom: 10rpx solid #E5E5E5;
 }
 .line text{
 		width: 25%;
@@ -237,5 +238,4 @@
 .bottom{
 		padding: 50rpx 0;
 }
-	
 

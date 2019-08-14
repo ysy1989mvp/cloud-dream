@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "审核",
-  "usingComponents": {}
+  "usingComponents": {
+    "uploadimgs": "/components/upload-image/upload-imgs"
+  }
 }

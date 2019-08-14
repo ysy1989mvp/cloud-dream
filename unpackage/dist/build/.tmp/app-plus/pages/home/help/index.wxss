@@ -10,12 +10,29 @@
 	height: 50px;
 }
 .tag{
-	font-size: 32rpx;
-	padding:2rpx 20rpx;
-	margin: 20rpx 10rpx;
-	background-color: #d5d5d5;
+	font-size: 28rpx;
+	padding:2rpx 0rpx;
+	margin: 5rpx 0rpx;
+	/* background-color: #d5d5d5; */
 	color:#000000;
 	border-radius: 20rpx;
 	margin-bottom: 0rpx;
+}
+.part{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.part>view{
+	width: 100rpx;
 }
 
