@@ -9301,23 +9301,6 @@ var _default =
 {
   testurl: testurl };exports.default = _default;
 
-/***/ }),
-
-/***/ 93:
-/*!**********************************************************************************************************!*\
-  !*** E:/projectcode/hbuilderX/cloud-dream/main.js?{"page":"pages%2Ftask%2Ftask-records%2Ftask-records"} ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _taskRecords = _interopRequireDefault(__webpack_require__(/*! ./pages/task/task-records/task-records.vue */ 94));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_taskRecords.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
 /***/ })
 
 }]);

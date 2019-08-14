@@ -65,9 +65,6 @@
 			}
 		}
         ,{
-            "path" : "pages/task/task-records/task-records",
-            "style" : {}
-        },{
             "path" : "pages/task/task-detail/task-detail",
             "style" : {
 				"navigationBarTitleText": "任务详情",
