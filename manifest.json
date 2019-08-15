@@ -1,5 +1,5 @@
 {
-    "name" : "cloud-dream",
+    "name" : "抖客",
     "appid" : "__UNI__1E9B550",
     "description" : "",
     "versionName" : "1.0.0",
@@ -59,12 +59,15 @@
             },
             "splashscreen" : {
                 "android" : {
-                    "hdpi" : "E:/projectcode/hbuilderX/6003启动页面.png",
-                    "xhdpi" : "static/image/zxx/photo/01.png"
+					"mdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+                    "ldpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+                    "hdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+                    "xhdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+                    "xxhdpi": "E:/projectcode/hbuilderX/6003启动页面.png"
                 },
                 "ios" : {
                     "iphone" : {
-                        "portrait-896h@3x" : "E:/projectcode/hbuilderX/6004启动页面.png"
+                        "portrait-896h@3x" : "E:/projectcode/hbuilderX/6003启动页面.png"
                     }
                 }
             }

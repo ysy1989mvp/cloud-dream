@@ -41,7 +41,7 @@
 				defaultImgSrc: '../../../static/image/yangsongyan/release02/01.png',
 				tabIndex: 0,
 				pageSize: 0,
-				loadingText: '加载更多...',
+				loadingText: '',
 				tabBars: [{
 					name: '抖音点评转',
 					id: 'dou'

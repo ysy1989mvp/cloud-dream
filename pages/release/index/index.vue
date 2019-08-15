@@ -70,6 +70,7 @@
 		width: 100%;
 		height: 1800upx;
 		background-color: #757575;
+		background-image: url("../../../static/image/timg.png");
 		/* background-color: #666666; */
 		opacity: 0.5;
 	}
@@ -118,5 +119,6 @@
 		width: 80%;
 		text-align: center;
 		height: 70upx;
+		line-height: 70upx;
 	}
 </style>

@@ -164,16 +164,29 @@
 			return {
 				imgurl: this.util.uploaddata.cdnurl,
 				data: {
-					"avatar": "/uploads/20190814/FgMfSuGLJTSJu7oqC-Vei-HBkwef.png",
-					"mobile": "13211675827",
-					"is_member": "0",
-					"id": 29,
-					"money": 88
+					// "avatar": "/uploads/20190814/FgMfSuGLJTSJu7oqC-Vei-HBkwef.png",
+					// "mobile": "13211675827",
+					// "is_member": "0",
+					// "id": 29,
+					// "money": 88
 				},
 			}
 		},
 		onLoad() {
-
+			let params = {
+			};
+			let url = "/api/user/center";
+			this.util.request(url, "GET", params, (res) => {
+				if (res.statusCode == 200) {
+					if (res.data.code == 1) {
+						this.data = res.data.data;
+					} else {
+						this.util.showWindow("请求失败");
+					}
+				} else {
+					this.util.showWindow("请求失败");
+				}
+			});
 		},
 		methods: {
 			toRecharge() {

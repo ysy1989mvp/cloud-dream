@@ -115,7 +115,7 @@
 								url:"../../home/index/index"
 							})
 						}else{
-							this.util.showWindow("注册失败");
+							this.util.showWindow(res.data.msg);
 						}
 					}else{
 						this.util.showWindow("注册请求失败");

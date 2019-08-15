@@ -5,16 +5,16 @@
 				<text class="part1">充值金额</text>
 				<view class="a">
 					<view class="part2">￥</view>
-					<input class="part3"></input>
+					<input class="part3" v-model="sum_money"></input>
 				</view>
 			</view>
 			<view class="line_">
-				<text class="tex">100</text>
-				<text class="tex">300</text>
-				<text class="tex">500</text>
-				<text class="tex">1000</text>
-				<text class="tex">3000</text>
-				<text class="tex">5000</text>
+				<text class="tex" @click="sum_number(100)">100</text>
+				<text class="tex" @click="sum_number(300)">300</text>
+				<text class="tex" @click="sum_number(500)">500</text>
+				<text class="tex" @click="sum_number(1000)">1000</text>
+				<text class="tex" @click="sum_number(3000)">3000</text>
+				<text class="tex" @click="sum_number(5000)">5000</text>
 			</view>
 
 			<view class="line_">
@@ -62,6 +62,7 @@
 	export default {
 		data() {
 			return {
+				sum_money:0,
 				showPop: false,
 			}
 		},
@@ -69,6 +70,9 @@
 			showThePop() {
 				this.showPop = !this.showPop;
 			},
+			sum_number(money){
+				this.sum_money = money;
+			}
 		}
 	}
 </script>

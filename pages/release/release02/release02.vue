@@ -127,10 +127,10 @@
 								url:"../../task/index/index"
 							})
 						}else{
-							this.util.showWindow("注册失败");
+							this.util.showWindow(res.daa.msg);
 						}
 					}else{
-						this.util.showWindow("注册请求失败");
+						this.util.showWindow("请求失败");
 					}
 				});
 			}

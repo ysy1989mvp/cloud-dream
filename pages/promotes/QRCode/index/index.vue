@@ -6,7 +6,7 @@
 		</view>
 		<view class="qrcode">
 			<view class="img">
-				<image src="../../../../static/image/zxx/qrcode.png" mode="aspectFit"></image>
+				<image :src="data.qrcode" mode="aspectFit"></image>
 				<view style="margin: 0;">UID:{{data.UID}}</view>
 			</view>
 		</view>

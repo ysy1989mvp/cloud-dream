@@ -5,7 +5,7 @@
     "iPad"
   ],
   "id": "__UNI__1E9B550",
-  "name": "cloud-dream",
+  "name": "抖客",
   "version": {
     "name": "1.0.0",
     "code": "100"
@@ -54,12 +54,15 @@
       },
       "splashscreen": {
         "android": {
+          "mdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+          "ldpi": "E:/projectcode/hbuilderX/6003启动页面.png",
           "hdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
-          "xhdpi": "static/image/zxx/photo/01.png"
+          "xhdpi": "E:/projectcode/hbuilderX/6003启动页面.png",
+          "xxhdpi": "E:/projectcode/hbuilderX/6003启动页面.png"
         },
         "ios": {
           "iphone": {
-            "portrait-896h@3x": "E:/projectcode/hbuilderX/6004启动页面.png"
+            "portrait-896h@3x": "E:/projectcode/hbuilderX/6003启动页面.png"
           }
         }
       },
